@@ -417,9 +417,11 @@ def main():
     
     # 保存结果
     import pickle
-    with open('base_params_qr_result.pkl', 'wb') as f:
+    os.makedirs('results', exist_ok=True)
+    result_path = 'results/base_params_qr_result.pkl'
+    with open(result_path, 'wb') as f:
         pickle.dump({'pi_base': pi_base, 'baseQR': baseQR}, f)
-    print("\n✅ 结果已保存到: base_params_qr_result.pkl")
+    print(f"\n✅ 结果已保存到: {result_path}")
 
 
 if __name__ == "__main__":

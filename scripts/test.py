@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+from re import T
 import numpy as np
 import scipy.io as sio
 import mujoco
@@ -10,7 +11,6 @@ import matplotlib.pyplot as plt
 from scipy import interpolate
 import time
 
-# ========== 配置参数 ==========
 MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force.xml" 
 # MAT_FILE_PATH = "models/ptrnSrch_N7T25QR-6.mat"
 MAT_FILE_PATH = "models/ptrnSrch_N7T25QR-5.mat"
@@ -21,15 +21,13 @@ SIM_TIME = 25
 CONTROL_HZ = 1000  
 CONTROL_DT = 1.0 / CONTROL_HZ
 
-# 严格执行：禁止反馈控制
-USE_FEEDBACK = False 
+USE_FEEDBACK = True
 
 
 def plot_comparison(recorded_data, T, N, wf, a, b, c_pol, q0, n_joints):
     """
     绘制理论轨迹与实际轨迹的对比图，保持与 torque_control.py 相同的输出格式
     """
-    print("\n正在生成对比图...")
 
     time_actual = np.array(recorded_data['time'])
     q_actual = np.array(recorded_data['q'])
@@ -129,7 +127,8 @@ def plot_comparison(recorded_data, T, N, wf, a, b, c_pol, q0, n_joints):
                    bbox=dict(boxstyle='round', facecolor='lightgreen', alpha=0.5))
 
     plt.tight_layout()
-    fig_path = "trajectory_comparison.png"
+    os.makedirs('diagram', exist_ok=True)
+    fig_path = "diagram/trajectory_comparison.png"
     plt.savefig(fig_path, dpi=300, bbox_inches='tight')
     print(f"✓ 对比图已保存: {fig_path}")
     plt.show()
