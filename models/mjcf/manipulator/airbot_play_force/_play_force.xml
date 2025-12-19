@@ -1,5 +1,5 @@
 <mujoco model="play_g2">
-  <compiler angle="radian" meshdir="../../../meshes/" texturedir="../../meshes/" autolimits="true" />
+  <compiler angle="radian" meshdir="../../../meshes/" texturedir="../../meshes/" autolimits="true" balanceinertia="true" />
 
   <default>
     <default class="robot">

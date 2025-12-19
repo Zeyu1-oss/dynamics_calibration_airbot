@@ -69,41 +69,52 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
             print(f"  ⚠️  参数不足，跳过 {link_name}")
             continue
         
-        # 提取10个参数
-        # ⚠️ 注意：pi_s中存储的是 I_Origin（相对于link frame origin）
-        # 因为parse_urdf做了转换：I_vec = I_COM - m*skew(r_com)^2
-        Ixx_origin, Ixy_origin, Ixz_origin = pi_s[param_idx:param_idx + 3]
-        Iyy_origin, Iyz_origin = pi_s[param_idx + 3:param_idx + 5]
-        Izz_origin = pi_s[param_idx + 5]
+        # ============================================================
+        # 步骤1: 读取估计参数（link frame）
+        # ============================================================
+        # pi_s中存储的是 I_Origin（相对于link frame origin的6个惯性参数）
+        # 这是因为parse_urdf和参数估计算法都基于link frame
+        Ixx_link, Ixy_link, Ixz_link = pi_s[param_idx:param_idx + 3]
+        Iyy_link, Iyz_link = pi_s[param_idx + 3:param_idx + 5]
+        Izz_link = pi_s[param_idx + 5]
         
-        # 一阶矩和质量
+        # 一阶矩 h = m * r_com 和质量
         mx, my, mz = pi_s[param_idx + 6:param_idx + 9]
         mass = pi_s[param_idx + 9]
         
-        # 计算COM位置
+        # ============================================================
+        # 步骤2: 计算COM位置
+        # ============================================================
+        # r_com = h / m
         com = np.array([mx, my, mz]) / mass if mass > 1e-6 else np.zeros(3)
         
-        # ✅ 平行轴定理：将 I_Origin 转换回 I_COM（MuJoCo需要）
-        # I_COM = I_Origin - m * skew(r_com)^T @ skew(r_com)
+        # ============================================================
+        # 步骤3: 平行轴定理转换（link frame → COM frame）
+        # ============================================================
+        # MuJoCo需要的是相对于COM的惯性张量 I_COM
+        # 转换公式：I_COM = I_link - m * [r_com]×^T * [r_com]×
+        # 其中 [r_com]× 是r_com的斜对称矩阵
+        
         def vec2skew(v):
-            """将向量转换为斜对称矩阵"""
+            """向量转斜对称矩阵：[v]× = [[0, -vz, vy], [vz, 0, -vx], [-vy, vx, 0]]"""
             return np.array([
                 [0, -v[2], v[1]],
                 [v[2], 0, -v[0]],
                 [-v[1], v[0], 0]
             ])
         
-        com_skew = vec2skew(com)
-        I_origin = np.array([
-            [Ixx_origin, Ixy_origin, Ixz_origin],
-            [Ixy_origin, Iyy_origin, Iyz_origin],
-            [Ixz_origin, Iyz_origin, Izz_origin]
+        # 构建I_link矩阵（link frame）
+        I_link = np.array([
+            [Ixx_link, Ixy_link, Ixz_link],
+            [Ixy_link, Iyy_link, Iyz_link],
+            [Ixz_link, Iyz_link, Izz_link]
         ])
         
-        # 应用平行轴定理（注意：skew(r)^T @ skew(r) = -(skew(r) @ skew(r))）
-        I_com = I_origin - mass * (com_skew.T @ com_skew)
+        # 应用平行轴定理
+        com_skew = vec2skew(com)
+        I_com = I_link - mass * (com_skew.T @ com_skew)
         
-        # 提取转换后的惯性参数
+        # 提取I_COM的6个参数（COM frame）
         Ixx = I_com[0, 0]
         Ixy = I_com[0, 1]
         Ixz = I_com[0, 2]
@@ -166,8 +177,8 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
         print(f"  ✓ {link_name}:")
         print(f"      mass = {mass:.6f} kg")
         print(f"      COM = [{com[0]:.6f}, {com[1]:.6f}, {com[2]:.6f}]")
-        print(f"      I_Origin (估计): [{Ixx_origin:.4e}, {Iyy_origin:.4e}, {Izz_origin:.4e}] (对角)")
-        print(f"      I_COM (转换后): [{Ixx:.4e}, {Iyy:.4e}, {Izz:.4e}] (对角)")
+        print(f"      I_link (link frame): [{Ixx_link:.4e}, {Iyy_link:.4e}, {Izz_link:.4e}] (对角)")
+        print(f"      I_COM (COM frame): [{Ixx:.4e}, {Iyy:.4e}, {Izz:.4e}] (对角)")
         print(f"      MuJoCo fullinertia: [{Ixx:.4e}, {Iyy:.4e}, {Izz:.4e}, {Ixy:.4e}, {Ixz:.4e}, {Iyz:.4e}]")
         print(f"      特征值: [{eig_vals[0]:.4e}, {eig_vals[1]:.4e}, {eig_vals[2]:.4e}] ✓ 正定")
         print(f"      三角余量: {min_margin:.4e} ✓")
@@ -238,7 +249,7 @@ def main():
     output_xml = "models/mjcf/manipulator/airbot_play_force/_play_force_calibrated.xml"
     
     try:
-        create_calibrated_xml(estimation_pkl, original_xml, output_xml, method='PC-OLS')
+        create_calibrated_xml(estimation_pkl, original_xml, output_xml, method='PC-OLS-REG')
         
         print("下一步操作：")
         print(f"\n1. 查看生成的模型:")

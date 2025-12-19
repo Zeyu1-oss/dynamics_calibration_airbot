@@ -322,32 +322,43 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
             lower_part = cp.hstack([h_link_skew, m_link * np.eye(3)])  # (3, 6)
             D_link = cp.vstack([upper_part, lower_part])  # (6, 6)
         
-        # 半正定约束
+        # 半正定约束（I_link，相对于link frame）
         constraints.append(D_link >> 0)
         
-        # 三角不等式约束（MuJoCo要求：A+B>=C）
-        # 对于任何物理刚体惯性张量，必须满足：
-        # Ixx+Iyy≥Izz, Ixx+Izz≥Iyy, Iyy+Izz≥Ixx
-        # 使用较大的安全余量，确保MuJoCo编译器接受
-        epsilon_triangle = 1e-4  # 增大到1e-4（之前5e-5还不够）
+        # ✅✅ 关键约束：保证I_COM（相对于COM frame）满足MuJoCo要求
+        # MuJoCo需要的是I_COM，而我们估计的是I_link
+        # 关系：I_COM = I_link - skew(r_com)^T @ skew(r_com)，其中r_com = h/m
+        
+        # 为避免除法（DCP规则），使用Schur complement：
+        # [I_link   h; h^T   m] >> 0  ⟺  I_COM >> 0
+        h_link_col = cp.reshape(h_link, (3, 1), order='C')
+        h_link_row = cp.reshape(h_link, (1, 3), order='C')
+        m_scalar = cp.reshape(m_link, (1, 1), order='C')
+        
+        Schur_COM = cp.bmat([
+            [I_link, h_link_col],
+            [h_link_row, m_scalar]
+        ])
+        constraints.append(Schur_COM >> 0)
+        
+        # ✅ I_link三角不等式（提供安全余量）
+        epsilon_triangle_link = 5e-3  # 大余量，为转换提供缓冲
         Ixx = pii[i]
         Iyy = pii[i+3]
         Izz = pii[i+5]
         
-        # 添加三角不等式约束（每个都加上安全余量）
-        constraints.append(Ixx + Iyy >= Izz + epsilon_triangle)
-        constraints.append(Ixx + Izz >= Iyy + epsilon_triangle)
-        constraints.append(Iyy + Izz >= Ixx + epsilon_triangle)
+        constraints.append(Ixx + Iyy >= Izz + epsilon_triangle_link)
+        constraints.append(Ixx + Izz >= Iyy + epsilon_triangle_link)
+        constraints.append(Iyy + Izz >= Ixx + epsilon_triangle_link)
         
-        # 额外约束：确保对角元素都是正的且有下界
-        epsilon_inertia = 1e-6
+        # I_link惯性下界（提供数值稳定性）
+        epsilon_inertia = 1e-2  # 显著增大
         constraints.append(Ixx >= epsilon_inertia)
         constraints.append(Iyy >= epsilon_inertia)
         constraints.append(Izz >= epsilon_inertia)
         
-        # ✅ COM位置约束：确保转换后的I_COM也正定
-        # h = m * r_com，限制COM偏移在合理范围内
-        h_max_component = 0.10  # kg·m per axis（更严格：~0.1-0.2m对于0.5-1kg的link）
+        # ✅ 严格COM约束：限制COM偏移，减小转换影响
+        h_max_component = 0.03  # kg·m per axis（严格限制）
         constraints.append(h_link[0] >= -h_max_component)
         constraints.append(h_link[0] <= h_max_component)
         constraints.append(h_link[1] >= -h_max_component)
@@ -355,8 +366,11 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
         constraints.append(h_link[2] >= -h_max_component)
         constraints.append(h_link[2] <= h_max_component)
     
-    print(f"    ✓ 已添加三角不等式约束（安全余量: {epsilon_triangle:.1e}，MuJoCo兼容）")
-    print(f"    ✓ 已添加 COM 范围约束（||h_i|| <= {h_max_component} kg·m per axis）")
+    print(f"    ✓ 已添加 I_COM 正定性约束（Schur complement: [I h; h^T m] >> 0）")
+    print(f"    ✓ 已添加 I_link 强三角不等式（余量: {epsilon_triangle_link:.1e}）")
+    print(f"    ✓ 已添加惯性下界（epsilon: {epsilon_inertia:.1e}）")
+    print(f"    ✓ 已添加严格COM约束（h <= {h_max_component} kg·m per axis）")
+    print(f"    ✓ 策略：Schur约束I_COM正定 + 强I_link三角 + 小COM → 确保转换后满足MuJoCo")
     
     # 3. 摩擦参数约束（所有参数都必须 > 0）
     print("    添加摩擦参数约束（粘性和库伦摩擦 > 0）...")
