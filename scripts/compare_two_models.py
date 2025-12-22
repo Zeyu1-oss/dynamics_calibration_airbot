@@ -1,11 +1,4 @@
-#!/usr/bin/env python3
-"""
 
-验证思想:
-1. 使用test.py的控制逻辑分别控制两个模型
-2. 记录两次仿真的tau曲线
-3. 对比tau曲线
-"""
 
 import numpy as np
 import mujoco
@@ -128,7 +121,6 @@ def run_simulation(model_path, T, N, wf, a, b, c_pol, q0, sim_time, control_dt, 
     viewer = None
     if visualize:
         viewer = mujoco.viewer.launch_passive(model, data)
-        print(f"    ✓ 可视化已开启 - 正在查看模型: {os.path.basename(model_path)}")
     
     n_steps = int(sim_time / control_dt)
     
@@ -153,16 +145,9 @@ def run_simulation(model_path, T, N, wf, a, b, c_pol, q0, sim_time, control_dt, 
 
 def main():
     
-    print("对比两个模型的tau曲线（使用test.py的控制逻辑）")
-    print("\n验证思想:")
-    print("  - 分别控制原始模型和校准模型")
-    print("  - 记录两次仿真的tau曲线")
-    print("  - 对比tau曲线")
-    
-    # 配置
     original_xml = "models/mjcf/manipulator/airbot_play_force/_play_force.xml"
     calibrated_xml = "models/mjcf/manipulator/airbot_play_force/_play_force_calibrated.xml"
-    mat_file = "models/ptrnSrch_N7T25QR-6.mat"
+    mat_file = "models/ptrnSrch_N7T25QR-5.mat"
     
     sim_time = 25.0
     control_dt = 0.001
@@ -222,20 +207,9 @@ def main():
     
     avg_rmse = np.mean([np.sqrt(np.mean(tau_error[:, j]**2)) for j in range(6)])
     
-    print("-"*65)
     print(f"平均   | {avg_rmse:10.6f}")
     
-    print("\n结论:")
-    if avg_rmse < 0.01:
-        print("  ✅ 误差极小！两个模型tau曲线几乎完全一致！")
-    elif avg_rmse < 0.1:
-        print("  ✅ 误差很小！两个模型tau曲线基本一致！")
-    elif avg_rmse < 0.5:
-        print("  ✓ 误差较小，两个模型tau曲线接近")
-    else:
-        print("  ⚠️ 误差较大，两个模型tau曲线有明显差异")
     
-    print("="*70)
     
     # 4. 绘制对比图
     print(f"\n[绘图] 生成tau对比图...")
@@ -377,8 +351,6 @@ def main():
     except ImportError:
         print("  pandas未安装,跳过CSV保存")
     
-    print("✅ 对比完成！")
-    print(f"\n查看结果:")
     print(f"  - 图表: diagram/model_comparison_tau.png")
     print(f"  - 数据: results/model_comparison_results.pkl")
     print(f"  - 摘要: results/model_comparison_summary.csv")
@@ -386,7 +358,6 @@ def main():
     if avg_rmse < 0.1:
         print(f"\n🎉 验证通过！两个模型tau曲线高度一致！")
     
-    print("="*70)
     
     return 0
 

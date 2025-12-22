@@ -13,17 +13,6 @@ import pickle
 def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr, 
                            pi_s=None, plot=True, save_csv=False, output_prefix='validation'):
     """
-    验证估计的动力学参数（高效批量版本）
-    
-    功能:
-    - 加载验证数据并过滤
-    - 批量构建观测矩阵（和parameter_estimation.py一样快）
-    - 使用估计参数预测力矩（矩阵乘法）
-    - 计算相对残差误差 (RRE)
-    - 绘制对比图
-    - 保存详细结果到CSV
-    
-    支持两种验证方式:
     1. 基参数验证（pi_b）: tau = Wb @ [pi_b; pi_fr]
     2. 完整参数验证（pi_s）: tau = Y_std @ pi_s + Y_friction @ pi_fr
     
@@ -44,9 +33,7 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
         results: 字典，包含详细结果
     """
     
-    print("\n" + "="*60)
     print("开始验证动力学参数...")
-    print("="*60)
     
     # 导入数据处理函数
     sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
@@ -57,9 +44,7 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
     )
     
     # 1. 加载和处理验证数据
-    print(f"\n步骤 1/3: 加载验证数据...")
-    print(f"  数据文件: {path_to_data}")
-    print(f"  数据范围: [{idx[0]}, {idx[1]}]")
+    print(f"\n 1/3: 加载验证数据...")
     
     vldtn_traj = parse_ur_data(path_to_data, idx[0], idx[1])
     vldtn_traj = filter_data(vldtn_traj)
@@ -68,14 +53,14 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
     print(f"  ✓ 加载了 {n_samples} 个验证样本")
     
     # 2. 构建观测矩阵（批量，高效！）
-    print(f"\n步骤 2/3: 构建观测矩阵（批量处理）...")
+    print(f"\n 2/3: 构建观测矩阵（批量处理）...")
     
     Tau_measured, Wb = build_observation_matrices(vldtn_traj, baseQR, drv_gains)
     
     print(f"  ✓ 观测矩阵构建完成: {Wb.shape}")
     
     # 3. 预测力矩（一次矩阵乘法，超快！）
-    print(f"\n步骤 3/3: 预测力矩...")
+    print(f"\n 3/3: 预测力矩...")
     
     # 方法1: 基参数验证
     params_base = np.concatenate([pi_b, pi_fr])
@@ -87,12 +72,8 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
     if pi_s is not None:
         print(f"  计算完整参数预测: tau = Y_std @ pi_s + Y_friction @ pi_fr")
         
-        # 需要重新构建Y_std（标准回归矩阵，不使用baseQR映射）
-        # Wb是已经映射过的，我们需要原始的Y_std
         # Y_std @ E1 = W_dyn，所以 Y_std = W_dyn @ inv(E1)
-        # 但更直接的方法是重新计算
         
-        # 从observation matrices中分离出动力学部分和摩擦部分
         n_base = baseQR['numberOfBaseParameters']
         W_dyn = Wb[:, :n_base]  # 动力学部分（已映射到基参数）
         Y_friction = Wb[:, n_base:]  # 摩擦部分（18列）
@@ -100,21 +81,13 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
         # 从基参数空间恢复到标准参数空间
         E1 = baseQR['permutationMatrixFull'][:, :n_base]
         
-        # Y_std @ E1 = W_dyn，但我们需要Y_std
-        # 由于E1不是方阵，无法直接求逆，需要重新构建
-        # 最简单的方法：直接用Y_std @ pi_s计算
-        # 但Wb中没有Y_std，只有W_dyn = Y_std @ E1
+        # Y_std @ E1 = W_dyn，
         
         # 替代方案：直接重新调用standard_regressor
         print("    重新构建标准回归矩阵Y_std...")
         from dynamics.parameter_estimation import build_observation_matrices
         
-        # 这里需要标准回归矩阵，不是基参数版本
-        # 我们需要修改build_observation_matrices或者直接调用Oct2Py
         # 为了简单，暂时使用E的逆映射：pi_s = E @ [pi_b; pi_d]
-        # 但我们已经有pi_s了，直接用即可
-        
-        # 优化方案：使用批量MATLAB函数（如果可用）
         try:
             from oct2py import Oct2Py
             oc = Oct2Py()
@@ -123,7 +96,6 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
             
             n_samples_total = vldtn_traj['q'].shape[0]
             
-            # 尝试批量函数（快！）
             try:
                 print(f"    尝试批量计算Y_std（{n_samples_total}个样本）...")
                 Y_std_total = oc.standard_regressor_airbot_batched(
@@ -133,7 +105,6 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
                 )
                 print(f"    ✓ 批量计算完成！")
             except:
-                # 回退到逐个计算（慢）
                 print(f"    批量函数不可用，逐个计算（这会花几分钟）...")
                 Y_std_list = []
                 
@@ -155,7 +126,6 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
             
             print(f"    ✓ 标准回归矩阵: {Y_std_total.shape}")
             
-            # 使用完整参数预测
             Tau_predicted_std = Y_std_total @ pi_s + Y_friction @ pi_fr
             
             print(f"    ✓ 完整参数预测完成")
@@ -167,7 +137,6 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
     else:
         Tau_predicted_std = None
     
-    # 重塑为 (6, n_samples) 方便分析
     tau_msrd = Tau_measured.reshape(-1, 6).T  # (6, n_samples)
     tau_pred = Tau_predicted_base.reshape(-1, 6).T  # (6, n_samples) - 基参数预测
     
@@ -180,7 +149,6 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
     
     # 4. 计算相对残差误差
     
-    # 基参数验证
     rre = np.zeros(6)
     rmse = np.zeros(6)
     mae = np.zeros(6)
@@ -194,12 +162,10 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
         max_error[j] = np.max(np.abs(residual))
     
     # 打印基参数验证结果
-    print("\n【方法1：基参数验证】 tau = Wb @ [pi_b; pi_fr]")
+    print("\n【方法1;基参数验证】 tau = Wb @ [pi_b; pi_fr]")
     print("\n关节 |  RRE(%)  |  RMSE(Nm)  |  MAE(Nm)  | Max误差(Nm)")
-    print("-"*60)
     for j in range(6):
         print(f"Joint{j+1} | {rre[j]:7.3f}  | {rmse[j]:9.4f}  | {mae[j]:8.4f}  | {max_error[j]:10.4f}")
-    print("-"*60)
     print(f"平均   | {np.mean(rre):7.3f}  | {np.mean(rmse):9.4f}  | {np.mean(mae):8.4f}  | {np.mean(max_error):10.4f}")
     
     # 完整参数验证（如果提供了pi_s）
@@ -216,18 +182,15 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
             mae_std[j] = np.mean(np.abs(residual_std))
             max_error_std[j] = np.max(np.abs(residual_std))
         
-        print("\n【方法2：完整参数验证】 tau = Y_std @ pi_s + Y_friction @ pi_fr")
+        print("\n【方法2:完整参数验证】 tau = Y_std @ pi_s + Y_friction @ pi_fr")
         print("\n关节 |  RRE(%)  |  RMSE(Nm)  |  MAE(Nm)  | Max误差(Nm)")
-        print("-"*60)
         for j in range(6):
             print(f"Joint{j+1} | {rre_std[j]:7.3f}  | {rmse_std[j]:9.4f}  | {mae_std[j]:8.4f}  | {max_error_std[j]:10.4f}")
-        print("-"*60)
         print(f"平均   | {np.mean(rre_std):7.3f}  | {np.mean(rmse_std):9.4f}  | {np.mean(mae_std):8.4f}  | {np.mean(max_error_std):10.4f}")
         
         # 对比两种方法
         print("\n【两种方法对比】")
         print("关节 | 基参数RRE | 完整参数RRE | 差异")
-        print("-"*50)
         for j in range(6):
             diff = abs(rre[j] - rre_std[j])
             print(f"Joint{j+1} | {rre[j]:10.3f}% | {rre_std[j]:12.3f}% | {diff:6.3f}%")
@@ -236,11 +199,11 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
         print(f"平均   | {np.mean(rre):10.3f}% | {np.mean(rre_std):12.3f}% | {avg_diff:6.3f}%")
         
         if avg_diff < 0.1:
-            print("\n✅ 两种方法结果几乎完全一致！pi_b和pi_s映射正确！")
+            print("\n两种方法结果几乎完全一致！pi_b和pi_s映射正确！")
         elif avg_diff < 1.0:
             print("\n✓ 两种方法结果接近，参数估计良好")
         else:
-            print("\n⚠️ 两种方法结果有差异，可能存在映射问题")
+            print("\n 两种方法结果有差异，可能存在映射问题")
     else:
         rre_std = None
         rmse_std = None
@@ -250,78 +213,56 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
     
     # 5. 绘图
     if plot:
-        print(f"\n绘制对比图...")
         
         fig, axes = plt.subplots(3, 2, figsize=(14, 10))
         axes = axes.flatten()
         
         for j in range(6):
             ax = axes[j]
-            
-            # 绘制测量值
             ax.plot(vldtn_traj['t'], tau_msrd[j, :], 'b-', 
                    linewidth=1.5, label='Measured', alpha=0.8)
-            
-            # 绘制基参数预测值
             ax.plot(vldtn_traj['t'], tau_pred[j, :], 'r--', 
                    linewidth=1.2, label='Predicted (pi_b)', alpha=0.8)
-            
-            # 如果有完整参数预测，也绘制
             if tau_pred_std is not None:
                 ax.plot(vldtn_traj['t'], tau_pred_std[j, :], 'orange', 
                        linestyle=':', linewidth=1.5, label='Predicted (pi_s)', alpha=0.8)
-            
-            # 绘制残差（右侧y轴）
             ax2 = ax.twinx()
             residual = tau_msrd[j, :] - tau_pred[j, :]
             ax2.plot(vldtn_traj['t'], residual, 'g-', 
                     linewidth=0.8, alpha=0.5, label='Residual (base)')
             ax2.set_ylabel('Residual (Nm)', color='g', fontsize=9)
             ax2.tick_params(axis='y', labelcolor='g')
-            
-            # 设置标题和标签
             ax.set_xlabel('Time (s)', fontsize=10)
             ax.set_ylabel('Torque (Nm)', fontsize=10)
-            
             title_str = f'Joint {j+1} - Base: RRE={rre[j]:.2f}%, RMSE={rmse[j]:.3f}Nm'
             if tau_pred_std is not None:
                 title_str += f'\nStd: RRE={rre_std[j]:.2f}%, RMSE={rmse_std[j]:.3f}Nm'
-            
             ax.set_title(title_str, fontsize=10, fontweight='bold')
             ax.grid(True, alpha=0.3)
             ax.legend(loc='upper left', fontsize=8)
             
         plt.tight_layout()
         
-        # 确保diagram文件夹存在
         os.makedirs('diagram', exist_ok=True)
         output_path = f'diagram/{output_prefix}_comparison.png'
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
         print(f"  ✓ 保存对比图到: {output_path}")
         plt.close()  # 关闭图表，不显示（避免卡住）
     
-    # 6. 保存详细结果到CSV
     if save_csv:
         try:
             import pandas as pd
-            
-            # 创建数据框
             df = pd.DataFrame({
                 'time': vldtn_traj['t']
             })
-            
             for j in range(6):
                 df[f'tau_measured_j{j+1}'] = tau_msrd[j, :]
                 df[f'tau_predicted_j{j+1}'] = tau_pred[j, :]
                 df[f'residual_j{j+1}'] = tau_msrd[j, :] - tau_pred[j, :]
-            
-            # 确保results文件夹存在
             os.makedirs('results', exist_ok=True)
             csv_path = f'results/{output_prefix}_detailed.csv'
             df.to_csv(csv_path, index=False)
             print(f"  ✓ 保存详细结果到: {csv_path}")
-            
-            # 保存统计摘要
             summary_df = pd.DataFrame({
                 'Joint': [f'Joint{j+1}' for j in range(6)] + ['Average'],
                 'RRE (%)': list(rre) + [np.mean(rre)],
@@ -355,17 +296,12 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
         results['max_error_std'] = max_error_std
         results['tau_predicted_std'] = tau_pred_std
     
-    print("\n" + "="*60)
-    print("✅ 验证完成!")
-    print("="*60)
     
     return rre, results
 
 
 def load_estimation_results(pkl_path='estimation_results.pkl'):
     """
-    
-    从pkl文件加载估计结果
     
     Args:
         pkl_path: pkl文件路径
@@ -380,9 +316,6 @@ def load_estimation_results(pkl_path='estimation_results.pkl'):
     with open(pkl_path, 'rb') as f:
         results = pickle.load(f)
     
-    print("✓ 加载成功")
-    print(f"  包含方法: {list(results.keys())}")
-    
     return results
 
 
@@ -392,11 +325,7 @@ def main():
     """
     import h5py
     
-    print("="*70)
-    print("动力学参数验证脚本")
-    print("="*70)
     
-    # 1. 加载baseQR
     print("\n步骤 1/4: 加载baseQR...")
     mat_filename = 'models/baseQR_standard.mat'
     
@@ -451,9 +380,7 @@ def main():
     
     # 验证OLS方法
     if 'sol_ols' in estimation_results and estimation_results['sol_ols'] is not None:
-        print("\n" + "-"*70)
         print("验证方法 1: OLS")
-        print("-"*70)
         
         sol_ols = estimation_results['sol_ols']
         
@@ -476,9 +403,7 @@ def main():
     
     # 验证PC-OLS方法
     if 'sol_pc_ols' in estimation_results and estimation_results['sol_pc_ols'] is not None:
-        print("\n" + "-"*70)
         print("验证方法 2: PC-OLS")
-        print("-"*70)
         
         sol_pc_ols = estimation_results['sol_pc_ols']
         
@@ -505,9 +430,7 @@ def main():
     
     # 验证PC-OLS-REG方法（双重验证：基参数 + 完整参数）
     if 'sol_pc_reg' in estimation_results and estimation_results['sol_pc_reg'] is not None:
-        print("\n" + "-"*70)
         print("验证方法 3: PC-OLS-REG (双重验证)")
-        print("-"*70)
         
         sol_pc_reg = estimation_results['sol_pc_reg']
         
@@ -536,13 +459,10 @@ def main():
     
     # 5. 对比不同方法的验证结果
     if len(validation_results) > 1:
-        print("\n" + "="*70)
         print("方法对比")
-        print("="*70)
         
         print("\n平均相对残差误差 (RRE %):")
         print("  方法           | 平均RRE")
-        print("  " + "-"*40)
         for method, result in validation_results.items():
             avg_rre = np.mean(result['rre_base'])
             print(f"  {method:14s} | {avg_rre:7.3f}%")
@@ -584,9 +504,7 @@ def main():
     with open(result_path, 'wb') as f:
         pickle.dump(validation_results, f)
     
-    print("\n" + "="*70)
     print(f"✅ 所有验证完成！结果已保存到 {result_path}")
-    print("="*70)
     
     return validation_results
 
