@@ -135,8 +135,7 @@ def parse_urdf(file_path):
         # 2. 存储 H 向量 (h = m * r_com)
         robot['h'][:, i] = link_mass * com_pos
         
-        # 3. 存储修正后的惯性向量 I_vec
-        # I_new = I_old - link_mass * com_vec2mat * com_vec2mat
+        # 3. 存储修正后的惯性向量 I_vec，平行轴定理。
         I_new = link_inertia - link_mass * com_vec2mat @ com_vec2mat
         robot['I_vec'][:, i] = inertiaMatrix2Vector(I_new).flatten()
         

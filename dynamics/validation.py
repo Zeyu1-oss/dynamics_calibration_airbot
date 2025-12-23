@@ -47,7 +47,13 @@ def validate_dynamic_params(path_to_data, idx, drv_gains, baseQR, pi_b, pi_fr,
     print(f"\n 1/3: 加载验证数据...")
     
     vldtn_traj = parse_ur_data(path_to_data, idx[0], idx[1])
-    vldtn_traj = filter_data(vldtn_traj)
+    
+    # 自动计算采样率（与训练保持一致）
+    dt = np.mean(np.diff(vldtn_traj['t']))
+    fs_actual = 1.0 / dt
+    print(f"    检测到采样率: {fs_actual:.2f} Hz")
+    
+    vldtn_traj = filter_data(vldtn_traj, fs=fs_actual)
     
     n_samples = len(vldtn_traj['t'])
     print(f"  ✓ 加载了 {n_samples} 个验证样本")
@@ -322,6 +328,7 @@ def load_estimation_results(pkl_path='estimation_results.pkl'):
 def main():
     """
     主函数：加载估计结果并在验证数据上进行验证
+    专注于PC-OLS-REG方法，同时保留对其他方法的支持
     """
     import h5py
     
@@ -358,111 +365,164 @@ def main():
     pkl_path = 'results/estimation_results.pkl'
     
     try:
-        estimation_results = load_estimation_results(pkl_path)
+        estimation_data = load_estimation_results(pkl_path)
     except Exception as e:
         print(f"  ❌ 加载估计结果失败: {e}")
         print("  请先运行 parameter_estimation.py 进行参数估计")
         sys.exit(1)
     
+    # 检查使用的方法
+    method_used = estimation_data.get('method', 'Unknown')
+    print(f"  ✓ 检测到估计方法: {method_used}")
+    
     # 3. 设置验证参数
     print("\n步骤 3/4: 设置验证参数...")
     drv_gains = np.ones(6)
-    validation_data_path = 'results/data_csv/vali.csv'  # 使用相同或不同的数据集进行验证
+    validation_data_path = 'results/data_csv/vali——0fre.csv'  # 使用相同或不同的数据集进行验证
     idx = [0, 2500]  # 可以使用不同的数据范围
     
     print(f"  验证数据: {validation_data_path}")
     print(f"  数据范围: {idx}")
     
-    # 4. 对每种方法进行验证
+    # 4. 验证估计参数（主要关注当前使用的方法）
     print("\n步骤 4/4: 验证估计参数...")
     
     validation_results = {}
+    sol = estimation_data.get('sol')
     
-    # 验证OLS方法
-    if 'sol_ols' in estimation_results and estimation_results['sol_ols'] is not None:
-        print("验证方法 1: OLS")
-        
-        sol_ols = estimation_results['sol_ols']
-        
-        rre_ols, results_ols = validate_dynamic_params(
-            path_to_data=validation_data_path,
-            idx=idx,
-            drv_gains=drv_gains,
-            baseQR=baseQR,
-            pi_b=sol_ols['pi_b'],
-            pi_fr=sol_ols['pi_fr'],
-            plot=True,
-            save_csv=True,
-            output_prefix='validation_OLS'
-        )
-        
-        validation_results['OLS'] = {
-            'rre_base': rre_ols,
-            'results': results_ols
-        }
+    if sol is None:
+        print("  ❌ 未找到估计结果")
+        sys.exit(1)
     
-    # 验证PC-OLS方法
-    if 'sol_pc_ols' in estimation_results and estimation_results['sol_pc_ols'] is not None:
-        print("验证方法 2: PC-OLS")
-        
-        sol_pc_ols = estimation_results['sol_pc_ols']
-        
-        rre_pc_ols, results_pc_ols = validate_dynamic_params(
-            path_to_data=validation_data_path,
-            idx=idx,
-            drv_gains=drv_gains,
-            baseQR=baseQR,
-            pi_b=sol_pc_ols['pi_b'],
-            pi_fr=sol_pc_ols['pi_fr'],
-            pi_s=sol_pc_ols.get('pi_s'),
-            plot=True,
-            save_csv=True,
-            output_prefix='validation_PC-OLS'
-        )
-        
-        validation_results['PC-OLS'] = {
-            'rre_base': rre_pc_ols,
-            'results': results_pc_ols
-        }
-        
-        if results_pc_ols.get('rre_std') is not None:
-            validation_results['PC-OLS']['rre_std'] = results_pc_ols['rre_std']
-    
-    # 验证PC-OLS-REG方法（双重验证：基参数 + 完整参数）
-    if 'sol_pc_reg' in estimation_results and estimation_results['sol_pc_reg'] is not None:
-        print("验证方法 3: PC-OLS-REG (双重验证)")
-        
-        sol_pc_reg = estimation_results['sol_pc_reg']
+    # 根据方法进行相应的验证
+    if method_used == 'PC-OLS-REG':
+        print(f"\n{'='*70}")
+        print(f"  主要验证: PC-OLS-REG（物理一致性 + URDF正则化）")
+        print(f"{'='*70}")
         
         # 传入pi_s进行双重验证
-        rre_pc_reg, results_pc_reg = validate_dynamic_params(
+        rre, results = validate_dynamic_params(
             path_to_data=validation_data_path,
             idx=idx,
             drv_gains=drv_gains,
             baseQR=baseQR,
-            pi_b=sol_pc_reg['pi_b'],
-            pi_fr=sol_pc_reg['pi_fr'],
-            pi_s=sol_pc_reg.get('pi_s'),  # 传入完整参数
+            pi_b=sol['pi_b'],
+            pi_fr=sol['pi_fr'],
+            pi_s=sol.get('pi_s'),  # 传入完整参数进行双重验证
             plot=True,
             save_csv=True,
             output_prefix='validation_PC-OLS-REG'
         )
         
         validation_results['PC-OLS-REG'] = {
-            'rre_base': rre_pc_reg,  # 基参数验证的RRE
-            'results': results_pc_reg
+            'rre_base': rre,
+            'results': results
         }
         
-        # 如果有完整参数验证结果，也记录
-        if results_pc_reg.get('rre_std') is not None:
-            validation_results['PC-OLS-REG']['rre_std'] = results_pc_reg['rre_std']
+        if results.get('rre_std') is not None:
+            validation_results['PC-OLS-REG']['rre_std'] = results['rre_std']
     
-    # 5. 对比不同方法的验证结果
-    if len(validation_results) > 1:
-        print("方法对比")
+    elif method_used == 'PC-OLS':
+        print(f"\n{'='*70}")
+        print(f"  主要验证: PC-OLS（物理一致性）")
+        print(f"{'='*70}")
         
-        print("\n平均相对残差误差 (RRE %):")
-        print("  方法           | 平均RRE")
+        rre, results = validate_dynamic_params(
+            path_to_data=validation_data_path,
+            idx=idx,
+            drv_gains=drv_gains,
+            baseQR=baseQR,
+            pi_b=sol['pi_b'],
+            pi_fr=sol['pi_fr'],
+            pi_s=sol.get('pi_s'),
+            plot=True,
+            save_csv=True,
+            output_prefix='validation_PC-OLS'
+        )
+        
+        validation_results['PC-OLS'] = {
+            'rre_base': rre,
+            'results': results
+        }
+        
+        if results.get('rre_std') is not None:
+            validation_results['PC-OLS']['rre_std'] = results['rre_std']
+    
+    elif method_used == 'OLS':
+        print(f"\n{'='*70}")
+        print(f"  主要验证: OLS（普通最小二乘）")
+        print(f"{'='*70}")
+        
+        rre, results = validate_dynamic_params(
+            path_to_data=validation_data_path,
+            idx=idx,
+            drv_gains=drv_gains,
+            baseQR=baseQR,
+            pi_b=sol['pi_b'],
+            pi_fr=sol['pi_fr'],
+            plot=True,
+            save_csv=True,
+            output_prefix='validation_OLS'
+        )
+        
+        validation_results['OLS'] = {
+            'rre_base': rre,
+            'results': results
+        }
+    
+    else:
+        print(f"  ⚠️ 未知方法: {method_used}，尝试通用验证...")
+        
+        rre, results = validate_dynamic_params(
+            path_to_data=validation_data_path,
+            idx=idx,
+            drv_gains=drv_gains,
+            baseQR=baseQR,
+            pi_b=sol['pi_b'],
+            pi_fr=sol['pi_fr'],
+            pi_s=sol.get('pi_s'),
+            plot=True,
+            save_csv=True,
+            output_prefix=f'validation_{method_used}'
+        )
+        
+        validation_results[method_used] = {
+            'rre_base': rre,
+            'results': results
+        }
+    
+    # 5. 总结验证结果
+    if not validation_results:
+        print("\n  ❌ 没有成功验证的结果")
+        sys.exit(1)
+    
+    print(f"\n{'='*70}")
+    print("  验证结果总结")
+    print(f"{'='*70}")
+    
+    for method, result in validation_results.items():
+        avg_rre = np.mean(result['rre_base'])
+        print(f"\n  方法: {method}")
+        print(f"    平均RRE (基参数): {avg_rre:.3f}%")
+        
+        # 如果有完整参数验证结果
+        if 'rre_std' in result and result['rre_std'] is not None:
+            avg_rre_std = np.mean(result['rre_std'])
+            print(f"    平均RRE (完整参数): {avg_rre_std:.3f}%")
+            diff = abs(avg_rre - avg_rre_std)
+            if diff < 0.1:
+                print(f"    ✓ 两种验证方法结果一致（差异: {diff:.4f}%）")
+            else:
+                print(f"    ⚠️ 两种验证方法有差异: {diff:.3f}%")
+    
+    # 如果有多个方法，绘制对比图
+    if len(validation_results) > 1:
+        print(f"\n{'='*70}")
+        print("  多方法对比")
+        print(f"{'='*70}")
+        
+        print("\n  方法           | 平均RRE (基参数)")
+        print("  " + "-"*40)
         for method, result in validation_results.items():
             avg_rre = np.mean(result['rre_base'])
             print(f"  {method:14s} | {avg_rre:7.3f}%")
@@ -478,13 +538,13 @@ def main():
         width = 0.8 / n_methods
         
         for i, method in enumerate(methods):
-            rre = validation_results[method]['rre_base']  # 使用基参数的RRE
+            rre = validation_results[method]['rre_base']
             offset = (i - n_methods/2 + 0.5) * width
-            ax.bar(x + offset, rre, width, label=f'{method} (base)', alpha=0.8)
+            ax.bar(x + offset, rre, width, label=f'{method}', alpha=0.8)
         
         ax.set_xlabel('Joint', fontsize=12)
         ax.set_ylabel('RRE (%)', fontsize=12)
-        ax.set_title('Validation: Relative Residual Error by Method', fontsize=14, fontweight='bold')
+        ax.set_title('Validation: Relative Residual Error Comparison', fontsize=14, fontweight='bold')
         ax.set_xticks(x)
         ax.set_xticklabels([f'J{i+1}' for i in range(n_joints)])
         ax.legend()
@@ -496,15 +556,25 @@ def main():
         output_path = 'diagram/validation_comparison_methods.png'
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
         print(f"\n  ✓ 保存方法对比图到: {output_path}")
-        plt.close()  # 关闭图表，不显示（避免卡住）
+        plt.close()
     
     # 保存验证结果
     os.makedirs('results', exist_ok=True)
     result_path = 'results/validation_results.pkl'
-    with open(result_path, 'wb') as f:
-        pickle.dump(validation_results, f)
     
-    print(f"✅ 所有验证完成！结果已保存到 {result_path}")
+    save_data = {
+        'validation_results': validation_results,
+        'method': method_used,
+        'validation_data': validation_data_path,
+        'data_range': idx
+    }
+    
+    with open(result_path, 'wb') as f:
+        pickle.dump(save_data, f)
+    
+    print(f"\n{'='*70}")
+    print(f"✅ 验证完成！结果已保存到 {result_path}")
+    print(f"{'='*70}\n")
     
     return validation_results
 

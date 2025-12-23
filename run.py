@@ -6,7 +6,6 @@ file_path = 'results/estimation_results.pkl'
 
 try:
     with open(file_path, 'rb') as f:
-        # 使用 'rb' (read binary) 模式打开文件
         data = pickle.load(f)
     
     pprint.pprint(data) 

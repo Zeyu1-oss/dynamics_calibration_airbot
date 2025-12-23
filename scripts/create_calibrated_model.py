@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
-"""
-生成校准后的MuJoCo模型（包含fullinertia）
 
-从估计参数生成新的XML文件，完整设置所有10个参数：
-- fullinertia="Ixx Ixy Ixz Iyy Iyz Izz" (6个)
-- pos="x y z" (3个，重心位置)
-- mass="m" (1个)
-"""
 
 import numpy as np
 import pickle
@@ -26,12 +19,22 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
     with open(estimation_pkl_path, 'rb') as f:
         results = pickle.load(f)
     
-    if method == 'PC-OLS-REG':
-        sol = results['sol_pc_reg']
-    elif method == 'PC-OLS':
-        sol = results['sol_pc_ols']
+    # 兼容新旧两种保存格式
+    if 'sol' in results:
+        # 新格式：{'sol': ..., 'method': ..., 'lambda_reg': ...}
+        sol = results['sol']
+        saved_method = results.get('method', 'unknown')
+        print(f"  ✓ 加载的估计方法: {saved_method}")
+        if method and method != saved_method:
+            print(f"  ⚠️  警告: 请求的方法({method})与保存的方法({saved_method})不一致")
     else:
-        sol = results['sol_ols']
+        if method == 'PC-OLS-REG':
+            sol = results['sol_pc_reg']
+        elif method == 'PC-OLS':
+            sol = results['sol_pc_ols']
+        else:
+            sol = results['sol_ols']
+        print(f"  ✓ 使用的方法: {method}")
     
     if sol.get('pi_s') is None:
         print("  ⚠️  警告: 没有pi_s，无法生成完整模型")
@@ -43,7 +46,8 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
     n_links = len(pi_s) // 10
     print(f"  ✓ 加载了 {len(pi_s)} 个标准参数 ({n_links} 个link)")
     if pi_fr is not None:
-        print(f"  ✓ 加载了 {len(pi_fr)} 个摩擦参数 ({len(pi_fr)//3} 个关节)")
+        n_joints_fr = len(pi_fr) // 3  # 每个关节3个摩擦参数 (Fv, Fc, F0)
+        print(f"  ✓ 加载了 {len(pi_fr)} 个摩擦参数 ({n_joints_fr} 个关节 × 3参数/关节)")
     
     # 2. 解析原始XML
     print("\n[2/4] 解析原始XML...")
@@ -51,12 +55,12 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
     root = tree.getroot()
     bodies = root.findall('.//body')
     
-    # 根据pi_s的长度动态确定link数量
-    n_links_in_params = len(pi_s) // 10
-    link_names = [f'link{i+1}' for i in range(n_links_in_params)]
+    # 强制指定 6 个连杆，确保完整性
+    n_links_to_process = 6
+    link_names = [f'link{i+1}' for i in range(n_links_to_process)]
     
     print(f"  找到 {len(bodies)} 个body元素")
-    print(f"  将更新 {len(link_names)} 个link的参数")
+    print(f"  准备更新 {n_links_to_process} 个link的参数 (link1-6)")
     
     # 3. 更新每个link的参数
     print("\n[3/4] 更新link参数...")
@@ -100,9 +104,10 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
             [Ixz_origin, Iyz_origin, Izz_origin]
         ])
         
-        # 应用平行轴定理（注意：skew(r)^T @ skew(r) = -(skew(r) @ skew(r))）
-        I_com = I_origin - mass * (com_skew.T @ com_skew)
-        
+        # ✅ 应用平行轴定理逆转换
+        # I_origin = I_COM - m * [r]× @ [r]×  (parse_urdf.py)
+        # 反过来：I_COM = I_origin + m * [r]× @ [r]×
+        I_com = I_origin + mass * (com_skew @ com_skew)  # 注意：没有 .T
         # 提取转换后的惯性参数
         Ixx = I_com[0, 0]
         Ixy = I_com[0, 1]
@@ -116,7 +121,7 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
         
         # 正定性检查
         if np.any(eig_vals <= 0):
-            print(f"  ⚠️  {link_name} 惯性矩阵不正定！特征值: {eig_vals}")
+            print(f"  ⚠️  {link_name} 惯性矩阵不正定！特征值: {eig_vals}") 
             print(f"      MuJoCo编译会失败，跳过此link")
             continue
         
@@ -153,7 +158,6 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
         # 设置重心位置
         inertial.set('pos', f'{com[0]:.10f} {com[1]:.10f} {com[2]:.10f}')
         
-        # ✅ 修复: 转换为MuJoCo的fullinertia顺序
         # URDF顺序: Ixx, Ixy, Ixz, Iyy, Iyz, Izz
         # MuJoCo顺序: Ixx, Iyy, Izz, Ixy, Ixz, Iyz
         fullinertia_mujoco = f'{Ixx:.10e} {Iyy:.10e} {Izz:.10e} {Ixy:.10e} {Ixz:.10e} {Iyz:.10e}'
@@ -182,21 +186,22 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
         
         joints = root.findall('.//joint')
         
-        # 根据pi_fr的长度动态确定关节数量 (每个关节2个参数)
-        n_joints_in_params = len(pi_fr) // 2
-        joint_names = [f'joint{i+1}' for i in range(n_joints_in_params)]
-        print(f"  将更新 {len(joint_names)} 个joint的摩擦参数")
+        # 强制指定 6 个关节
+        n_joints_to_process = 6
+        joint_names = [f'joint{i+1}' for i in range(n_joints_to_process)]
+        print(f"  将更新 {n_joints_to_process} 个joint的摩擦参数 (提取前2项)")
         
         for i, joint_name in enumerate(joint_names):
-            friction_idx = i * 2
+            # 每个关节在 pi_fr 中占 3 个位置 [Fv, Fc, F0]
+            friction_idx = i * 3
             
             if friction_idx + 1 >= len(pi_fr):
-                print(f"  ⚠️  摩擦参数不足，跳过 {joint_name}")
+                print(f"  ⚠️  参数索引 {friction_idx+1} 超出范围 (pi_fr 长度 {len(pi_fr)})，跳过 {joint_name}")
                 continue
             
-            # 提取2个摩擦参数
-            Fv = pi_fr[friction_idx]       # 粘性摩擦
-            Fc = pi_fr[friction_idx + 1]   # 库伦摩擦
+            # 提取前两个参数
+            Fv = pi_fr[friction_idx]       # 第一个：粘性摩擦 (damping)
+            Fc = pi_fr[friction_idx + 1]   # 第二个：库伦摩擦 (frictionloss)
             
             # 查找对应的joint元素
             joint = None
@@ -206,28 +211,28 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
                     break
             
             if joint is None:
-                print(f"  ⚠️  找不到joint: {joint_name}")
+                print(f"  ⚠️  XML中找不到joint: {joint_name}")
                 continue
             
-            # 设置摩擦参数
-            joint.set('damping', f'{max(0, Fv):.10e}')  # 确保非负
-            joint.set('frictionloss', f'{max(0, Fc):.10e}')  # 确保非负
+            # 设置 MuJoCo 属性
+            joint.set('damping', f'{max(0, Fv):.10e}')
+            joint.set('frictionloss', f'{max(0, Fc):.10e}')
             
-            print(f"  ✓ {joint_name}:")
-            print(f"      damping (Fv) = {Fv:.6e}")
-            print(f"      frictionloss (Fc) = {Fc:.6e}")
+            print(f"  ✓ {joint_name}: damping={Fv:.4e}, frictionloss={Fc:.4e}")
             
             updated_friction_count += 1
     
     # 保存新XML
     tree.write(output_xml_path, encoding='utf-8', xml_declaration=True)
     
-    print("✅ 校准模型已保存")
-    print(f"  文件: {output_xml_path}")
-    print(f"  更新了 {updated_count} 个link的惯性参数")
+    print("\n" + "="*60)
+    print("✓ 校准模型生成完成！")
+    print("="*60)
+    print(f"输出文件: {output_xml_path}")
+    print(f"更新了 {updated_count}/{len(link_names)} 个link")
     if pi_fr is not None:
-        print(f"  更新了 {updated_friction_count} 个joint的摩擦参数")
-    print("="*70)
+        print(f"更新了 {updated_friction_count}/{len(joint_names)} 个joint的摩擦参数")
+    print("="*60)
     
     return output_xml_path
 def main():
@@ -239,18 +244,6 @@ def main():
     
     try:
         create_calibrated_xml(estimation_pkl, original_xml, output_xml, method='PC-OLS-REG')
-        
-        print("下一步操作：")
-        print(f"\n1. 查看生成的模型:")
-        print(f"   cat {output_xml}")
-        
-        print(f"\n2. 在validate_simulation.py中使用新模型:")
-        print(f"   xml_path = '{output_xml}'")
-        
-        print(f"\n3. 验证新模型:")
-        print(f"   python scripts/validate_simulation.py")
-        
-        print("\n" + "="*70)
         
     except Exception as e:
         import traceback

@@ -8,19 +8,23 @@ import os
 from scipy.io import loadmat
 from oct2py import Oct2Py
 HAS_OCT2PY = True
+from utils.parse_urdf import parse_urdf
+
 
 import h5py
 
 def friction_regressor_single(qd):
     """
-    每个关节2个摩擦参数: [粘性, 库伦]
+    每个关节3个摩擦参数: [粘性Fv, 库伦Fc, 常数F0]
+    模型: τ_motor = τ_dyn + Fv*qd + Fc*sign(qd) + F0
     """
-    Y_frctn = np.zeros((6, 12))
+    Y_frctn = np.zeros((6, 18))  # 6关节 × 3参数 = 18
     
     for i in range(6):
-        Y_frctn[i, 2*i:2*i+2] = [
+        Y_frctn[i, 3*i:3*i+3] = [
             qd[i],           # 粘性摩擦
-            np.sign(qd[i])   # 库伦摩擦
+            np.sign(qd[i]),  # 库伦摩擦
+            1.0              # 常数项
         ]
     
     return Y_frctn
@@ -28,15 +32,10 @@ def friction_regressor_single(qd):
 
 def friction_regressor_batched(qd_matrix):
     """
-    
-    Args:
-        qd_matrix: 关节速度矩阵 (N, 6)
-    
-    Returns:
-        Y_frctn_total: 摩擦回归矩阵 (6N, 12)
+    批量计算摩擦回归矩阵
     """
     N = qd_matrix.shape[0]
-    Y_frctn_total = np.zeros((N * 6, 12))
+    Y_frctn_total = np.zeros((N * 6, 18))  # 6关节 × 3参数 = 18
     
     for i in range(N):
         Y_frctn_i = friction_regressor_single(qd_matrix[i, :])
@@ -50,23 +49,15 @@ def build_observation_matrices_oct2py(idntfcn_traj, baseQR, drv_gains):
     """
     使用Oct2Py调用MATLAB函数构建观测矩阵
     
-    Args:
-        idntfcn_traj: 轨迹数据字典
-        baseQR: QR分解结果
-        drv_gains: 驱动增益
-    
     Returns:
         Tau: 力矩向量 (6N,)
-        Wb: 观测矩阵 (6N, n_base + 12)
+        Wb: 观测矩阵 (6N, n_base + 18)
     """
-    print("  使用Oct2Py方法构建观测矩阵...")
     
     oc = Oct2Py()
-    oc.addpath('autogen')  # 添加MATLAB函数路径
-    oc.addpath('matlab')   # 如果有其他路径
-    oc.addpath('.')        # 当前目录
+    oc.addpath('matlab')  
+    oc.addpath('.')       
     
-    # 准备数据
     q_matrix = idntfcn_traj['q']
     qd_fltrd_matrix = idntfcn_traj['qd_fltrd']
     q2d_est_matrix = idntfcn_traj['q2d_est']
@@ -74,7 +65,6 @@ def build_observation_matrices_oct2py(idntfcn_traj, baseQR, drv_gains):
     n_samples = q_matrix.shape[0]
     
     try:
-        # 尝试调用批量函数（如果存在）
         Y_std_total = oc.standard_regressor_airbot_batched(
             q_matrix, qd_fltrd_matrix, q2d_est_matrix
         )
@@ -95,7 +85,6 @@ def build_observation_matrices_oct2py(idntfcn_traj, baseQR, drv_gains):
         Y_std_total = np.vstack(Y_std_list)
     
     # 计算摩擦回归矩阵
-    print("    计算摩擦回归矩阵...")
     Y_frctn_total = friction_regressor_batched(qd_fltrd_matrix)
     
     # 构建基础观测矩阵
@@ -105,32 +94,15 @@ def build_observation_matrices_oct2py(idntfcn_traj, baseQR, drv_gains):
     
     W_dyn = Y_std_total @ E1
     Wb = np.hstack([W_dyn, Y_frctn_total])
-    
-    # 力矩向量
     Tau = Tau_matrix.flatten()
     
-    # 清理
     oc.exit()
-    
-    print(f"  ✓ 观测矩阵构建完成: {Wb.shape}")
     
     return Tau, Wb
 
 
 
 def build_observation_matrices_python(idntfcn_traj, baseQR, drv_gains):
-    """
-    
-    Args:
-        idntfcn_traj: 轨迹数据字典
-        baseQR: QR分解结果
-        drv_gains: 驱动增益
-    
-    Returns:
-        Tau: 力矩向量 (6N,)
-        Wb: 观测矩阵 (6N, n_base + 12)
-    """
-    print("  使用纯Python方法构建观测矩阵...")
     
     # 尝试导入Python版本的regressor
     try:
@@ -141,8 +113,6 @@ def build_observation_matrices_python(idntfcn_traj, baseQR, drv_gains):
     except ImportError:
         raise ImportError(
             "无法导入standard_regressor_airbot函数。\n"
-            "请先运行 generate_rb_regressor_complete.py 生成Python函数，\n"
-            "或安装 oct2py 使用MATLAB函数。"
         )
     
     # 准备数据
@@ -152,7 +122,6 @@ def build_observation_matrices_python(idntfcn_traj, baseQR, drv_gains):
     Tau_matrix = idntfcn_traj['i_fltrd']
     n_samples = q_matrix.shape[0]
     
-    print(f"    处理 {n_samples} 个样本...")
     
     # 逐个计算标准回归矩阵
     Y_std_list = []
@@ -169,8 +138,6 @@ def build_observation_matrices_python(idntfcn_traj, baseQR, drv_gains):
     
     Y_std_total = np.vstack(Y_std_list)
     
-    # 计算摩擦回归矩阵
-    print("    计算摩擦回归矩阵...")
     Y_frctn_total = friction_regressor_batched(qd_fltrd_matrix)
     
     # 构建基础观测矩阵
@@ -184,69 +151,37 @@ def build_observation_matrices_python(idntfcn_traj, baseQR, drv_gains):
     # 力矩向量
     Tau = Tau_matrix.flatten()
     
-    print(f"  ✓ 观测矩阵构建完成: {Wb.shape}")
     
     return Tau, Wb
 
 
 
 def build_observation_matrices(idntfcn_traj, baseQR, drv_gains):
-    """
-    Returns:
-        Tau: 力矩向量 (6N,)
-        Wb: 观测矩阵 (6N, n_base + 12)
-    """
-    if HAS_OCT2PY:
-        try:
-            return build_observation_matrices_oct2py(idntfcn_traj, baseQR, drv_gains)
-        except Exception as e:
-            return build_observation_matrices_python(idntfcn_traj, baseQR, drv_gains)
-    else:
-        return build_observation_matrices_python(idntfcn_traj, baseQR, drv_gains)
+
+    return build_observation_matrices_oct2py(idntfcn_traj, baseQR, drv_gains)
 
 def ordinary_least_square_estimation(Tau, Wb, baseQR):
-    print("  使用普通最小二乘法...")
-    
-    pi_OLS = np.linalg.lstsq(Wb, Tau, rcond=None)[0]
+    pi_OLS = np.linalg.lstsq(Wb, Tau, rcond=1e-15)[0]
     
     n_b = baseQR['numberOfBaseParameters']
     pi_b_OLS = pi_OLS[:n_b]
     pi_frctn_OLS = pi_OLS[n_b:]
     
-    print(f"  ✓ 估计了 {n_b} 个基础参数和 {len(pi_frctn_OLS)} 个摩擦参数")
     return pi_b_OLS, pi_frctn_OLS
 
 
 def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0, 
                                     physical_consistency=0):
-    """
-    物理一致性参数估计
-    
-    Args:
-        Tau: 力矩向量
-        Wb: 观测矩阵
-        baseQR: QR分解结果
-        pi_urdf: URDF参考参数（前5个link，50维）
-        lambda_reg: 正则化系数
-        physical_consistency: 0=半物理一致性(MATLAB默认), 1=完全物理一致性
-    """
-    if physical_consistency == 0:
-        print("  使用半物理一致性约束优化（与MATLAB一致）...")
-    else:
-        print("  使用完全物理一致性约束优化...")
-    
-    # 参数设置
+
     n_b = baseQR['numberOfBaseParameters']
     n_d = 60 - n_b
     
     print(f"    基础参数: {n_b}, 依赖参数: {n_d}")
     
-    # 定义优化变量
-    pi_frctn = cp.Variable(12)  # 6个关节 × 2个摩擦参数 = 12
+    pi_frctn = cp.Variable(18)  # 6个关节 × 3个摩擦参数 = 18
     pi_b = cp.Variable(n_b)
     pi_d = cp.Variable(n_d)
     
-    # 映射到标准参数
     mapping_matrix = np.block([
         [np.eye(n_b), -baseQR['beta']],
         [np.zeros((n_d, n_b)), np.eye(n_d)]
@@ -254,100 +189,60 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
     E = baseQR['permutationMatrixFull']
     pii = E @ mapping_matrix @ cp.hstack([pi_b, pi_d])
     
-    # 约束条件
     constraints = []
     
-    # 1. 质量约束（只针对前5个link）
-    mass_indices = list(range(9, 50, 10))  # link1-link5: [9, 19, 29, 39, 49]
-    mass_urdf = np.array([0.607, 0.918, 0.7, 0.359, 0.403])  # 前5个link的质量
-    error_range = 0.15  # 放宽到15%以提高求解成功率
+    mass_indices = list(range(9, 60, 10))  # link1-link6: [9, 19, 29, 39, 49, 59]
+    mass_urdf = np.array([0.607, 0.918, 0.7, 0.359, 0.403, 0.15])  # 包含link6（末端执行器）
+    error_range = 0.20  # 放宽到20%以提高可求解性
     mass_upper = mass_urdf * (1 + error_range)
     mass_lower = mass_urdf * (1 - error_range)
     
-    print(f"    添加质量约束（前5个link，±{error_range*100}%）...")
     for i, idx in enumerate(mass_indices):
-        constraints.append(pii[idx] >= max(0, mass_lower[i]))
+        constraints.append(pii[idx] >= max(1e-3, mass_lower[i]))  # 最小1g
         constraints.append(pii[idx] <= mass_upper[i])
     
-    # 2. 物理一致性约束
-    print(f"    添加物理一致性约束（类型: {physical_consistency}）...")
+    print(f"    质量约束: {len(mass_indices)} 个link, 误差范围±{error_range*100:.0f}%")
+    
     for link_idx in range(6):
         i = link_idx * 10
         
-        # 惯性张量 (3x3)
         I_link = cp.vstack([
             cp.hstack([pii[i],     pii[i+1], pii[i+2]]),
             cp.hstack([pii[i+1],   pii[i+3], pii[i+4]]),
             cp.hstack([pii[i+2],   pii[i+4], pii[i+5]])
         ])
         
-        # 一阶矩 h = m*r_com
         h_link = pii[i+6:i+9]
         
-        # 质量
         m_link = pii[i+9]
         
-        if physical_consistency == 1:
-            # 完全物理一致性：D = [0.5*tr(I)*I_3 - I,  h; h^T,  m]
-            h_link_col = cp.reshape(h_link, (3, 1), order='C')
-            h_link_row = cp.reshape(h_link, (1, 3), order='C')
-            m_link_reshaped = cp.reshape(m_link, (1, 1), order='C')
-            
-            trace_I = cp.trace(I_link)
-            upper_left = 0.5 * trace_I * np.eye(3) - I_link
-            upper_right = h_link_col
-            upper_part = cp.hstack([upper_left, upper_right])
-            
-            lower_left = h_link_row
-            lower_right = m_link_reshaped
-            lower_part = cp.hstack([lower_left, lower_right])
-            
-            D_link = cp.vstack([upper_part, lower_part])
-        else:
-            # 半物理一致性（与MATLAB一致）：D = [I, h^T; h, m*I_3]
-            # 这里 h 是斜对称矩阵形式
-            def vec2skew(v):
-                """将3D向量转换为斜对称矩阵"""
-                return cp.vstack([
-                    cp.hstack([0, -v[2], v[1]]),
-                    cp.hstack([v[2], 0, -v[0]]),
-                    cp.hstack([-v[1], v[0], 0])
-                ])
-            
-            h_link_skew = vec2skew(h_link)
-            h_link_skew_T = cp.reshape(cp.vec(h_link_skew.T), (3, 3), order='C')
-            
-            # D = [I, h_skew^T; h_skew, m*I_3]
-            upper_part = cp.hstack([I_link, h_link_skew_T])  # (3, 6)
-            lower_part = cp.hstack([h_link_skew, m_link * np.eye(3)])  # (3, 6)
-            D_link = cp.vstack([upper_part, lower_part])  # (6, 6)
+        trace_I = pii[i] + pii[i+3] + pii[i+5]
+        epsilon_triangle = 1e-3 if link_idx == 5 else 5e-4  # Link6用1e-3，其他用5e-4
+        epsilon_inertia = 1e-4 if link_idx == 5 else 1e-5   # Link6用1e-4，其他用1e-5
         
-        # 半正定约束
+        L_link = cp.vstack([
+            cp.hstack([0.5*(pii[i+3]+pii[i+5]-pii[i]), -pii[i+1], -pii[i+2]]),
+            cp.hstack([-pii[i+1], 0.5*(pii[i]+pii[i+5]-pii[i+3]), -pii[i+4]]),
+            cp.hstack([-pii[i+2], -pii[i+4], 0.5*(pii[i]+pii[i+3]-pii[i+5])])
+        ]) - 0.5 * epsilon_triangle * np.eye(3)
+        
+        h_link_col = cp.reshape(h_link, (3, 1), order='C')
+        h_link_row = cp.reshape(h_link, (1, 3), order='C')
+        m_link_reshaped = cp.reshape(m_link, (1, 1), order='C')
+        
+        D_link = cp.bmat([
+            [L_link, h_link_col],
+            [h_link_row, m_link_reshaped]
+        ])
+        
         constraints.append(D_link >> 0)
         
-        # 三角不等式约束（MuJoCo要求：A+B>=C）
-        # 对于任何物理刚体惯性张量，必须满足：
-        # Ixx+Iyy≥Izz, Ixx+Izz≥Iyy, Iyy+Izz≥Ixx
-        # 使用较大的安全余量，确保MuJoCo编译器接受
-        epsilon_triangle = 1e-4  # 增大到1e-4（之前5e-5还不够）
-        Ixx = pii[i]
-        Iyy = pii[i+3]
-        Izz = pii[i+5]
+        # 对角元素必须足够大（确保正定性）
+        constraints.append(pii[i] >= epsilon_inertia)
+        constraints.append(pii[i+3] >= epsilon_inertia)
+        constraints.append(pii[i+5] >= epsilon_inertia)
         
-        # 添加三角不等式约束（每个都加上安全余量）
-        constraints.append(Ixx + Iyy >= Izz + epsilon_triangle)
-        constraints.append(Ixx + Izz >= Iyy + epsilon_triangle)
-        constraints.append(Iyy + Izz >= Ixx + epsilon_triangle)
-        
-        # 额外约束：确保对角元素都是正的且有下界
-        epsilon_inertia = 1e-6
-        constraints.append(Ixx >= epsilon_inertia)
-        constraints.append(Iyy >= epsilon_inertia)
-        constraints.append(Izz >= epsilon_inertia)
-        
-        # ✅ COM位置约束：确保转换后的I_COM也正定
-        # h = m * r_com，限制COM偏移在合理范围内
-        h_max_component = 0.10  # kg·m per axis（更严格：~0.1-0.2m对于0.5-1kg的link）
+        h_max_component = 0.10  # kg·m per axis
         constraints.append(h_link[0] >= -h_max_component)
         constraints.append(h_link[0] <= h_max_component)
         constraints.append(h_link[1] >= -h_max_component)
@@ -356,12 +251,13 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
         constraints.append(h_link[2] <= h_max_component)
     
     
-    # 3. 摩擦参数约束（所有参数都必须 > 0）
-    print("    粘性和库伦摩擦 > 0")
-    epsilon_friction = 1e-10  # 小的正值下界，确保严格大于零
+    # 3. 摩擦参数约束（
+    print("    摩擦参数约束: Fv, Fc, F0 > 0")
+    epsilon_friction = 1e-12  # 极小的正值下界，最大化精度
     for i in range(6):
-        constraints.append(pi_frctn[2*i] >= epsilon_friction)      # 粘性摩擦 > 0
-        constraints.append(pi_frctn[2*i + 1] >= epsilon_friction)  # 库伦摩擦 > 0
+        constraints.append(pi_frctn[3*i] >= epsilon_friction)      # 粘性摩擦Fv > 0
+        constraints.append(pi_frctn[3*i + 1] >= epsilon_friction)  # 库伦摩擦Fc > 0
+        constraints.append(pi_frctn[3*i + 2] >= epsilon_friction)  # 常数摩擦F0 > 0
     
     # 目标函数
     tau_error = cp.norm(Tau - Wb @ cp.hstack([pi_b, pi_frctn]))
@@ -390,31 +286,50 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
     problem = cp.Problem(cp.Minimize(objective), constraints)
     
     try:
-        # 尝试使用MOSEK求解器
+        # 尝试使用MOSEK求解器（最高精度配置）
         try:
             result = problem.solve(
                 solver=cp.MOSEK,
-                verbose=False
+                verbose=False,
+                mosek_params={
+                    'MSK_DPAR_INTPNT_CO_TOL_REL_GAP': 1e-12,  # 相对间隙容差
+                    'MSK_DPAR_INTPNT_CO_TOL_PFEAS': 1e-12,    # 原始可行性容差
+                    'MSK_DPAR_INTPNT_CO_TOL_DFEAS': 1e-12,    # 对偶可行性容差
+                    'MSK_DPAR_INTPNT_CO_TOL_MU_RED': 1e-12,   # 互补性容差
+                    'MSK_IPAR_INTPNT_MAX_ITERATIONS': 1000,   # 最大迭代次数
+                }
             )
-            print(f"  ✓ 使用MOSEK求解器 (状态: {problem.status})")
-        except:
-            # 回退到SCS求解器，但提高精度
-            print("  MOSEK不可用，使用SCS求解器（超高精度模式）...")
+        except Exception as mosek_err:
+            # 回退到SCS求解器，极致精度配置
+            print(f"  MOSEK不可用或失败: {mosek_err}")
             result = problem.solve(
                 solver=cp.SCS,
                 verbose=False,
-                max_iters=100000,     # 大幅增加迭代次数，确保约束严格满足
-                eps=1e-9,             # 超高精度，确保三角不等式满足
-                alpha=1.8,            # 改善收敛
-                scale=10.0,           # 改善数值稳定性
-                normalize=True,       # 归一化以提高数值稳定性
-                acceleration_lookback=20  # 加速收敛
+                max_iters=50000,      # 迭代次数
+                eps_abs=1e-9,         # 绝对容差（）
+                eps_rel=1e-9,         # 相对容差（
+                eps_infeas=1e-12,      # 不可行性检测容差
+                alpha=1.5,             # Anderson加速参数（保守值以提高稳定性）
+                rho_x=1e-6,            # x更新的松弛参数
+                scale=5.0,             # 矩阵缩放系数
+                normalize=True,        # 自动归一化
+                adaptive_scale=True,   # 自适应缩放
+                acceleration_lookback=20,  # Anderson加速回溯步数
+                acceleration_interval=1,   # 每次迭代都尝试加速
+                warm_start=True,       # 热启动（如果有初始值）
             )
+            print(f"  SCS求解完成 (状态: {problem.status})")
         
         if problem.status not in ['optimal', 'optimal_inaccurate']:
-            print(f" 求解状态: {problem.status}")
-            print("  尝试CVXOPT求解器...")
-            result = problem.solve(solver=cp.CVXOPT, verbose=False)
+            print(f"  当前状态: {problem.status}")
+            result = problem.solve(
+                solver=cp.CVXOPT, 
+                verbose=False,
+                abstol=1e-12,      # 绝对容差
+                reltol=1e-12,      # 相对容差
+                feastol=1e-12,     # 可行性容差
+                max_iters=500      # 最大迭代次数
+            )
         
         if problem.status in ['optimal', 'optimal_inaccurate']:
             print(f"  ✓ SDP求解成功! (状态: {problem.status})")
@@ -451,11 +366,12 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
         param_deviation = np.linalg.norm(pi_full[:50] - pi_urdf)
         print(f"  前5个link参数偏离URDF: {param_deviation:.4e}")
     
-    # 质量对比（前5个link）
-    print("  连杆 | URDF参考 | 估计值 | 相对误差")
-    for i in range(5):  # 只显示前5个link
+    # 质量对比（所有6个link）
+    print("  连杆 | URDF/参考 | 估计值 | 相对误差")
+    for i in range(6):  # 显示所有6个link
         rel_error = 100 * (mass_estimated[i] - mass_urdf[i]) / mass_urdf[i]
-        print(f"  Link{i+1} | {mass_urdf[i]:7.4f}kg | {mass_estimated[i]:7.4f}kg | {rel_error:+7.2f}%")
+        link_type = "(URDF)" if i < 5 else "(估计)"
+        print(f"  Link{i+1} | {mass_urdf[i]:7.4f}kg {link_type} | {mass_estimated[i]:7.4f}kg | {rel_error:+7.2f}%")
     
     # 检查惯性矩阵（正定性 + 三角不等式）
     print("\n  检查惯性矩阵物理约束:")
@@ -473,15 +389,15 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
         ])
         eig_vals = np.linalg.eigvalsh(I_val)
         
-        # 正定性检查
-        positive_definite = np.all(eig_vals > -1e-8)
+        # 正定性检查（更严格的精度要求）
+        positive_definite = np.all(eig_vals > -1e-10)
         
-        # 三角不等式检查（MuJoCo要求）
+        # 三角不等式检查（MuJoCo要求，更严格的精度）
         margin1 = (Ixx + Iyy) - Izz
         margin2 = (Ixx + Izz) - Iyy
         margin3 = (Iyy + Izz) - Ixx
         min_margin = min(margin1, margin2, margin3)
-        triangle_satisfied = min_margin >= -1e-8  # 允许极小的数值误差
+        triangle_satisfied = min_margin >= -1e-10  # 更严格的精度要求
         
         # 综合状态
         if positive_definite and triangle_satisfied:
@@ -491,8 +407,8 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
             if not triangle_satisfied:
                 triangle_violations.append((link_idx + 1, min_margin))
         
-        regularized = "【正则化】" if link_idx < 5 else "【无约束】"
-        print(f"    Link{link_idx+1} {regularized}: {status} (λ_min={np.min(eig_vals):.4e}, 三角余量={min_margin:.4e})")
+        constraint_label = "【质量+惯性约束】"
+        print(f"    Link{link_idx+1} {constraint_label}: {status} (λ_min={np.min(eig_vals):.4e}, 三角余量={min_margin:.4e})")
     
     if triangle_violations:
         print("\n  以下link违反三角不等式约束:")
@@ -542,22 +458,15 @@ def filter_data(data_dict, fs=500.0):
     
     nyq = 0.5 * fs # 奈奎斯特频率
     
-    # --- 1. 速度滤波设计和应用 ---
-    
-    # MATLAB: FilterOrder=5, HalfPowerFrequency=0.15
     normal_cutoff_vel = 0.15 
-    N_order = 5 # 5阶滤波器
+    N_order = 3  # 提高到3阶（6阶滤波器）以获得更好的信号质量
     
-    # 计算滤波器系数
     b_vel, a_vel = butter(N_order, normal_cutoff_vel, btype='low', analog=False)
     
-    # 过滤速度
     qd_fltrd = np.zeros_like(data_dict['qd'])
     for i in range(6):
         qd_fltrd[:, i] = filtfilt(b_vel, a_vel, data_dict['qd'][:, i])
     data_dict['qd_fltrd'] = qd_fltrd
-    
-    # --- 2. 估计加速度：三点中心差分 ---
     
     dt = np.mean(np.diff(data_dict['t']))
     if dt <= 0:
@@ -567,32 +476,22 @@ def filter_data(data_dict, fs=500.0):
     q2d_est = np.zeros_like(data_dict['qd_fltrd'])
     N_samples = data_dict['qd_fltrd'].shape[0]
     
-    # 显式实现 MATLAB 中的三点中心差分 (i=2 到 N-1，边界点保持为零)
     for i in range(1, N_samples - 1): # Python 索引 1 到 N-2 对应 MATLAB 索引 2 到 N-1
        dlta_qd_fltrd =  data_dict['qd_fltrd'][i+1,:] - data_dict['qd_fltrd'][i-1,:]
        dlta_t_msrd = data_dict['t'][i+1] - data_dict['t'][i-1]
        q2d_est[i,:] = dlta_qd_fltrd / dlta_t_msrd
 
-    # 替换 np.gradient 的结果
     data_dict['q2d_est'] = q2d_est
     
-    # --- 3. 加速度滤波设计和应用 ---
-    
-    # MATLAB: 加速度滤波与速度滤波参数相同
     b_accel = b_vel
     a_accel = a_vel
     
-    # 过滤加速度
     for i in range(6):
         data_dict['q2d_est'][:, i] = filtfilt(b_accel, a_accel, data_dict['q2d_est'][:, i])
     
-    # --- 4. 电流/力矩滤波设计和应用 ---
-    
-    # MATLAB: FilterOrder=5, HalfPowerFrequency=0.20
     normal_cutoff_curr = 0.20 
     b_curr, a_curr = butter(N_order, normal_cutoff_curr, btype='low', analog=False)
     
-    # 过滤电流/力矩
     i_fltrd = np.zeros_like(data_dict['i'])
     for i in range(6):
         i_fltrd[:, i] = filtfilt(b_curr, a_curr, data_dict['i'][:, i])
@@ -614,15 +513,12 @@ def load_urdf_parameters(urdf_path):
     
     try:
         sys.path.insert(0, 'utils')
-        from utils.parse_urdf import parse_urdf
+
         robot = parse_urdf(urdf_path)
         # parse_urdf 返回 (10, 5) 的数组（5个link）
-        # 需要展平为 (50,) 按列优先（Fortran顺序）以匹配MATLAB格式
         pi_urdf_5links = robot['pi'].flatten('F')  # 'F' = Fortran/列优先顺序
-        print(f"  ✓ 从URDF加载了前5个link的 {len(pi_urdf_5links)} 个参考参数")
         return pi_urdf_5links
     except Exception as e:
-        print(f"  ⚠️  无法从URDF加载参数: {e}")
         return np.zeros(50)
 
 
@@ -653,35 +549,49 @@ def print_estimation_summary(sol, Tau, tau_pred):
 
 def estimate_dynamic_params(path_to_data, idx, drv_gains, baseQR, method='OLS',
                            lambda_reg=1e-3, urdf_path=None):
-    """
     
-    Args:
-        path_to_data: 数据文件路径
-        idx: 数据索引范围 [start, end]
-        drv_gains: 驱动增益
-        baseQR: QR分解结果
-        method: 'OLS', 'PC-OLS', 或 'PC-OLS-REG'
-        lambda_reg: 正则化系数
-        urdf_path: URDF文件路径
     
-    Returns:
-        sol: 估计结果字典
-    """
+    # 支持单轨迹和多轨迹
+    if isinstance(path_to_data, str):
+        # 单轨迹模式（向后兼容）
+        path_to_data = [path_to_data]
+        idx = [idx]
     
-    print(f"动力学参数估计 - 方法: {method}")
+    n_trajectories = len(path_to_data)
+    print(f"  使用 {n_trajectories} 条轨迹进行参数估计")
     
-    # 1. 加载和处理数据
+    # 1. 加载和处理所有轨迹数据
     print("\n步骤 1/4: 加载和处理数据...")
-    idntfcn_traj = parse_ur_data(path_to_data, idx[0], idx[1])
-    idntfcn_traj = filter_data(idntfcn_traj)
+    all_Tau = []
+    all_Wb = []
     
-    # 2. 构建观测矩阵
-    print("\n步骤 2/4: 构建观测矩阵...")
-    Tau, Wb = build_observation_matrices(idntfcn_traj, baseQR, drv_gains)
-    print(f"  观测矩阵 Wb 形状: {Wb.shape}")
-    print(f"  力矩向量 Tau 形状: {Tau.shape}")
+    for traj_idx, (data_path, data_range) in enumerate(zip(path_to_data, idx)):
+        print(f"\n  轨迹 {traj_idx+1}/{n_trajectories}: {data_path}")
+        print(f"    数据范围: [{data_range[0]}, {data_range[1]}]")
+        
+        idntfcn_traj = parse_ur_data(data_path, data_range[0], data_range[1])
+        
+        # 自动计算采样率
+        dt = np.mean(np.diff(idntfcn_traj['t']))
+        fs_actual = 1.0 / dt
+        print(f"    检测到采样率: {fs_actual:.2f} Hz")
+        
+        idntfcn_traj = filter_data(idntfcn_traj, fs=fs_actual)
+        
+        # 构建该轨迹的观测矩阵
+        print(f"    构建观测矩阵...")
+        Tau_i, Wb_i = build_observation_matrices(idntfcn_traj, baseQR, drv_gains)
+        print(f"    ✓ 观测矩阵: {Wb_i.shape}, 力矩向量: {Tau_i.shape}")
+        
+        all_Tau.append(Tau_i)
+        all_Wb.append(Wb_i)
+    
+    # 2. 合并所有轨迹的数据
+    print("\n步骤 2/4: 合并多轨迹数据...")
+    Tau = np.concatenate(all_Tau)
+    Wb = np.concatenate(all_Wb)
     n_base = baseQR['numberOfBaseParameters']
-    n_params = n_base + 18
+    n_params = n_base + 18  # 基础参数 + 摩擦参数(6关节×3)
     
     # 3. 估计参数
     print(f"\n步骤 3/4: 参数估计 ({method})...")
@@ -759,28 +669,19 @@ def main():
         if not os.path.exists(mat_filename_standard):
             raise FileNotFoundError(f"文件不存在: {mat_filename_standard}")
             
-        # 1. 使用 h5py.File 读取 HDF5 文件
         with h5py.File(mat_filename_standard, 'r') as f:
             print("    ✓ 正在使用 h5py 读取 HDF5 格式...")
             
-            # 访问 baseQR 结构体对应的 HDF5 Group
             baseQR_group = f['baseQR']
             
-            # 2. 从 HDF5 Group 中提取数据，并处理维度和转置 (MATLAB 列优先 vs Python 行优先)
-            
-            # numberOfBaseParameters: 标量
             bb = np.array(baseQR_group['numberOfBaseParameters']).flatten()[0]
             
-            # permutationMatrix: 需要转置 (.T)
             E_full = np.array(baseQR_group['permutationMatrix']).T
             
-            # beta: 需要转置 (.T)
             beta = np.array(baseQR_group['beta']).T
             
-            # motorDynamicsIncluded: 标量
             motorDynamicsIncluded = bool(np.array(baseQR_group['motorDynamicsIncluded']).flatten()[0])
 
-            # 3. 封装到 Python 字典
             baseQR = {
                 'numberOfBaseParameters': int(bb),
                 'permutationMatrixFull': E_full,
@@ -788,92 +689,102 @@ def main():
                 'motorDynamicsIncluded': motorDynamicsIncluded
             }
 
-        # --- 原始的维度检查仍然非常重要 ---
         if baseQR['beta'].ndim == 1:
             # 如果 beta 是 (N,) 向量，确保它是 (N, 1) 的列向量
             baseQR['beta'] = baseQR['beta'].reshape(-1, 1)
 
-        print(f"成功从 {mat_filename_standard} 加载基础参数。")
-        print(f"   基础参数数量 N_b: {baseQR['numberOfBaseParameters']}")
-        
     except FileNotFoundError:
-        print(f"找不到文件 {mat_filename_standard}")
-        print("请检查路径是否正确，并确保已运行 MATLAB 脚本 base_params_qr.m 生成文件。")
         sys.exit(1)
     except Exception as e:
-        # 如果是权限问题、h5py导入问题或解析错误，都可以在这里捕获
-        print(f"加载或解析 MATLAB HDF5 文件失败: {e}")
-        # 提示用户可能需要安装 h5py 或检查文件格式
-        if 'h5py' not in sys.modules:
-            print("提示: 您的错误可能是缺少 'h5py' 库。请运行 'pip install h5py'。")
-        print("请确保 MATLAB 文件已使用 '-v7.3' 选项保存。")
         sys.exit(1)
+    
+    METHOD = 'PC-OLS-REG'  
+    LAMBDA_REG = 0.0001  
+    
+    # 多轨迹数据配置
+    USE_MULTIPLE_TRAJECTORIES = False  #
+    
+    if USE_MULTIPLE_TRAJECTORIES:
+        data_paths = [
+            'results/data_csv/vali1.csv',  # 第1条轨迹
+            'results/data_csv/vali.csv',  # 第2条轨迹
+            # 'results/data_csv/vali_traj3.csv',  # 可以添加更多
+        ]
+        data_ranges = [
+            [0, 2500],    # 第1条轨迹的数据范围
+            [0, 2500],    # 第2条轨迹的数据范围
+            # [0, 2000],  # 第3条轨迹的数据范围
+        ]
+    else:
+        data_paths = 'results/data_csv/vali——0fre.csv'
+        data_ranges = [0, 2500]
     
     drv_gains = np.ones(6)
-    idx = [0, 2500]
-    
-    data_path = 'results/data_csv/vali.csv'
     urdf_path = 'models/mjcf/manipulator/airbot_play_force/_play_force.urdf'
-
-    # 检查数据文件是否存在
-    if not os.path.exists(data_path):
-        print(f"❌ 错误: 数据文件不存在: {data_path}")
-        sys.exit(1)
-
-    # 方法1: OLS
-    print(" OLS")
-    sol_ols = estimate_dynamic_params(
-        path_to_data=data_path,
-        idx=idx,
-        drv_gains=drv_gains,
-        baseQR=baseQR,
-        method='OLS'
-    )
     
-    # 方法2: PC-OLS (物理一致性，无正则化)
-    print(" PC-OLS")
-    sol_pc_ols = estimate_dynamic_params(
-        path_to_data=data_path,
-        idx=idx,
-        drv_gains=drv_gains,
-        baseQR=baseQR,
-        method='PC-OLS'
-    )
-    
-    # 方法3: PC-OLS-REG (物理一致性 + 正则化，推荐)
-    if os.path.exists(urdf_path):
-        print(" PC-OLS-REG ")
-        sol_pc_reg = estimate_dynamic_params(
-            path_to_data=data_path,
-            idx=idx,
+    # 检查数据文件
+    if USE_MULTIPLE_TRAJECTORIES:
+        print(f"\n使用多轨迹模式: {len(data_paths)} 条轨迹")
+        for i, path in enumerate(data_paths):
+            if not os.path.exists(path):
+                print(f"   请先运行 test.py 生成轨迹数据")
+                sys.exit(1)
+            print(f"  轨迹 {i+1}: {path} (范围: {data_ranges[i]})")
+    else:
+        print(f"\n使用单轨迹模式")
+        if not os.path.exists(data_paths):
+            sys.exit(1)
+
+    if METHOD == 'OLS':
+        sol = estimate_dynamic_params(
+            path_to_data=data_paths,
+            idx=data_ranges,
+            drv_gains=drv_gains,
+            baseQR=baseQR,
+            method='OLS'
+        )
+        
+    elif METHOD == 'PC-OLS':
+        sol = estimate_dynamic_params(
+            path_to_data=data_paths,
+            idx=data_ranges,
+            drv_gains=drv_gains,
+            baseQR=baseQR,
+            method='PC-OLS'
+        )
+        
+    elif METHOD == 'PC-OLS-REG':
+        sol = estimate_dynamic_params(
+            path_to_data=data_paths,
+            idx=data_ranges,
             drv_gains=drv_gains,
             baseQR=baseQR,
             method='PC-OLS-REG',
-            lambda_reg=5e-4,  # 降低正则化强度，避免违反物理约束
+            lambda_reg=LAMBDA_REG,
             urdf_path=urdf_path
         )
     else:
-        sol_pc_reg = None
+        print("   可选方法: 'OLS', 'PC-OLS', 'PC-OLS-REG'")
+        sys.exit(1)
     
-    # 保存所有结果
+    # 保存结果
     os.makedirs('results', exist_ok=True)
     result_path = 'results/estimation_results.pkl'
-    with open(result_path, 'wb') as f:
-        pickle.dump({
-            'sol_ols': sol_ols,
-            'sol_pc_ols': sol_pc_ols,
-            'sol_pc_reg': sol_pc_reg
-        }, f)
     
-    print(f"所有结果已保存到 {result_path}")
+    save_data = {
+        'sol': sol,
+        'method': METHOD,
+        'use_multiple_trajectories': USE_MULTIPLE_TRAJECTORIES
+
+    }
+    if METHOD == 'PC-OLS-REG':
+        save_data['lambda_reg'] = LAMBDA_REG
+    
+    with open(result_path, 'wb') as f:
+        pickle.dump(save_data, f)
+    
+    print(f"\n✓ 保存到 {result_path}")
 
 
 if __name__ == "__main__":
-    # 确保pandas已安装，因为parse_ur_data依赖它
-    try:
-        import pandas as pd
-    except ImportError:
-        print(" 错误: 需要安装 Pandas 库: pip install pandas")
-        sys.exit(1)
-        
     main()

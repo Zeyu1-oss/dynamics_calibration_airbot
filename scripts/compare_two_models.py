@@ -149,11 +149,10 @@ def main():
     calibrated_xml = "models/mjcf/manipulator/airbot_play_force/_play_force_calibrated.xml"
     mat_file = "models/ptrnSrch_N7T25QR-5.mat"
     
-    sim_time = 25.0
+    sim_time = 25
     control_dt = 0.001
-    visualize = True  # 可视化两次仿真
+    visualize = False 
     
-    print(f"\n[1/3] 加载轨迹参数...")
     
     mat_data = loadmat(mat_file)
     traj_par = mat_data['traj_par'][0, 0]
@@ -166,24 +165,20 @@ def main():
     c_pol = mat_data['c_pol']
     q0 = traj_par['q0'].flatten()
     
-    print(f"\n[2/3] 运行两次仿真...")
     
     print(f"\n  仿真1: 原始模型")
     print(f"    模型: {original_xml}")
     data_original = run_simulation(
         original_xml, T, N, wf, a, b, c_pol, q0, sim_time, control_dt, visualize
     )
-    print(f"    ✓ 记录了 {len(data_original['time'])} 个数据点")
     
     print(f"\n  仿真2: 校准模型")
     print(f"    模型: {calibrated_xml}")
     data_calibrated = run_simulation(
-        calibrated_xml, T, N, wf, a, b, c_pol, q0, sim_time, control_dt, visualize
+        calibrated_xml, T, N, wf, a, b, c_pol, q0, sim_time, control_dt,  visualize
     )
-    print(f"    ✓ 记录了 {len(data_calibrated['time'])} 个数据点")
     
     # 3. 对比tau曲线
-    print(f"\n[3/3] 对比tau曲线...")
     
     time_vec = data_original['time']
     tau_original = data_original['tau']
@@ -284,11 +279,9 @@ def main():
     print(f"  ✓ 保存图表: {output_path}")
     
     # 显示图表
-    print(f"\n  正在打开图表...")
     plt.show()
     
     # 5. 保存结果
-    print(f"\n[保存] 保存对比结果...")
     
     os.makedirs('results', exist_ok=True)
     
@@ -350,13 +343,8 @@ def main():
         
     except ImportError:
         print("  pandas未安装,跳过CSV保存")
-    
-    print(f"  - 图表: diagram/model_comparison_tau.png")
-    print(f"  - 数据: results/model_comparison_results.pkl")
-    print(f"  - 摘要: results/model_comparison_summary.csv")
-    
-    if avg_rmse < 0.1:
-        print(f"\n🎉 验证通过！两个模型tau曲线高度一致！")
+
+
     
     
     return 0

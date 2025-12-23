@@ -12,9 +12,8 @@ from scipy import interpolate
 import time
 
 MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force.xml" 
-# MAT_FILE_PATH = "models/ptrnSrch_N7T25QR-6.mat"
-MAT_FILE_PATH = "models/ptrnSrch_N7T25QR-5.mat"
-OUTPUT_CSV_PATH = "results/data_csv/vali.csv" 
+MAT_FILE_PATH = "models/ptrnSrch_N7T25QR-6.mat"
+OUTPUT_CSV_PATH = "results/data_csv/vali——0fre.csv" 
 USE_VIEWER = True  
 RECORD_DATA = True  
 SIM_TIME = 25
@@ -264,14 +263,18 @@ def main():
     if USE_VIEWER:
         with mujoco.viewer.launch_passive(model, data) as viewer:
             while viewer.is_running() and data.time < SIM_TIME:
-                step_start = time.time()
+                # step_start = time.time()
                 controller(model, data)
                 mujoco.mj_step(model, data)
-                viewer.sync()
-                # 控制仿真频率
-                elapsed = time.time() - step_start
-                if elapsed < model.opt.timestep:
-                    time.sleep(model.opt.timestep - elapsed)
+                # viewer.sync()
+                # # 控制仿真频率
+                # elapsed = time.time() - step_start
+                # if elapsed < model.opt.timestep:
+                #     time.sleep(model.opt.timestep - elapsed)
+
+                step_count += 1
+                if step_count % 10 == 0:
+                    viewer.sync()
     else:
         while data.time < SIM_TIME:
             controller(model, data)
@@ -371,16 +374,13 @@ def main():
             q_errors.append(np.sqrt(np.mean(q_error**2)))
             qdot_errors.append(np.sqrt(np.mean(qdot_error**2)))
             fb_magnitudes.append(np.mean(np.abs(tau_fb_array[:, i])))
-        print(f"位置跟踪性能:")
+        print(f"位置:")
         print(f"  - 平均RMSE: {np.mean(q_errors):.6f} rad ({np.mean(q_errors)*180/np.pi:.4f}°)")
         print(f"  - 最佳关节: {np.argmin(q_errors)+1} (RMSE: {np.min(q_errors):.6f} rad)")
         print(f"  - 最差关节: {np.argmax(q_errors)+1} (RMSE: {np.max(q_errors):.6f} rad)")
-        print(f"\n速度跟踪性能:")
+        print(f"\n速度:")
         print(f"  - 平均RMSE: {np.mean(qdot_errors):.6f} rad/s")
-        if USE_FEEDBACK:
-            print(f"\n反馈控制贡献:")
-            print(f"  - 反馈扭矩平均值: {np.mean(fb_magnitudes):.4f} Nm")
-            print(f"  - 反馈占前馈比例: {np.mean(fb_magnitudes)/np.mean(np.abs(tau_ff_array))*100:.2f}%")
+
         print(f"\n数据质量评估:")
         if np.mean(q_errors) < 0.01:
             print("  ✓ 数据质量优秀，适合参数识别")
@@ -388,7 +388,6 @@ def main():
             print("  ⚠ 数据质量良好，可以考虑用于参数识别")
         else:
             print("  ✗ 数据质量较差，建议调整控制参数或检查模型")
-        print("="*60)
     else:
         print("\n警告：没有记录到有效数据")
 
