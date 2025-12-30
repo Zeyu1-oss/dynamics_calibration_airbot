@@ -12,7 +12,7 @@ from scipy import interpolate
 import time
 COMPARE_CSV_PATH="results/data/vali_ptrnSrch_N7T25QR-6_converted.csv"
 MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force.xml" 
-MAT_FILE_PATH = "models/ptrnSrch_N7T25QR-6.mat"
+MAT_FILE_PATH = "models/ptrnSrch_N7T25motorQR.mat"
 OUTPUT_CSV_PATH = "results/data_csv/vali——0fre.csv" 
 USE_VIEWER = True  
 RECORD_DATA = True  

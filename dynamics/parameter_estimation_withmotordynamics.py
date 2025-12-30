@@ -271,7 +271,6 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
         # Fc >= 0
         constraints.append(pi_frctn_motor[3*i + 1] >= epsilon_friction)
         
-        # I_motor 在合理范围内
         constraints.append(pi_frctn_motor[3*i + 2] >= epsilon_motor)
         constraints.append(pi_frctn_motor[3*i + 2] <= I_motor_max[i])
     
@@ -420,7 +419,6 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
     return pi_b_SDP, pi_frctn_motor_SDP, pi_full, mass_estimated
 
 
-# 数据处理函数（与原版相同）
 
 def parse_ur_data(path_to_data, idx_start, idx_end):
     import pandas as pd
@@ -632,9 +630,7 @@ def estimate_dynamic_params(path_to_data, idx, drv_gains, baseQR, method='PC-OLS
 
 
 def main():
-    print("="*70)
     print("参数估计脚本 - 包含电机反射惯量")
-    print("="*70)
     
     mat_filename_standard = 'models/baseQR_standard.mat'
     
@@ -652,6 +648,7 @@ def main():
             bb = np.array(baseQR_group['numberOfBaseParameters']).flatten()[0]
             E_full = np.array(baseQR_group['permutationMatrix']).T
             beta = np.array(baseQR_group['beta']).T
+            # motorDynamicsIncluded = bool(np.array(baseQR_group['motorDynamicsIncluded']).flatten()[0])
             motorDynamicsIncluded = bool(np.array(baseQR_group['motorDynamicsIncluded']).flatten()[0])
 
             baseQR = {
@@ -676,20 +673,20 @@ def main():
     # 配置
     METHOD = 'PC-OLS-REG'
     LAMBDA_REG = 0.0001
-    USE_MULTIPLE_TRAJECTORIES = False
+    USE_MULTIPLE_TRAJECTORIES = True
     
     if USE_MULTIPLE_TRAJECTORIES:
         data_paths = [
-            'results/data_csv/vali1.csv',
-            'results/data_csv/vali.csv',
+            'state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-6.csv',
+            'state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-5.csv',
         ]
         data_ranges = [
-            [0, 2500],
-            [0, 2500],
+            [0, 4800],
+            [0, 4800],
         ]
     else:
-        data_paths = 'results/data_csv/vali——0fre.csv'
-        data_ranges = [0, 2500]
+        data_paths = 'state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-6.csv'
+        data_ranges = [0, 4800]
     
     drv_gains = np.ones(6)
     urdf_path = 'models/mjcf/manipulator/airbot_play_force/_play_force.urdf'
@@ -733,7 +730,6 @@ def main():
         pickle.dump(save_data, f)
     
     print(f"\n✓ 保存到 {result_path}")
-    print("="*70)
 
 
 if __name__ == "__main__":

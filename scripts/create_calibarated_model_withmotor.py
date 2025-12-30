@@ -263,12 +263,10 @@ def create_calibrated_xml_with_motor(estimation_pkl_path, original_xml_path, out
 def main():
     print("生成包含电机动力学的校准模型")
     
-    # 配置
     estimation_pkl = "results/estimation_results_with_motor.pkl"
     original_xml = "models/mjcf/manipulator/airbot_play_force/_play_force.xml"
     output_xml = "models/mjcf/manipulator/airbot_play_force/_play_force_calibrated.xml"
     
-    # 检查文件
     if not os.path.exists(estimation_pkl):
         print(f"\n❌ 估计结果文件不存在: {estimation_pkl}")
         print("   请先运行: python parameter_estimation_with_motor.py")

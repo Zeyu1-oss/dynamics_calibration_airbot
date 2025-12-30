@@ -28,14 +28,22 @@ calibration_airbot/
 ├── utils/                # 工具函数
 │   ├── parse_urdf.py             # URDF解析
 │   └── data_processing.py        # 数据处理
+├── state_machine_demo/    # 真实机器人控制示例
+│   ├── basic_usage.py            # 基础使用示例
+│   ├── csv_pvt_control.py         # CSV轨迹跟踪（PVT控制）
+│   ├── state_control.py           # 状态机控制器封装
+│   ├── plot_trajectory.py         # 轨迹可视化
+│   ├── real_data/                 # 真实机器人采集的数据
+│   └── resources/                 # URDF和mesh资源
 ├── matlab/               # MATLAB函数（通过Oct2Py调用）
 │   └── standard_regressor_airbot.m
 ├── models/               # 模型文件
 │   ├── baseQR_standard.mat      # QR分解结果
-│   └── mjcf/                    # MuJoCo模型
-│   └── ptrnSrch_N7T25QR-**.mat             # 激励轨迹参数（傅里叶级数+多项式参数）456不会有碰撞风险。
+│   ├── mjcf/                    # MuJoCo模型
+│   └── ptrnSrch_N7T25QR-**.mat  # 激励轨迹参数（傅里叶级数+多项式参数，456不会有碰撞风险）
 └── results/              # 结果输出
     ├── data_csv/                 # 处理后的数据
+    ├── data/                     # 真实机器人数据（转换后）
     └── estimation_results.pkl    # 估计结果
 ```
 
@@ -54,6 +62,11 @@ pip install mujoco
 # 可选：MOSEK求解器（提高优化精度）
 # 访问 https://www.mosek.com/products/academic-licenses/ 获取免费学术许可证
 pip install Mosek
+
+# 真实机器人控制（可选）
+# 安装 airbot_state_machine 包
+pip install airbot_state_machine-0.1.4.dev11+g996d249-py3-none-any.whl
+# 或从源码安装
 ```
 
 ## 快速开始

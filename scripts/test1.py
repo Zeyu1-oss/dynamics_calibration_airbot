@@ -5,87 +5,112 @@ import scipy.io as sio
 import mujoco
 import mujoco.viewer
 import os
+import sys
+import re
+import glob
 import matplotlib.pyplot as plt
 from scipy import interpolate
 
-# ================= 配置区 =================
-COMPARE_CSV_PATH = "results/data/vali_ptrnSrch_N7T25QR-6_converted.csv"
-MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force.xml" 
-MAT_FILE_PATH = "models/ptrnSrch_N7T25QR-6.mat"
+COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_opt(1).csv"
+MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force_calibrated.xml" 
 
+def get_matched_mat_path(csv_path, models_dir="models"):
+    filename = os.path.basename(csv_path)
+    
+    pattern = r"vali_([^.\(]+)"
+    match = re.search(pattern, filename)
+    
+    if match:
+        core_name = match.group(1).strip()
+        mat_filename = f"{core_name}.mat"
+        
+        print(f"🔍 正在為 {filename} 尋找標識符為 '{core_name}' 的模型文件...")
+
+        for root, dirs, files in os.walk(models_dir):
+            if mat_filename in files:
+                return os.path.join(root, mat_filename)
+            
+            for f in files:
+                if f.lower() == mat_filename.lower():
+                    return os.path.join(root, f)
+    
+    raise FileNotFoundError(f"❌ 找不到與 {filename} 對應的 .mat 文件（預期文件名: {core_name}.mat）。")
+
+try:
+    MAT_FILE_PATH = get_matched_mat_path(COMPARE_CSV_PATH)
+    print(f"✅ 成功匹配軌跡定義文件: {MAT_FILE_PATH}")
+except Exception as e:
+    print(e)
+    sys.exit(1)
+
+# --- 仿真參數 ---
 USE_VIEWER = True  
 RECORD_DATA = True  
 SIM_TIME = 25
 CONTROL_HZ = 1000  
 CONTROL_DT = 1.0 / CONTROL_HZ
 
-# ================= 核心力矩对比绘图函数 =================
+TIME_SHIFT_COMPENSATION = -0.25 
+
+
 def plot_torque_comparison(recorded_data, n_joints, external_csv_path):
-    """
-    专门对比 MuJoCo 仿真生成的力矩与外部 CSV 中的力矩
-    """
     time_sim = np.array(recorded_data['time'])
     tau_sim = np.array(recorded_data['tau'])
     
     if not os.path.exists(external_csv_path):
-        print(f"错误: 找不到外部对比文件 {external_csv_path}")
+        print(f"錯誤: 找不到外部對比文件 {external_csv_path}")
         return
 
     try:
-        # 加载外部数据 
         ext_data = np.loadtxt(external_csv_path, delimiter=',')
-        ext_time = ext_data[:, 0]
+        ext_time_raw = ext_data[:, 0]
+        ext_time = ext_time_raw - ext_time_raw[0] # 時間歸零
         
-        # --- 请根据你的 CSV 列顺序修改这里 ---
-        # 假设前 13 列是 [time, q1-6, qdot1-6]，则力矩从索引 13 开始
+        # 假設 CSV 列順序: [time, q1-6, qdot1-6, tau1-6...]
         TAU_START_IDX = 13 
 
         fig, axes = plt.subplots(n_joints, 2, figsize=(16, 3 * n_joints))
-        fig.suptitle('Torque Validation: MuJoCo Simulation vs External CSV Data', fontsize=18, fontweight='bold', y=0.98)
+        fig.suptitle(f'Torque Validation: MuJoCo vs Real Data\n(Source: {os.path.basename(MAT_FILE_PATH)})', 
+                     fontsize=16, fontweight='bold', y=0.98)
+
+        # 應用時間偏移補償
+        adjusted_time_sim = time_sim - TIME_SHIFT_COMPENSATION
 
         for i in range(n_joints):
-            # 对齐外部力矩数据到仿真时间轴
-            f_interp = interpolate.interp1d(ext_time, ext_data[:, TAU_START_IDX + i], kind='linear', fill_value='extrapolate')
-            tau_ext_aligned = f_interp(time_sim)
+            # 對齊真實數據到仿真時間軸
+            f_interp = interpolate.interp1d(ext_time, ext_data[:, TAU_START_IDX + i], 
+                                           kind='linear', fill_value='extrapolate')
+            tau_ext_aligned = f_interp(adjusted_time_sim)
 
-            # 左侧：力矩追踪对比 (Simulation vs External)
+            # 左側：曲線對比
             ax_t = axes[i, 0]
-            ax_t.plot(time_sim, tau_ext_aligned, 'b-', label='External Ref Torque', linewidth=2, alpha=0.7)
-            ax_t.plot(time_sim, tau_sim[:, i], 'r--', label='MuJoCo Cmd Torque', linewidth=1.5)
-            ax_t.set_ylabel(f'Joint {i+1} Torque (Nm)', fontsize=10, fontweight='bold')
-            ax_t.grid(True, linestyle=':', alpha=0.6)
-            if i == 0: ax_t.set_title("Torque Tracking Comparison", fontsize=12)
-            ax_t.legend(loc='upper right', fontsize=8)
+            ax_t.plot(time_sim, tau_ext_aligned, 'b-', label='Real Data (CSV)', linewidth=1.5, alpha=0.6)
+            ax_t.plot(time_sim, tau_sim[:, i], 'r--', label='MuJoCo Sim', linewidth=1.2)
+            ax_t.set_ylabel(f'Joint {i+1} (Nm)', fontweight='bold')
+            ax_t.grid(True, linestyle=':', alpha=0.5)
+            if i == 0: ax_t.legend(loc='upper right')
 
-            # 右侧：力矩误差 (Residuals)
+            # 右側：殘差
             ax_err = axes[i, 1]
             torque_error = tau_sim[:, i] - tau_ext_aligned
-            ax_err.plot(time_sim, torque_error, 'g-', linewidth=1)
+            ax_err.plot(time_sim, torque_error, 'g-', linewidth=0.8)
             ax_err.fill_between(time_sim, torque_error, color='green', alpha=0.1)
-            ax_err.set_ylabel('Error (Nm)', fontsize=10)
-            ax_err.grid(True, linestyle=':', alpha=0.6)
-            
             rmse = np.sqrt(np.mean(torque_error**2))
-            max_err = np.max(np.abs(torque_error))
-            ax_err.set_title(f'RMSE: {rmse:.4f} Nm | Max: {max_err:.4f} Nm', fontsize=10)
-            if i == 0: ax_err.set_title("Tracking Error (Sim - Ext)", fontsize=12)
+            ax_err.set_title(f'RMSE: {rmse:.4f} Nm', fontsize=10)
+            ax_err.grid(True, linestyle=':', alpha=0.5)
 
-        plt.xlabel("Time (s)", fontsize=12)
-        plt.tight_layout(rect=[0, 0.03, 1, 0.95])
-        
+        plt.tight_layout(rect=[0, 0.03, 1, 0.94])
         os.makedirs('diagram', exist_ok=True)
-        plt.savefig('diagram/torque_comparison.png', dpi=300)
-        print("✓ 力矩对比图已保存至: diagram/torque_comparison.png")
+        plt.savefig('diagram/torque_comparison_aligned.png', dpi=300)
+        print(f"✓ 對齊圖表已保存至: diagram/torque_comparison_aligned.png")
         plt.show()
 
     except Exception as e:
-        print(f"绘图出错: {e}。请检查 CSV 索引 TAU_START_IDX 是否正确。")
+        print(f"繪圖出錯: {e}")
 
-# ================= 轨迹计算 (与辨识代码一致) =================
 def mixed_trajectory_calculator(t_vec, T, N, wf, a, b, c_pol, q0):
     t_vec = np.atleast_1d(t_vec)
-    J = a.shape[0]  
-    M = len(t_vec)  
+    J, M = a.shape[0], len(t_vec)
     qd, qdot_d, qddot_d = np.zeros((J, M)), np.zeros((J, M)), np.zeros((J, M))
     tau_vec = t_vec % T  
     
@@ -113,7 +138,6 @@ def mixed_trajectory_calculator(t_vec, T, N, wf, a, b, c_pol, q0):
     
     return qd, qdot_d, qddot_d
 
-# ================= 主程序 =================
 def main():
     model = mujoco.MjModel.from_xml_path(MODEL_XML_PATH)
     data = mujoco.MjData(model)
@@ -131,22 +155,17 @@ def main():
     data.qvel[:n_joints] = qv_init[:, 0]
     mujoco.mj_forward(model, data)
 
-    # 重点：增加 'tau' 键来记录力矩
-    recorded_data = {'time': [], 'q': [], 'tau': []}
-    inv_data = mujoco.MjData(model) 
+    recorded_data = {'time': [], 'tau': []}
+    inv_data = mujoco.MjData(model)
 
-    print(f"开始仿真 (时长: {SIM_TIME}s)...")
+    print(f"🚀 開始仿真...")
     
     def run_step():
         t = data.time
-        q_des_m, qv_des_m, qa_des_m = mixed_trajectory_calculator(t, T, N, wf, a, b, c_pol, q0)
-        q_des, qv_des = q_des_m[:, 0], qv_des_m[:, 0]
-
-        # 离散时间加速度修正
+        q_des_m, qv_des_m, _ = mixed_trajectory_calculator(t, T, N, wf, a, b, c_pol, q0)
         _, qv_next_m, _ = mixed_trajectory_calculator(t + CONTROL_DT, T, N, wf, a, b, c_pol, q0)
-        target_qacc = (qv_next_m[:, 0] - qv_des) / CONTROL_DT
+        target_qacc = (qv_next_m[:, 0] - qv_des_m[:, 0]) / CONTROL_DT
 
-        # 逆动力学计算 (Feedforward Torque)
         inv_data.qpos[:n_joints] = data.qpos[:n_joints]
         inv_data.qvel[:n_joints] = data.qvel[:n_joints]
         inv_data.qacc[:n_joints] = target_qacc
@@ -157,7 +176,6 @@ def main():
 
         if RECORD_DATA:
             recorded_data['time'].append(t)
-            recorded_data['q'].append(data.qpos[:n_joints].copy())
             recorded_data['tau'].append(torque_cmd)
 
     if USE_VIEWER:
@@ -172,7 +190,7 @@ def main():
             run_step()
             mujoco.mj_step(model, data)
 
-    print("仿真完成，生成力矩对比分析...")
+    print("📊 生成對比圖...")
     plot_torque_comparison(recorded_data, n_joints, COMPARE_CSV_PATH)
 
 if __name__ == "__main__":
