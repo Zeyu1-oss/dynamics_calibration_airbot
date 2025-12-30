@@ -15,16 +15,16 @@ import h5py
 
 def friction_regressor_single(qd):
     """
-    每个关节3个摩擦参数: [粘性Fv, 库伦Fc, 常数F0]
-    模型: τ_motor = τ_dyn + Fv*qd + Fc*sign(qd) + F0
+    每个关节2个摩擦参数: [粘性Fv, 库伦Fc]
+    模型: τ_motor = τ_dyn + Fv*qd + Fc*sign(qd)
     """
-    Y_frctn = np.zeros((6, 18))  # 6关节 × 3参数 = 18
+    Y_frctn = np.zeros((6, 12))  # 6关节 × 3参数 = 18
     
     for i in range(6):
-        Y_frctn[i, 3*i:3*i+3] = [
+        Y_frctn[i, 2*i:2*i+2] = [
             qd[i],           # 粘性摩擦
-            np.sign(qd[i]),  # 库伦摩擦
-            1.0              # 常数项
+            np.sign(qd[i]) # 库伦摩擦
+            # 1.0              # 常数项
         ]
     
     return Y_frctn
@@ -35,7 +35,7 @@ def friction_regressor_batched(qd_matrix):
     批量计算摩擦回归矩阵
     """
     N = qd_matrix.shape[0]
-    Y_frctn_total = np.zeros((N * 6, 18))  # 6关节 × 3参数 = 18
+    Y_frctn_total = np.zeros((N * 6, 12))  # 6关节 × 2参数 = 12
     
     for i in range(N):
         Y_frctn_i = friction_regressor_single(qd_matrix[i, :])
@@ -51,7 +51,7 @@ def build_observation_matrices_oct2py(idntfcn_traj, baseQR, drv_gains):
     
     Returns:
         Tau: 力矩向量 (6N,)
-        Wb: 观测矩阵 (6N, n_base + 18)
+        Wb: 观测矩阵 (6N, n_base + 12)
     """
     
     oc = Oct2Py()
@@ -178,7 +178,7 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
     
     print(f"    基础参数: {n_b}, 依赖参数: {n_d}")
     
-    pi_frctn = cp.Variable(18)  # 6个关节 × 3个摩擦参数 = 18
+    pi_frctn = cp.Variable(12)  # 6个关节 × 2个摩擦参数 = 12
     pi_b = cp.Variable(n_b)
     pi_d = cp.Variable(n_d)
     
@@ -192,8 +192,8 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
     constraints = []
     
     mass_indices = list(range(9, 60, 10))  # link1-link6: [9, 19, 29, 39, 49, 59]
-    mass_urdf = np.array([0.607, 0.918, 0.7, 0.359, 0.403, 0.15])  # 包含link6（末端执行器）
-    error_range = 0.20  # 放宽到20%以提高可求解性
+    mass_urdf = np.array([0.607, 0.918, 0.7, 0.359, 0.403, 0.11])  # 包含link6（末端执行器）
+    error_range = 0.10  
     mass_upper = mass_urdf * (1 + error_range)
     mass_lower = mass_urdf * (1 - error_range)
     
@@ -217,8 +217,8 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
         m_link = pii[i+9]
         
         trace_I = pii[i] + pii[i+3] + pii[i+5]
-        epsilon_triangle = 1e-3 if link_idx == 5 else 5e-4  # Link6用1e-3，其他用5e-4
-        epsilon_inertia = 1e-4 if link_idx == 5 else 1e-5   # Link6用1e-4，其他用1e-5
+        epsilon_triangle = 5e-4 if link_idx == 5 else 5e-4  # Link6用1e-3，其他用5e-4
+        epsilon_inertia = 1e-5 if link_idx == 5 else 1e-5   # Link6用1e-4，其他用1e-5
         
         L_link = cp.vstack([
             cp.hstack([0.5*(pii[i+3]+pii[i+5]-pii[i]), -pii[i+1], -pii[i+2]]),
@@ -255,9 +255,9 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
     print("    摩擦参数约束: Fv, Fc, F0 > 0")
     epsilon_friction = 1e-12  # 极小的正值下界，最大化精度
     for i in range(6):
-        constraints.append(pi_frctn[3*i] >= epsilon_friction)      # 粘性摩擦Fv > 0
-        constraints.append(pi_frctn[3*i + 1] >= epsilon_friction)  # 库伦摩擦Fc > 0
-        constraints.append(pi_frctn[3*i + 2] >= epsilon_friction)  # 常数摩擦F0 > 0
+        constraints.append(pi_frctn[2*i] >= epsilon_friction)      # 粘性摩擦Fv > 0
+        constraints.append(pi_frctn[2*i + 1] >= epsilon_friction)  # 库伦摩擦Fc > 0
+        # constraints.append(pi_frctn[3*i + 2] >= epsilon_friction)  # 常数摩擦F0 > 0
     
     # 目标函数
     tau_error = cp.norm(Tau - Wb @ cp.hstack([pi_b, pi_frctn]))
@@ -265,15 +265,13 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
     use_regularization = (pi_urdf is not None) and (lambda_reg > 0)
     
     if use_regularization:
-        # 只对前5个link（前50个参数）进行正则化
-        # pii[0:50] 对应 link1-link5 的参数
-        if len(pi_urdf) != 50:
+        if len(pi_urdf) != 60:
             print(f"  警告: pi_urdf长度为{len(pi_urdf)}，期望50。将截断或填充。")
-            pi_urdf_padded = np.zeros(50)
-            pi_urdf_padded[:min(50, len(pi_urdf))] = pi_urdf[:min(50, len(pi_urdf))]
+            pi_urdf_padded = np.zeros(60)
+            pi_urdf_padded[:min(60, len(pi_urdf))] = pi_urdf[:min(60, len(pi_urdf))]
             pi_urdf = pi_urdf_padded
         
-        param_regularization = lambda_reg * cp.norm(pii[:50] - pi_urdf)
+        param_regularization = lambda_reg * cp.norm(pii[:60] - pi_urdf)
         objective = tau_error + param_regularization
         print(f"    目标 = tau误差 + {lambda_reg:.1e} * 参数正则化（仅前5个link）")
     else:
@@ -363,14 +361,14 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
     print(f"  Tau预测误差: {tau_pred_error:.4e} ({rel_tau_error:.2f}%)")
     
     if use_regularization:
-        param_deviation = np.linalg.norm(pi_full[:50] - pi_urdf)
+        param_deviation = np.linalg.norm(pi_full[:60] - pi_urdf)
         print(f"  前5个link参数偏离URDF: {param_deviation:.4e}")
     
     # 质量对比（所有6个link）
     print("  连杆 | URDF/参考 | 估计值 | 相对误差")
     for i in range(6):  # 显示所有6个link
         rel_error = 100 * (mass_estimated[i] - mass_urdf[i]) / mass_urdf[i]
-        link_type = "(URDF)" if i < 5 else "(估计)"
+        link_type = "(URDF)" if i < 6 else "(估计)"
         print(f"  Link{i+1} | {mass_urdf[i]:7.4f}kg {link_type} | {mass_estimated[i]:7.4f}kg | {rel_error:+7.2f}%")
     
     # 检查惯性矩阵（正定性 + 三角不等式）
@@ -459,7 +457,7 @@ def filter_data(data_dict, fs=500.0):
     nyq = 0.5 * fs # 奈奎斯特频率
     
     normal_cutoff_vel = 0.15 
-    N_order = 3  # 提高到3阶（6阶滤波器）以获得更好的信号质量
+    N_order = 5  # 与MATLAB一致：FilterOrder=5（10阶IIR滤波器）
     
     b_vel, a_vel = butter(N_order, normal_cutoff_vel, btype='low', analog=False)
     
@@ -509,7 +507,7 @@ def load_urdf_parameters(urdf_path):
     """
     if not os.path.exists(urdf_path):
         print(f"  ⚠️  URDF文件不存在: {urdf_path}")
-        return np.zeros(50)  # 5个link × 10个参数/link = 50
+        return np.zeros(60) 
     
     try:
         sys.path.insert(0, 'utils')
@@ -519,7 +517,7 @@ def load_urdf_parameters(urdf_path):
         pi_urdf_5links = robot['pi'].flatten('F')  # 'F' = Fortran/列优先顺序
         return pi_urdf_5links
     except Exception as e:
-        return np.zeros(50)
+        return np.zeros(60)
 
 
 def print_estimation_summary(sol, Tau, tau_pred):
@@ -699,9 +697,8 @@ def main():
         sys.exit(1)
     
     METHOD = 'PC-OLS-REG'  
-    LAMBDA_REG = 0.0001  
+    LAMBDA_REG = 0.001 
     
-    # 多轨迹数据配置
     USE_MULTIPLE_TRAJECTORIES = False  #
     
     if USE_MULTIPLE_TRAJECTORIES:

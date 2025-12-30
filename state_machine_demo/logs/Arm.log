@@ -1,0 +1,2403 @@
+2025-12-24 10:18:33.888521[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:18:33.888605[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:18:33.888619[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:18:35.047616[INFO][Arm] Arm init success.
+2025-12-24 10:18:35.154811[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:18:35.154828[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:18:35.154839[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:18:37.155184[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:18:37.155221[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:18:37.155248[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:18:47.158293[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:18:47.158320[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:18:47.158340[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:18:57.167206[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:18:57.167315[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:18:57.167338[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:19:07.179644[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:19:07.179785[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:19:07.179822[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:19:10.183245[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:19:10.183342[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:19:10.183361[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:19:20.196187[INFO][Arm] Arm uninit success.
+2025-12-24 10:19:20.196984[INFO][Arm] Arm uninit success.
+2025-12-24 10:19:33.714656[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:19:33.714687[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:19:33.714708[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:19:34.720412[INFO][Arm] Arm init success.
+2025-12-24 10:19:34.830217[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:19:34.830286[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:19:34.830305[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:19:36.830965[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:19:36.830999[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:19:36.831022[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:19:46.833877[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:19:46.833917[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:19:46.833943[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:19:56.839022[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:19:56.839142[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:19:56.839174[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:20:06.848694[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:20:06.848853[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:20:06.848895[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:20:09.851790[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:20:09.851921[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:20:09.851947[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:20:22.863312[INFO][Arm] Arm uninit success.
+2025-12-24 10:20:22.866325[INFO][Arm] Arm uninit success.
+2025-12-24 10:29:03.537750[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:29:03.537769[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:29:03.537780[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:29:04.538878[INFO][Arm] Arm init success.
+2025-12-24 10:29:04.649277[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:29:04.649316[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:29:04.649334[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:29:04.656158[INFO][Arm] Arm uninit success.
+2025-12-24 10:29:04.659654[INFO][Arm] Arm uninit success.
+2025-12-24 10:30:34.452961[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:30:34.452996[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:30:34.453017[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:30:35.460456[INFO][Arm] Arm init success.
+2025-12-24 10:30:35.571282[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:30:35.571314[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:30:35.571333[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:30:35.578520[INFO][Arm] Arm uninit success.
+2025-12-24 10:30:35.582506[INFO][Arm] Arm uninit success.
+2025-12-24 10:35:10.505102[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:35:10.505132[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:35:10.505151[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:35:11.510497[INFO][Arm] Arm init success.
+2025-12-24 10:35:11.620564[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:35:11.620624[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:35:11.620639[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:35:13.621130[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:35:13.621166[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:35:13.621193[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:35:23.624076[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:35:23.624111[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:35:23.624136[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:35:33.630563[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:35:33.630689[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:35:33.630717[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:35:43.639589[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:35:43.639646[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:35:43.639657[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:35:46.641654[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:35:46.641923[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:35:46.642017[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:35:59.659706[INFO][Arm] Arm uninit success.
+2025-12-24 10:35:59.662525[INFO][Arm] Arm uninit success.
+2025-12-24 10:36:44.245659[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:36:44.245683[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:36:44.245701[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:36:45.247874[INFO][Arm] Arm init success.
+2025-12-24 10:36:45.357923[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:36:45.357956[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:36:45.357973[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:36:47.358953[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:36:47.358994[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:36:47.359020[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:36:57.363642[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:36:57.363690[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:36:57.363716[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:37:07.369062[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:37:07.369294[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:37:07.369360[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:37:17.375998[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:37:17.376121[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:37:17.376146[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:37:20.378269[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:37:20.378344[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:37:20.378358[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:37:33.385244[INFO][Arm] Arm uninit success.
+2025-12-24 10:37:33.388819[INFO][Arm] Arm uninit success.
+2025-12-24 10:38:53.664426[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:38:53.664456[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:38:53.664477[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:38:55.022886[INFO][Arm] Arm init success.
+2025-12-24 10:38:55.138702[INFO][Arm] Arm uninit success.
+2025-12-24 10:38:55.139263[INFO][Arm] Arm uninit success.
+2025-12-24 10:39:09.890652[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:39:09.890684[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:39:09.890705[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:39:10.895214[INFO][Arm] Arm init success.
+2025-12-24 10:39:11.006104[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:39:11.006170[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:39:11.006187[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:39:13.011068[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:39:13.011106[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:39:13.011131[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:39:23.015293[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:39:23.015331[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:39:23.015358[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:39:23.017496[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:39:23.017613[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:39:23.017767[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:39:33.028347[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:39:33.028448[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:39:33.028476[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:39:36.031373[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:39:36.031444[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:39:36.031487[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:39:39.036173[INFO][Arm] Arm uninit success.
+2025-12-24 10:39:39.040215[INFO][Arm] Arm uninit success.
+2025-12-24 10:41:51.586499[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:51.586509[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:51.586514[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:41:51.586720[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 10:41:51.590530[INFO][Arm] Arm uninit success.
+2025-12-24 10:42:27.624248[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:42:27.624281[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:42:27.624306[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:42:28.785928[INFO][Arm] Arm init success.
+2025-12-24 10:42:28.893775[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:42:28.893849[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:42:28.893881[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:42:30.894376[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:42:30.894389[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:42:30.894404[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:42:40.898449[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:42:40.898466[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:42:40.898503[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:42:40.900548[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:42:40.900562[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:42:40.900572[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:42:50.906332[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:42:50.906436[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:42:50.906461[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:42:53.471796[INFO][Arm] Arm uninit success.
+2025-12-24 10:42:53.474694[INFO][Arm] Arm uninit success.
+2025-12-24 10:57:27.719560[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:57:27.719577[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:57:27.719588[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:57:28.721606[INFO][Arm] Arm init success.
+2025-12-24 10:57:28.831790[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:57:28.831854[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:57:28.831870[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:57:30.836627[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:57:30.836656[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:57:30.836676[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:57:40.840778[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:57:40.840810[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:57:40.840831[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:57:40.841832[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:57:40.841865[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:57:40.841907[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:57:41.258355[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:57:41.258426[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:57:41.258448[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:57:44.259668[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 10:57:44.259787[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 10:57:44.259812[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 10:57:47.262653[INFO][Arm] Arm uninit success.
+2025-12-24 10:57:47.265726[INFO][Arm] Arm uninit success.
+2025-12-24 11:01:27.550188[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:01:27.550219[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:01:27.550252[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:01:28.728016[INFO][Arm] Arm init success.
+2025-12-24 11:01:28.837365[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:01:28.837397[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:01:28.837421[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:01:30.838397[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:01:30.838421[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:01:30.838436[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:01:36.046388[INFO][Arm] Arm uninit success.
+2025-12-24 11:01:36.048116[INFO][Arm] Arm uninit success.
+2025-12-24 11:12:10.110701[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:12:10.110743[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:12:10.110812[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:12:11.113588[INFO][Arm] Arm init success.
+2025-12-24 11:12:11.222772[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:12:11.222815[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:12:11.222830[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:12:13.223950[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:12:13.223959[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:12:13.223967[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:12:23.228362[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:12:23.228388[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:12:23.228407[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:12:23.230886[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:12:23.230915[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:12:23.230938[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:12:23.647972[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:12:23.648124[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:12:23.648157[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:12:26.652490[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:12:26.652581[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:12:26.652600[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:12:29.660036[INFO][Arm] Arm uninit success.
+2025-12-24 11:12:29.662788[INFO][Arm] Arm uninit success.
+2025-12-24 11:17:03.056611[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:17:03.056647[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:17:03.056664[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:17:04.059406[INFO][Arm] Arm init success.
+2025-12-24 11:17:04.167510[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:17:04.167541[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:17:04.167553[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:17:06.168008[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:17:06.168040[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:17:06.168065[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:17:16.169758[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:17:16.169792[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:17:16.169819[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:17:16.170238[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:17:16.170263[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:17:16.170284[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:17:16.586975[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:17:16.587092[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:17:16.587118[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:17:19.590055[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:17:19.590180[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:17:19.590300[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:17:22.598309[INFO][Arm] Arm uninit success.
+2025-12-24 11:17:22.601886[INFO][Arm] Arm uninit success.
+2025-12-24 11:32:04.981010[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:04.981020[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:04.981026[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:32:04.981165[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 11:32:04.984439[INFO][Arm] Arm uninit success.
+2025-12-24 11:33:02.684035[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:33:02.684069[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:33:02.684100[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:33:03.687953[INFO][Arm] Arm init success.
+2025-12-24 11:33:03.799297[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:33:03.799322[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:33:03.799335[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:33:23.801842[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:33:23.801975[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:33:23.802001[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:33:24.340593[INFO][Arm] Arm uninit success.
+2025-12-24 11:33:24.342874[INFO][Arm] Arm uninit success.
+2025-12-24 11:35:23.218687[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:35:23.218720[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:35:23.218739[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:35:24.397860[INFO][Arm] Arm init success.
+2025-12-24 11:35:24.510005[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:35:24.510034[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:35:24.510056[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:35:33.568338[INFO][Arm] Arm uninit success.
+2025-12-24 11:35:33.569319[INFO][Arm] Arm uninit success.
+2025-12-24 11:36:06.465334[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:36:06.465368[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:36:06.465387[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:36:07.470303[INFO][Arm] Arm init success.
+2025-12-24 11:36:07.581117[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:36:07.581151[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:36:07.581175[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:36:27.584784[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:36:27.584916[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:36:27.584948[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:36:32.615796[INFO][Arm] Arm uninit success.
+2025-12-24 11:36:32.618181[INFO][Arm] Arm uninit success.
+2025-12-24 11:37:37.186006[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:37:37.186032[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:37:37.186051[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:37:38.187956[INFO][Arm] Arm init success.
+2025-12-24 11:37:38.295140[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:37:38.295165[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:37:38.295362[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:37:58.297614[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:37:58.297762[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:37:58.297806[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:38:18.305361[INFO][Arm] Arm uninit success.
+2025-12-24 11:38:18.309804[INFO][Arm] Arm uninit success.
+2025-12-24 11:44:44.274746[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:44.274760[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:44.274768[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:44:45.451412[INFO][Arm] Arm init success.
+2025-12-24 11:44:45.559790[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:44:45.559809[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:44:45.559820[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:44:50.419653[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:50.419677[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:50.419693[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:44:51.756490[INFO][Arm] Arm init success.
+2025-12-24 11:44:51.863070[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:44:51.863087[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:44:51.863146[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:45:05.562516[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:45:05.562650[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:45:05.562664[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:45:05.982439[INFO][Arm] Arm uninit success.
+2025-12-24 11:45:05.984737[INFO][Arm] Arm uninit success.
+2025-12-24 11:47:09.907110[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:47:09.907143[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:47:09.907164[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:47:10.912375[INFO][Arm] Arm init success.
+2025-12-24 11:47:11.018807[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:47:11.018827[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:47:11.018839[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:47:31.021492[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:47:31.021624[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:47:31.021647[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:47:51.030437[INFO][Arm] Arm uninit success.
+2025-12-24 11:47:51.030903[INFO][Arm] Arm uninit success.
+2025-12-24 11:49:00.238356[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:49:00.238374[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:49:00.238385[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:49:01.241524[INFO][Arm] Arm init success.
+2025-12-24 11:49:01.350697[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:49:01.350724[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:49:01.350757[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:49:21.352945[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:49:21.353056[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:49:21.353074[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:49:41.362450[INFO][Arm] Arm uninit success.
+2025-12-24 11:49:41.366115[INFO][Arm] Arm uninit success.
+2025-12-24 11:51:07.811163[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:07.811189[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:07.811205[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:51:08.844401[INFO][Arm] Arm init success.
+2025-12-24 11:51:49.720494[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:49.720506[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:49.720514[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:51:50.872723[INFO][Arm] Arm init success.
+2025-12-24 11:51:50.979011[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:51:50.979044[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:51:50.979052[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:51:59.647581[INFO][Arm] Arm uninit success.
+2025-12-24 11:51:59.648895[INFO][Arm] Arm uninit success.
+2025-12-24 11:52:53.424980[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:52:53.425017[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:52:53.425043[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:52:54.431047[INFO][Arm] Arm init success.
+2025-12-24 11:55:20.047339[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:55:20.047364[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:55:20.047379[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:55:21.050357[INFO][Arm] Arm init success.
+2025-12-24 11:57:02.994594[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:02.994638[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:02.994652[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:57:03.998525[INFO][Arm] Arm init success.
+2025-12-24 11:57:04.106777[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:57:04.106807[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:57:04.106820[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:57:35.201200[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:35.201223[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:35.201246[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:57:36.204492[INFO][Arm] Arm init success.
+2025-12-24 11:57:36.314929[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:57:36.314957[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:57:36.314974[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 11:57:38.186144[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:38.186156[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:38.186166[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:57:39.337397[INFO][Arm] Arm init success.
+2025-12-24 11:57:39.443687[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 11:57:39.443700[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 11:57:39.443709[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 12:01:06.967002[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:01:06.967050[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:01:06.967081[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:01:07.975903[INFO][Arm] Arm init success.
+2025-12-24 12:01:08.087275[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 12:01:08.087323[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 12:01:08.087348[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 12:04:29.810935[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:04:29.810971[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:04:29.810991[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:04:30.813646[INFO][Arm] Arm init success.
+2025-12-24 12:04:30.920074[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 12:04:30.920087[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 12:04:30.920094[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 12:04:46.430102[INFO][Arm] Arm uninit success.
+2025-12-24 12:04:46.432444[INFO][Arm] Arm uninit success.
+2025-12-24 12:09:12.367388[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:09:12.367422[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:09:12.367439[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:09:13.545785[INFO][Arm] Arm init success.
+2025-12-24 12:09:13.656415[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 12:09:13.656439[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 12:09:13.656452[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 12:09:24.178843[INFO][Arm] Arm uninit success.
+2025-12-24 12:09:24.183523[INFO][Arm] Arm uninit success.
+2025-12-24 12:11:07.234264[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:11:07.234311[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:11:07.234340[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:11:08.238209[INFO][Arm] Arm init success.
+2025-12-24 12:11:08.346527[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 12:11:08.346552[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 12:11:08.346567[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 12:11:16.857332[INFO][Arm] Arm uninit success.
+2025-12-24 12:11:16.861564[INFO][Arm] Arm uninit success.
+2025-12-24 12:13:17.711149[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:13:17.711205[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:13:17.711258[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:13:18.714808[INFO][Arm] Arm init success.
+2025-12-24 12:13:18.821295[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 12:13:18.821312[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 12:13:18.821320[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 12:13:28.051737[INFO][Arm] Arm uninit success.
+2025-12-24 12:13:28.053027[INFO][Arm] Arm uninit success.
+2025-12-24 13:37:32.124466[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:32.124490[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:32.124503[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:37:33.127304[INFO][Arm] Arm init success.
+2025-12-24 13:37:33.235884[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 13:37:33.235909[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 13:37:33.235924[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 13:37:43.126003[INFO][Arm] Arm uninit success.
+2025-12-24 13:37:43.129335[INFO][Arm] Arm uninit success.
+2025-12-24 13:37:58.970215[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:58.970258[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:58.970273[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:37:59.972546[INFO][Arm] Arm init success.
+2025-12-24 13:38:00.080972[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 13:38:00.081000[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 13:38:00.081018[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 13:38:13.068776[INFO][Arm] Arm uninit success.
+2025-12-24 13:38:13.069308[INFO][Arm] Arm uninit success.
+2025-12-24 13:39:06.288919[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:39:06.288974[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:39:06.289010[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:39:07.292637[INFO][Arm] Arm init success.
+2025-12-24 13:39:07.400473[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 13:39:07.400498[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 13:39:07.400522[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 13:39:14.465947[INFO][Arm] Arm uninit success.
+2025-12-24 13:39:14.470154[INFO][Arm] Arm uninit success.
+2025-12-24 13:43:15.374865[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:43:15.374878[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:43:15.374887[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:43:16.562108[INFO][Arm] Arm init success.
+2025-12-24 13:43:16.670014[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 13:43:16.670045[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 13:43:16.670065[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 13:43:37.265187[INFO][Arm] Arm uninit success.
+2025-12-24 13:43:37.268104[INFO][Arm] Arm uninit success.
+2025-12-24 13:44:13.594414[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:44:13.594443[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:44:13.594458[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:44:14.598290[INFO][Arm] Arm init success.
+2025-12-24 13:44:14.708036[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 13:44:14.708074[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 13:44:14.708095[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 13:44:53.453739[INFO][Arm] Arm uninit success.
+2025-12-24 13:44:53.458141[INFO][Arm] Arm uninit success.
+2025-12-24 13:48:33.994232[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:48:33.994251[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:48:33.994265[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:48:34.997803[INFO][Arm] Arm init success.
+2025-12-24 13:48:35.107578[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 13:48:35.107614[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 13:48:35.107638[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 13:49:05.523882[INFO][Arm] Arm uninit success.
+2025-12-24 13:49:05.525005[INFO][Arm] Arm uninit success.
+2025-12-24 13:50:24.226009[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:50:24.226024[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:50:24.226029[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:50:25.235627[INFO][Arm] Arm init success.
+2025-12-24 13:50:25.344003[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 13:50:25.344028[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 13:50:25.344042[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 13:50:49.437892[INFO][Arm] Arm uninit success.
+2025-12-24 13:50:49.439723[INFO][Arm] Arm uninit success.
+2025-12-24 13:52:49.154536[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:52:49.154565[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:52:49.154583[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:52:50.335056[INFO][Arm] Arm init success.
+2025-12-24 13:52:50.443725[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 13:52:50.443739[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 13:52:50.443747[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 13:53:29.161094[INFO][Arm] Arm uninit success.
+2025-12-24 13:53:29.161571[INFO][Arm] Arm uninit success.
+2025-12-24 14:03:12.352097[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:03:12.352120[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:03:12.352133[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:03:13.543319[INFO][Arm] Arm init success.
+2025-12-24 14:03:13.652859[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:03:13.652888[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:03:13.652904[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:03:52.363630[INFO][Arm] Arm uninit success.
+2025-12-24 14:03:52.367910[INFO][Arm] Arm uninit success.
+2025-12-24 14:04:58.394805[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:04:58.394834[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:04:58.394851[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:04:59.398351[INFO][Arm] Arm init success.
+2025-12-24 14:04:59.507693[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:04:59.507722[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:04:59.507740[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:05:38.226251[INFO][Arm] Arm uninit success.
+2025-12-24 14:05:38.230766[INFO][Arm] Arm uninit success.
+2025-12-24 14:06:10.956370[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:06:10.956405[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:06:10.956421[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:06:12.115010[INFO][Arm] Arm init success.
+2025-12-24 14:06:12.226148[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:06:12.226181[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:06:12.226203[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:06:50.960419[INFO][Arm] Arm uninit success.
+2025-12-24 14:06:50.961531[INFO][Arm] Arm uninit success.
+2025-12-24 14:10:41.172127[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:10:41.172150[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:10:41.172164[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:10:42.175507[INFO][Arm] Arm init success.
+2025-12-24 14:10:42.286118[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:10:42.286157[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:10:42.286184[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:11:01.426254[INFO][Arm] Arm uninit success.
+2025-12-24 14:11:01.427408[INFO][Arm] Arm uninit success.
+2025-12-24 14:13:07.010766[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:13:07.010828[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:13:07.010856[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:13:08.014776[INFO][Arm] Arm init success.
+2025-12-24 14:13:08.125082[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:13:08.125116[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:13:08.125132[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:13:30.239563[INFO][Arm] Arm uninit success.
+2025-12-24 14:13:30.243571[INFO][Arm] Arm uninit success.
+2025-12-24 14:16:10.646695[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:16:10.646725[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:16:10.646743[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:16:11.657016[INFO][Arm] Arm init success.
+2025-12-24 14:16:11.767184[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:16:11.767215[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:16:11.767261[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:17:04.029976[INFO][Arm] Arm uninit success.
+2025-12-24 14:17:04.032375[INFO][Arm] Arm uninit success.
+2025-12-24 14:26:09.805246[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:26:09.805281[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:26:09.805303[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:26:10.810089[INFO][Arm] Arm init success.
+2025-12-24 14:26:10.919015[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:26:10.919053[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:26:10.919070[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:26:21.772952[INFO][Arm] Arm uninit success.
+2025-12-24 14:26:21.777365[INFO][Arm] Arm uninit success.
+2025-12-24 14:29:04.776898[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:29:04.776921[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:29:04.776935[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:29:05.782667[INFO][Arm] Arm init success.
+2025-12-24 14:29:05.892791[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:29:05.892829[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:29:05.892854[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:29:15.898255[INFO][Arm] Arm uninit success.
+2025-12-24 14:29:15.900548[INFO][Arm] Arm uninit success.
+2025-12-24 14:35:35.866846[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:35:35.866875[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:35:35.866892[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:35:36.871318[INFO][Arm] Arm init success.
+2025-12-24 14:35:36.980286[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:35:36.980315[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:35:36.980329[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:35:46.985429[INFO][Arm] Arm uninit success.
+2025-12-24 14:35:46.987771[INFO][Arm] Arm uninit success.
+2025-12-24 14:38:37.702853[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:38:37.702880[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:38:37.702898[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:38:38.879850[INFO][Arm] Arm init success.
+2025-12-24 14:38:38.997788[INFO][Arm] Arm uninit success.
+2025-12-24 14:38:39.001758[INFO][Arm] Arm uninit success.
+2025-12-24 14:39:07.446638[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:39:07.446665[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:39:07.446680[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:39:08.451554[INFO][Arm] Arm init success.
+2025-12-24 14:39:08.563026[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:39:08.563066[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:39:08.563088[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:39:18.568757[INFO][Arm] Arm uninit success.
+2025-12-24 14:39:18.570513[INFO][Arm] Arm uninit success.
+2025-12-24 14:41:35.546115[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:35.546125[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:35.546131[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:41:35.546427[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 14:41:35.549725[INFO][Arm] Arm uninit success.
+2025-12-24 14:42:09.562664[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562673[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562679[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562792[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 14:42:09.566878[INFO][Arm] Arm uninit success.
+2025-12-24 14:42:20.165145[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:20.165153[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:20.165158[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:42:20.165405[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 14:42:20.169331[INFO][Arm] Arm uninit success.
+2025-12-24 14:43:48.779043[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:43:48.779159[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:43:48.779179[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:43:49.956705[INFO][Arm] Arm init success.
+2025-12-24 14:43:50.067013[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:43:50.067058[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:43:50.067088[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:44:00.070066[INFO][Arm] Arm uninit success.
+2025-12-24 14:44:00.072357[INFO][Arm] Arm uninit success.
+2025-12-24 14:44:30.355974[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:44:30.355992[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:44:30.356002[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:44:31.359462[INFO][Arm] Arm init success.
+2025-12-24 14:44:31.469245[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:44:31.469330[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:44:31.469358[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:44:41.471440[INFO][Arm] Arm uninit success.
+2025-12-24 14:44:41.474358[INFO][Arm] Arm uninit success.
+2025-12-24 14:45:09.749354[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:45:09.749443[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:45:09.749458[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:45:10.759123[INFO][Arm] Arm init success.
+2025-12-24 14:45:10.869895[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:45:10.869931[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:45:10.869952[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:45:20.873539[INFO][Arm] Arm uninit success.
+2025-12-24 14:45:20.875711[INFO][Arm] Arm uninit success.
+2025-12-24 14:52:25.500433[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:52:25.500462[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:52:25.500479[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:52:26.504476[INFO][Arm] Arm init success.
+2025-12-24 14:52:26.615448[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:52:26.615491[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:52:26.615518[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:52:36.628987[INFO][Arm] Arm uninit success.
+2025-12-24 14:52:36.631143[INFO][Arm] Arm uninit success.
+2025-12-24 14:53:01.229912[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:53:01.229939[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:53:01.229956[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:53:02.233409[INFO][Arm] Arm init success.
+2025-12-24 14:53:02.341679[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:53:02.341701[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:53:02.341721[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:53:55.822161[INFO][Arm] Arm uninit success.
+2025-12-24 14:53:55.825526[INFO][Arm] Arm uninit success.
+2025-12-24 14:56:23.530329[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:56:23.530346[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:56:23.530356[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:56:24.534195[INFO][Arm] Arm init success.
+2025-12-24 14:56:24.642357[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 14:56:24.642383[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 14:56:24.642399[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 14:57:09.083532[INFO][Arm] Arm uninit success.
+2025-12-24 14:57:09.084619[INFO][Arm] Arm uninit success.
+2025-12-24 15:13:19.536336[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:13:19.536355[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:13:19.536367[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:13:20.539307[INFO][Arm] Arm init success.
+2025-12-24 15:13:20.649538[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:13:20.649576[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:13:20.649594[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:13:30.653595[INFO][Arm] Arm uninit success.
+2025-12-24 15:13:30.655553[INFO][Arm] Arm uninit success.
+2025-12-24 15:14:00.200708[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:00.200734[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:00.200757[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:14:01.204958[INFO][Arm] Arm init success.
+2025-12-24 15:14:01.316162[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:14:01.316206[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:14:01.316248[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:14:07.542313[INFO][Arm] Arm uninit success.
+2025-12-24 15:14:07.543980[INFO][Arm] Arm uninit success.
+2025-12-24 15:14:30.861583[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:30.861602[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:30.861614[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:14:31.864692[INFO][Arm] Arm init success.
+2025-12-24 15:14:31.974539[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:14:31.974572[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:14:31.974590[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:14:41.979459[INFO][Arm] Arm uninit success.
+2025-12-24 15:14:41.980568[INFO][Arm] Arm uninit success.
+2025-12-24 15:14:55.672841[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:55.672874[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:55.672894[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:14:56.677200[INFO][Arm] Arm init success.
+2025-12-24 15:14:56.786544[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:14:56.786573[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:14:56.786594[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:15:44.006737[INFO][Arm] Arm uninit success.
+2025-12-24 15:15:44.008745[INFO][Arm] Arm uninit success.
+2025-12-24 15:17:13.175015[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:17:13.175026[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:17:13.175033[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:17:14.178836[INFO][Arm] Arm init success.
+2025-12-24 15:17:14.289271[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:17:14.289307[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:17:14.289342[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:17:26.162714[INFO][Arm] Arm uninit success.
+2025-12-24 15:17:26.165396[INFO][Arm] Arm uninit success.
+2025-12-24 15:18:22.519013[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:18:22.519046[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:18:22.519064[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:18:23.522768[INFO][Arm] Arm init success.
+2025-12-24 15:18:23.632953[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:18:23.632987[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:18:23.633004[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:19:08.252200[INFO][Arm] Arm uninit success.
+2025-12-24 15:19:08.256623[INFO][Arm] Arm uninit success.
+2025-12-24 15:21:30.635631[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:21:30.635658[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:21:30.635675[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:21:31.812508[INFO][Arm] Arm init success.
+2025-12-24 15:21:31.922695[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:21:31.922729[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:21:31.922749[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:21:41.925979[INFO][Arm] Arm uninit success.
+2025-12-24 15:21:41.928277[INFO][Arm] Arm uninit success.
+2025-12-24 15:25:00.778692[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:25:00.782766[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:25:00.782786[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:25:01.981368[INFO][Arm] Arm init success.
+2025-12-24 15:25:02.092941[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:25:02.092965[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:25:02.092979[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:25:49.313518[INFO][Arm] Arm uninit success.
+2025-12-24 15:25:49.316195[INFO][Arm] Arm uninit success.
+2025-12-24 15:26:39.933880[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:26:39.933893[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:26:39.933901[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:26:40.935714[INFO][Arm] Arm init success.
+2025-12-24 15:26:41.042968[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:26:41.042985[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:26:41.042995[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:26:56.652645[INFO][Arm] Arm uninit success.
+2025-12-24 15:26:56.655094[INFO][Arm] Arm uninit success.
+2025-12-24 15:29:32.930754[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:29:32.930782[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:29:32.930799[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:29:33.934385[INFO][Arm] Arm init success.
+2025-12-24 15:29:34.042026[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:29:34.042051[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:29:34.042068[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:30:18.668250[INFO][Arm] Arm uninit success.
+2025-12-24 15:30:18.670364[INFO][Arm] Arm uninit success.
+2025-12-24 15:33:48.311114[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:33:48.311136[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:33:48.311148[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:33:49.314886[INFO][Arm] Arm init success.
+2025-12-24 15:33:49.423751[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:33:49.423780[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:33:49.423797[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:34:19.942956[INFO][Arm] Arm uninit success.
+2025-12-24 15:34:19.946807[INFO][Arm] Arm uninit success.
+2025-12-24 15:39:33.391562[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:33.391570[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:33.391575[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:39:33.391953[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 15:39:33.395759[INFO][Arm] Arm uninit success.
+2025-12-24 15:40:07.595650[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:07.595658[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:07.595664[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:40:07.595774[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 15:40:07.599732[INFO][Arm] Arm uninit success.
+2025-12-24 15:40:23.078784[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078801[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078808[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:40:23.079067[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 15:40:23.082947[INFO][Arm] Arm uninit success.
+2025-12-24 15:41:16.524224[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:16.524238[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:16.524243[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:41:16.524516[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 15:41:16.527908[INFO][Arm] Arm uninit success.
+2025-12-24 15:45:00.831474[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:45:00.831506[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:45:00.831525[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:45:02.168432[INFO][Arm] Arm init success.
+2025-12-24 15:45:02.277902[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:45:02.277928[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:45:02.277946[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:45:32.798081[INFO][Arm] Arm uninit success.
+2025-12-24 15:45:32.801042[INFO][Arm] Arm uninit success.
+2025-12-24 15:46:16.647075[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:16.647085[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:16.647090[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:46:17.824898[INFO][Arm] Arm init success.
+2025-12-24 15:46:17.935977[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:46:17.936012[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:46:17.936032[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:46:17.941339[INFO][Arm] Arm uninit success.
+2025-12-24 15:46:17.942646[INFO][Arm] Arm uninit success.
+2025-12-24 15:46:48.572864[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:48.572881[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:48.572891[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:46:49.576760[INFO][Arm] Arm init success.
+2025-12-24 15:46:49.686713[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:46:49.686756[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:46:49.686784[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:46:59.693011[INFO][Arm] Arm uninit success.
+2025-12-24 15:46:59.695013[INFO][Arm] Arm uninit success.
+2025-12-24 15:56:10.395336[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:10.395365[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:10.395381[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:56:11.397526[INFO][Arm] Arm init success.
+2025-12-24 15:56:11.512406[INFO][Arm] Arm uninit success.
+2025-12-24 15:56:11.515113[INFO][Arm] Arm uninit success.
+2025-12-24 15:56:24.927178[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:24.927201[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:24.927214[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:56:26.276848[INFO][Arm] Arm init success.
+2025-12-24 15:56:26.385565[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:56:26.385591[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:56:26.385606[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:57:13.623604[INFO][Arm] Arm uninit success.
+2025-12-24 15:57:13.624632[INFO][Arm] Arm uninit success.
+2025-12-24 15:59:16.178878[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:59:16.178908[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:59:16.178930[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:59:17.181338[INFO][Arm] Arm init success.
+2025-12-24 15:59:17.291713[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 15:59:17.291753[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 15:59:17.291775[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 15:59:27.295554[INFO][Arm] Arm uninit success.
+2025-12-24 15:59:27.298562[INFO][Arm] Arm uninit success.
+2025-12-24 16:07:00.974667[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:07:00.974688[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:07:00.974701[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:07:02.133409[INFO][Arm] Arm init success.
+2025-12-24 16:07:02.242955[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:07:02.242982[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:07:02.243001[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:07:49.458997[INFO][Arm] Arm uninit success.
+2025-12-24 16:07:49.462443[INFO][Arm] Arm uninit success.
+2025-12-24 16:08:36.287250[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:08:36.287282[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:08:36.287299[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:08:37.289640[INFO][Arm] Arm init success.
+2025-12-24 16:08:37.400464[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:08:37.400507[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:08:37.400532[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:08:47.407531[INFO][Arm] Arm uninit success.
+2025-12-24 16:08:47.411956[INFO][Arm] Arm uninit success.
+2025-12-24 16:10:06.975619[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:06.975642[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:06.975657[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:10:07.978938[INFO][Arm] Arm init success.
+2025-12-24 16:10:08.088584[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:10:08.088615[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:10:08.088637[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:10:18.094626[INFO][Arm] Arm uninit success.
+2025-12-24 16:10:18.096848[INFO][Arm] Arm uninit success.
+2025-12-24 16:10:41.311737[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:41.311763[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:41.311781[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:10:42.317162[INFO][Arm] Arm init success.
+2025-12-24 16:10:42.427732[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:10:42.427765[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:10:42.427784[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:10:52.433567[INFO][Arm] Arm uninit success.
+2025-12-24 16:10:52.436290[INFO][Arm] Arm uninit success.
+2025-12-24 16:15:09.346686[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:15:09.346714[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:15:09.346734[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:15:10.349780[INFO][Arm] Arm init success.
+2025-12-24 16:15:10.456383[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:15:10.456400[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:15:10.456419[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:15:20.463255[INFO][Arm] Arm uninit success.
+2025-12-24 16:15:20.465124[INFO][Arm] Arm uninit success.
+2025-12-24 16:16:12.429348[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:16:12.429376[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:16:12.429410[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:16:13.432176[INFO][Arm] Arm init success.
+2025-12-24 16:16:13.539063[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:16:13.539079[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:16:13.539093[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:17:00.764303[INFO][Arm] Arm uninit success.
+2025-12-24 16:17:00.767783[INFO][Arm] Arm uninit success.
+2025-12-24 16:17:39.972102[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:17:39.972131[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:17:39.972148[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:17:40.973050[INFO][Arm] Arm init success.
+2025-12-24 16:17:41.079288[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:17:41.079302[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:17:41.079310[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:17:47.756480[INFO][Arm] Arm uninit success.
+2025-12-24 16:17:47.758521[INFO][Arm] Arm uninit success.
+2025-12-24 16:23:30.828505[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:23:30.828531[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:23:30.828546[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:23:32.010185[INFO][Arm] Arm init success.
+2025-12-24 16:23:32.118348[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:23:32.118369[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:23:32.118382[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:24:02.431279[INFO][Arm] Arm uninit success.
+2025-12-24 16:24:02.435494[INFO][Arm] Arm uninit success.
+2025-12-24 16:26:36.147852[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:26:36.147876[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:26:36.147891[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:26:37.150187[INFO][Arm] Arm init success.
+2025-12-24 16:26:37.259006[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:26:37.259036[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:26:37.259053[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:26:47.262314[INFO][Arm] Arm uninit success.
+2025-12-24 16:26:47.264918[INFO][Arm] Arm uninit success.
+2025-12-24 16:27:21.277829[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:27:21.277856[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:27:21.277868[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:27:22.280119[INFO][Arm] Arm init success.
+2025-12-24 16:27:22.389651[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:27:22.389678[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:27:22.389694[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:27:32.393425[INFO][Arm] Arm uninit success.
+2025-12-24 16:27:32.397518[INFO][Arm] Arm uninit success.
+2025-12-24 16:35:49.688666[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:35:49.688709[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:35:49.688737[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:35:50.693471[INFO][Arm] Arm init success.
+2025-12-24 16:35:50.804547[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:35:50.804577[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:35:50.804597[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:36:41.216866[INFO][Arm] Arm uninit success.
+2025-12-24 16:36:41.220768[INFO][Arm] Arm uninit success.
+2025-12-24 16:37:42.712747[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:37:42.712758[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:37:42.712764[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:37:43.717171[INFO][Arm] Arm init success.
+2025-12-24 16:37:43.828247[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:37:43.828280[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:37:43.828300[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:38:59.316632[INFO][Arm] Arm uninit success.
+2025-12-24 16:38:59.317436[INFO][Arm] Arm uninit success.
+2025-12-24 16:39:28.878413[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:39:28.878443[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:39:28.878465[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:39:29.881348[INFO][Arm] Arm init success.
+2025-12-24 16:39:29.992861[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:39:29.992898[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:39:29.992919[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:40:26.558558[INFO][Arm] Arm uninit success.
+2025-12-24 16:40:26.560811[INFO][Arm] Arm uninit success.
+2025-12-24 16:43:45.119653[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:43:45.119682[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:43:45.119697[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:43:46.123769[INFO][Arm] Arm init success.
+2025-12-24 16:43:46.233966[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:43:46.234006[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:43:46.234033[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:44:33.277416[INFO][Arm] Arm uninit success.
+2025-12-24 16:44:33.279366[INFO][Arm] Arm uninit success.
+2025-12-24 16:44:54.719038[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:44:54.719074[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:44:54.719099[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:44:55.896311[INFO][Arm] Arm init success.
+2025-12-24 16:44:56.005849[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:44:56.005874[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:44:56.005888[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:45:45.573094[INFO][Arm] Arm uninit success.
+2025-12-24 16:45:45.574069[INFO][Arm] Arm uninit success.
+2025-12-24 16:46:16.864789[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:46:16.864800[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:46:16.864806[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:46:18.029326[INFO][Arm] Arm init success.
+2025-12-24 16:46:18.138462[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:46:18.138490[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:46:18.138510[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:47:07.812530[INFO][Arm] Arm uninit success.
+2025-12-24 16:47:07.814693[INFO][Arm] Arm uninit success.
+2025-12-24 16:48:51.356687[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:48:51.356713[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:48:51.356728[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:48:52.362727[INFO][Arm] Arm init success.
+2025-12-24 16:48:52.472332[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:48:52.472362[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:48:52.472378[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:49:22.784587[INFO][Arm] Arm uninit success.
+2025-12-24 16:49:22.788540[INFO][Arm] Arm uninit success.
+2025-12-24 16:54:54.211542[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:54:54.211563[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:54:54.211588[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:54:55.389732[INFO][Arm] Arm init success.
+2025-12-24 16:54:55.499438[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:54:55.499465[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:54:55.499482[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:54:59.537632[INFO][Arm] Arm uninit success.
+2025-12-24 16:54:59.540148[INFO][Arm] Arm uninit success.
+2025-12-24 16:55:15.994629[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:55:15.994645[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:55:15.994656[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:55:16.996050[INFO][Arm] Arm init success.
+2025-12-24 16:55:17.104161[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:55:17.104192[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:55:17.104209[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:55:27.114322[INFO][Arm] Arm uninit success.
+2025-12-24 16:55:27.116948[INFO][Arm] Arm uninit success.
+2025-12-24 16:56:38.318790[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:56:38.318807[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:56:38.318818[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:56:39.324366[INFO][Arm] Arm init success.
+2025-12-24 16:56:39.434211[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:56:39.434252[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:56:39.434268[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:56:49.438639[INFO][Arm] Arm uninit success.
+2025-12-24 16:56:49.442465[INFO][Arm] Arm uninit success.
+2025-12-24 16:57:32.984418[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:57:32.984445[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:57:32.984457[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:57:33.990442[INFO][Arm] Arm init success.
+2025-12-24 16:57:34.100147[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:57:34.100180[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:57:34.100197[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:57:44.103099[INFO][Arm] Arm uninit success.
+2025-12-24 16:57:44.105256[INFO][Arm] Arm uninit success.
+2025-12-24 16:58:12.764212[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:12.764223[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:12.764236[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:58:13.767299[INFO][Arm] Arm init success.
+2025-12-24 16:58:13.877456[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:58:13.877551[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:58:13.877580[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:58:23.881333[INFO][Arm] Arm uninit success.
+2025-12-24 16:58:23.885059[INFO][Arm] Arm uninit success.
+2025-12-24 16:58:49.771683[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:49.771710[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:49.771726[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:58:50.774649[INFO][Arm] Arm init success.
+2025-12-24 16:58:50.883739[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 16:58:50.883764[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 16:58:50.883781[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 16:59:00.887377[INFO][Arm] Arm uninit success.
+2025-12-24 16:59:00.888084[INFO][Arm] Arm uninit success.
+2025-12-24 17:08:08.348429[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:08:08.348454[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:08:08.348467[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:08:09.351941[INFO][Arm] Arm init success.
+2025-12-24 17:08:09.461616[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 17:08:09.461657[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 17:08:09.461673[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 17:08:19.467858[INFO][Arm] Arm uninit success.
+2025-12-24 17:08:19.470743[INFO][Arm] Arm uninit success.
+2025-12-24 17:15:15.050142[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:15.050176[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:15.050198[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:15:16.056280[INFO][Arm] Arm init success.
+2025-12-24 17:15:26.174751[INFO][Arm] Arm uninit success.
+2025-12-24 17:15:26.178804[INFO][Arm] Arm uninit success.
+2025-12-24 17:15:45.770849[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:45.770877[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:45.770898[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:15:46.775804[INFO][Arm] Arm init success.
+2025-12-24 17:15:56.890046[INFO][Arm] Arm uninit success.
+2025-12-24 17:15:56.892437[INFO][Arm] Arm uninit success.
+2025-12-24 17:16:46.288811[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:16:46.288856[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:16:46.288945[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:16:47.293180[INFO][Arm] Arm init success.
+2025-12-24 17:16:47.403554[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 17:16:47.403592[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 17:16:47.403615[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 17:17:07.410482[INFO][Arm] Arm uninit success.
+2025-12-24 17:17:07.413345[INFO][Arm] Arm uninit success.
+2025-12-24 17:23:59.132701[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:23:59.132714[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:23:59.132722[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:24:00.134706[INFO][Arm] Arm init success.
+2025-12-24 17:24:00.243103[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 17:24:00.243127[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 17:24:00.243141[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 17:24:08.189752[INFO][Arm] Arm uninit success.
+2025-12-24 17:24:08.191374[INFO][Arm] Arm uninit success.
+2025-12-24 17:24:32.831562[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:24:32.831603[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:24:32.831624[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:24:33.836031[INFO][Arm] Arm init success.
+2025-12-24 17:24:33.944808[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 17:24:33.944843[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 17:24:33.944866[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 17:24:43.945875[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 17:24:43.945961[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 17:24:43.945981[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 17:24:50.087351[INFO][Arm] Arm uninit success.
+2025-12-24 17:24:50.090499[INFO][Arm] Arm uninit success.
+2025-12-24 17:25:49.220519[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:25:49.220551[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:25:49.220568[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:25:50.224214[INFO][Arm] Arm init success.
+2025-12-24 17:25:50.335605[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 17:25:50.335640[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 17:25:50.335681[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 17:25:55.270667[INFO][Arm] Arm uninit success.
+2025-12-24 17:25:55.273469[INFO][Arm] Arm uninit success.
+2025-12-24 17:26:26.118893[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:26:26.118933[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:26:26.118975[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:26:27.278211[INFO][Arm] Arm init success.
+2025-12-24 17:26:27.388483[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 17:26:27.388546[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 17:26:27.388565[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 17:26:31.905350[INFO][Arm] Arm uninit success.
+2025-12-24 17:26:31.906333[INFO][Arm] Arm uninit success.
+2025-12-24 17:58:10.538728[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:10.538738[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:10.538743[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:58:11.543664[INFO][Arm] Arm init success.
+2025-12-24 17:58:11.654341[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 17:58:11.654400[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 17:58:11.654418[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 17:58:18.746638[INFO][Arm] Arm uninit success.
+2025-12-24 17:58:18.749379[INFO][Arm] Arm uninit success.
+2025-12-24 17:58:36.507036[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:36.507071[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:36.507117[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:58:37.512399[INFO][Arm] Arm init success.
+2025-12-24 17:58:37.623435[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 17:58:37.623467[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 17:58:37.623489[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 17:58:47.625279[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 17:58:47.625310[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 17:58:47.625325[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 17:58:48.955760[INFO][Arm] Arm uninit success.
+2025-12-24 17:58:48.959007[INFO][Arm] Arm uninit success.
+2025-12-24 17:59:09.347697[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:59:09.347721[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:59:09.347739[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:59:10.356725[INFO][Arm] Arm init success.
+2025-12-24 17:59:10.467142[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 17:59:10.467241[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 17:59:10.467262[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 17:59:20.469457[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 17:59:20.469605[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 17:59:20.469728[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 17:59:35.108376[INFO][Arm] Arm uninit success.
+2025-12-24 17:59:35.109651[INFO][Arm] Arm uninit success.
+2025-12-24 18:19:22.415250[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 18:19:22.415274[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 18:19:22.415287[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 18:19:23.418646[INFO][Arm] Arm init success.
+2025-12-24 18:19:23.527311[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 18:19:23.527341[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 18:19:23.527357[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 18:19:41.287312[INFO][Arm] Arm uninit success.
+2025-12-24 18:19:41.287857[INFO][Arm] Arm uninit success.
+2025-12-24 18:20:39.639796[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 18:20:39.639837[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 18:20:39.639857[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 18:20:40.798135[INFO][Arm] Arm init success.
+2025-12-24 18:20:40.907703[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 18:20:40.907728[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 18:20:40.907744[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 18:20:53.668054[INFO][Arm] Arm uninit success.
+2025-12-24 18:20:53.670474[INFO][Arm] Arm uninit success.
+2025-12-24 19:48:36.234974[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:48:36.235015[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:48:36.235054[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:48:37.237611[INFO][Arm] Arm init success.
+2025-12-24 19:48:37.349319[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 19:48:37.349348[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 19:48:37.349364[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 19:48:51.848673[INFO][Arm] Arm uninit success.
+2025-12-24 19:48:51.850189[INFO][Arm] Arm uninit success.
+2025-12-24 19:49:42.563346[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:49:42.563356[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:49:42.563361[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:49:43.567992[INFO][Arm] Arm init success.
+2025-12-24 19:49:43.675922[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-24 19:49:43.675948[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-24 19:49:43.675961[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-24 19:50:01.211535[INFO][Arm] Arm uninit success.
+2025-12-24 19:50:01.214290[INFO][Arm] Arm uninit success.
+2025-12-24 19:51:53.608406[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:53.608415[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:53.608420[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:51:53.608590[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 19:51:53.612189[INFO][Arm] Arm uninit success.
+2025-12-24 19:52:21.836646[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:21.836654[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:21.836660[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:52:21.837014[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 19:52:21.840693[INFO][Arm] Arm uninit success.
+2025-12-24 19:53:15.065506[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:15.065516[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:15.065522[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:15.065751[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 19:53:15.069522[INFO][Arm] Arm uninit success.
+2025-12-24 19:53:28.332472[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:28.332504[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:28.332510[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:28.332742[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 19:53:28.336844[INFO][Arm] Arm uninit success.
+2025-12-24 19:53:52.865904[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:52.865914[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:52.865920[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:52.866163[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 19:53:52.869696[INFO][Arm] Arm uninit success.
+2025-12-24 19:54:31.144084[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:31.144092[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:31.144097[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:54:31.144200[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 19:54:31.148129[INFO][Arm] Arm uninit success.
+2025-12-24 19:55:46.146702[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:46.146711[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:46.146715[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:55:46.146946[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 19:55:46.150706[INFO][Arm] Arm uninit success.
+2025-12-24 19:56:10.071457[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:10.071464[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:10.071468[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:56:10.071741[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 19:56:10.075543[INFO][Arm] Arm uninit success.
+2025-12-24 19:57:13.183512[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:13.183521[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:13.183526[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:57:13.183755[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 19:57:13.187628[INFO][Arm] Arm uninit success.
+2025-12-24 19:58:12.073274[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:12.073288[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:12.073297[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:58:12.073914[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 19:58:12.077187[INFO][Arm] Arm uninit success.
+2025-12-24 19:58:40.935511[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:40.935543[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:40.935560[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:58:40.935912[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-24 19:58:40.936671[INFO][Arm] Arm uninit success.
+2025-12-25 09:40:00.523492[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:40:00.523503[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:40:00.523507[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:40:00.523617[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-25 09:40:00.526827[INFO][Arm] Arm uninit success.
+2025-12-25 09:43:23.965756[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965765[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965773[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:43:23.966062[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-25 09:43:23.969906[INFO][Arm] Arm uninit success.
+2025-12-25 09:43:47.807505[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:47.807516[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:47.807524[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:43:47.807767[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-25 09:43:47.811472[INFO][Arm] Arm uninit success.
+2025-12-25 09:52:40.685526[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:40.685535[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:40.685540[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:52:40.686113[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-25 09:52:40.689519[INFO][Arm] Arm uninit success.
+2025-12-25 09:53:57.305366[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:53:57.305400[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:53:57.305421[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:53:58.618729[INFO][Arm] Arm init success.
+2025-12-25 09:53:58.729498[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 09:53:58.729538[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 09:53:58.729564[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 09:55:33.172698[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:33.172713[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:33.172723[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:55:34.353366[INFO][Arm] Arm init success.
+2025-12-25 09:55:57.836210[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:57.836239[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:57.836256[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:55:58.839638[INFO][Arm] Arm init success.
+2025-12-25 09:55:58.949539[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 09:55:58.949581[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 09:55:58.949609[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 09:56:09.811640[INFO][Arm] Arm uninit success.
+2025-12-25 09:56:09.814710[INFO][Arm] Arm uninit success.
+2025-12-25 09:56:31.982745[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:56:31.982778[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:56:31.982799[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:56:32.986289[INFO][Arm] Arm init success.
+2025-12-25 09:56:33.096856[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 09:56:33.096893[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 09:56:33.096919[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 09:56:45.702720[INFO][Arm] Arm uninit success.
+2025-12-25 09:56:45.703588[INFO][Arm] Arm uninit success.
+2025-12-25 09:58:36.689774[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:58:36.689796[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:58:36.689808[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:58:37.872588[INFO][Arm] Arm init success.
+2025-12-25 09:58:37.981078[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 09:58:37.981101[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 09:58:37.981115[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 09:59:20.148279[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:20.148314[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:20.148335[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:59:21.152299[INFO][Arm] Arm init success.
+2025-12-25 09:59:21.263772[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 09:59:21.263810[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 09:59:21.263829[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 09:59:31.923549[INFO][Arm] Arm uninit success.
+2025-12-25 09:59:31.925586[INFO][Arm] Arm uninit success.
+2025-12-25 09:59:53.323834[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:53.323861[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:53.323877[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:59:54.327927[INFO][Arm] Arm init success.
+2025-12-25 09:59:54.438112[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 09:59:54.438143[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 09:59:54.438163[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:00:44.831116[INFO][Arm] Arm uninit success.
+2025-12-25 10:00:44.832304[INFO][Arm] Arm uninit success.
+2025-12-25 10:04:04.864655[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:04:04.864689[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:04:04.864716[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:04:06.029690[INFO][Arm] Arm init success.
+2025-12-25 10:04:06.138706[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:04:06.138729[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:04:06.138745[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:04:55.798010[INFO][Arm] Arm uninit success.
+2025-12-25 10:04:55.801486[INFO][Arm] Arm uninit success.
+2025-12-25 10:18:17.368956[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:18:17.368987[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:18:17.368999[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:18:18.377408[INFO][Arm] Arm init success.
+2025-12-25 10:18:18.483643[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:18:18.483658[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:18:18.483664[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:19:08.162180[INFO][Arm] Arm uninit success.
+2025-12-25 10:19:08.162463[INFO][Arm] Arm uninit success.
+2025-12-25 10:20:01.725966[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:01.725992[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:01.726008[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:20:02.907452[INFO][Arm] Arm init success.
+2025-12-25 10:20:03.018768[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:20:03.018816[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:20:03.018847[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:20:14.048361[INFO][Arm] Arm uninit success.
+2025-12-25 10:20:14.048787[INFO][Arm] Arm uninit success.
+2025-12-25 10:20:30.170053[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:30.170083[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:30.170125[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:20:31.174392[INFO][Arm] Arm init success.
+2025-12-25 10:20:31.284796[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:20:31.284829[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:20:31.284847[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:20:46.650147[INFO][Arm] Arm uninit success.
+2025-12-25 10:20:46.651296[INFO][Arm] Arm uninit success.
+2025-12-25 10:21:05.214847[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:21:05.214881[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:21:05.214909[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:21:06.221222[INFO][Arm] Arm init success.
+2025-12-25 10:21:06.330907[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:21:06.330945[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:21:06.330967[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:21:19.504290[INFO][Arm] Arm uninit success.
+2025-12-25 10:21:19.507269[INFO][Arm] Arm uninit success.
+2025-12-25 10:23:32.189184[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:23:32.189215[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:23:32.189240[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:23:33.194556[INFO][Arm] Arm init success.
+2025-12-25 10:23:35.149184[INFO][Arm] Arm uninit success.
+2025-12-25 10:23:35.149720[INFO][Arm] Arm uninit success.
+2025-12-25 10:24:31.506489[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:24:31.506520[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:24:31.506539[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:24:32.513407[INFO][Arm] Arm init success.
+2025-12-25 10:24:32.623172[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:24:32.623198[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:24:32.623215[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:24:42.629777[INFO][Arm] Arm uninit success.
+2025-12-25 10:24:42.633715[INFO][Arm] Arm uninit success.
+2025-12-25 10:29:03.338975[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:29:03.339003[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:29:03.339046[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:29:04.349842[INFO][Arm] Arm init success.
+2025-12-25 10:29:04.460281[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:29:04.460324[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:29:04.460342[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:29:32.139399[INFO][Arm] Arm uninit success.
+2025-12-25 10:29:32.141956[INFO][Arm] Arm uninit success.
+2025-12-25 10:30:41.312393[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:30:41.312409[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:30:41.312419[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:30:42.313350[INFO][Arm] Arm init success.
+2025-12-25 10:30:42.423583[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:30:42.423716[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:30:42.423746[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:30:58.586327[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:30:58.586460[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:30:58.586487[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:31:27.205105[INFO][Arm] Arm uninit success.
+2025-12-25 10:31:27.207246[INFO][Arm] Arm uninit success.
+2025-12-25 10:31:56.776126[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:31:56.776162[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:31:56.776184[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:31:57.780602[INFO][Arm] Arm init success.
+2025-12-25 10:31:57.888391[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:31:57.888412[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:31:57.888426[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:32:14.044766[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:32:14.044882[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:32:14.044913[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:32:42.674453[INFO][Arm] Arm uninit success.
+2025-12-25 10:32:42.678496[INFO][Arm] Arm uninit success.
+2025-12-25 10:34:25.429821[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:34:25.429853[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:34:25.429875[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:34:26.434906[INFO][Arm] Arm init success.
+2025-12-25 10:34:26.542421[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:34:26.542472[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:34:26.542514[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:34:42.706342[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:34:42.711105[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:34:42.711148[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:35:11.337959[INFO][Arm] Arm uninit success.
+2025-12-25 10:35:11.341245[INFO][Arm] Arm uninit success.
+2025-12-25 10:36:55.591051[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:36:55.591074[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:36:55.591087[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:36:56.770285[INFO][Arm] Arm init success.
+2025-12-25 10:36:56.880917[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:36:56.880957[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:36:56.880985[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:37:13.039624[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:37:13.039786[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:37:13.039820[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:37:19.393547[INFO][Arm] Arm uninit success.
+2025-12-25 10:37:19.395255[INFO][Arm] Arm uninit success.
+2025-12-25 10:40:01.807921[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:40:01.807970[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:40:01.807991[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:40:02.813279[INFO][Arm] Arm init success.
+2025-12-25 10:40:02.924586[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:40:02.924623[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:40:02.924650[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:40:19.075798[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:40:19.075901[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:40:19.075929[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:40:47.702772[INFO][Arm] Arm uninit success.
+2025-12-25 10:40:47.706383[INFO][Arm] Arm uninit success.
+2025-12-25 10:41:53.669378[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:41:53.669437[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:41:53.669458[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:41:54.684976[INFO][Arm] Arm init success.
+2025-12-25 10:41:54.795650[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:41:54.795684[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:41:54.795712[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:42:10.952032[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:42:10.952152[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:42:10.952178[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:42:39.578901[INFO][Arm] Arm uninit success.
+2025-12-25 10:42:39.582003[INFO][Arm] Arm uninit success.
+2025-12-25 10:47:53.715835[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:47:53.720132[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:47:53.720167[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:47:54.724456[INFO][Arm] Arm init success.
+2025-12-25 10:47:54.834812[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:47:54.834842[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:47:54.834861[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:48:10.991678[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:48:10.991759[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:48:10.991774[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:48:39.622975[INFO][Arm] Arm uninit success.
+2025-12-25 10:48:39.623659[INFO][Arm] Arm uninit success.
+2025-12-25 10:55:45.903582[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:55:45.903626[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:55:45.903650[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:55:46.909175[INFO][Arm] Arm init success.
+2025-12-25 10:55:47.019685[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:55:47.019743[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:55:47.019769[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:56:03.180024[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 10:56:03.180147[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 10:56:03.180175[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 10:56:31.806411[INFO][Arm] Arm uninit success.
+2025-12-25 10:56:31.810338[INFO][Arm] Arm uninit success.
+2025-12-25 11:15:46.050356[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:15:46.050397[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:15:46.050423[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:15:47.227792[INFO][Arm] Arm init success.
+2025-12-25 11:15:47.342250[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:15:47.342279[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:15:47.342299[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:16:03.501177[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:16:03.501311[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:16:03.501340[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:16:32.125313[INFO][Arm] Arm uninit success.
+2025-12-25 11:16:32.127943[INFO][Arm] Arm uninit success.
+2025-12-25 11:18:24.436497[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:18:24.436532[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:18:24.436554[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:18:25.593423[INFO][Arm] Arm init success.
+2025-12-25 11:18:25.704413[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:18:25.704443[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:18:25.704475[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:19:15.390498[INFO][Arm] Arm uninit success.
+2025-12-25 11:19:15.391862[INFO][Arm] Arm uninit success.
+2025-12-25 11:32:31.330622[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:32:31.330645[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:32:31.330658[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:32:32.335633[INFO][Arm] Arm init success.
+2025-12-25 11:32:32.446914[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:32:32.446943[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:32:32.446962[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:32:48.606717[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:32:48.606844[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:32:48.606868[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:33:17.240272[INFO][Arm] Arm uninit success.
+2025-12-25 11:33:17.241850[INFO][Arm] Arm uninit success.
+2025-12-25 11:36:34.811587[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:36:34.811628[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:36:34.811649[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:36:35.815528[INFO][Arm] Arm init success.
+2025-12-25 11:36:35.925889[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:36:35.925925[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:36:35.925947[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:36:52.085229[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:36:52.085346[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:36:52.085373[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:37:20.705252[INFO][Arm] Arm uninit success.
+2025-12-25 11:37:20.709188[INFO][Arm] Arm uninit success.
+2025-12-25 11:37:49.101536[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:37:49.101565[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:37:49.101588[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:37:50.106996[INFO][Arm] Arm init success.
+2025-12-25 11:37:50.217928[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:37:50.217963[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:37:50.217983[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:38:06.504384[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:38:06.504544[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:38:06.504580[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:38:11.585890[INFO][Arm] Arm uninit success.
+2025-12-25 11:38:11.589568[INFO][Arm] Arm uninit success.
+2025-12-25 11:42:01.369466[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:42:01.369519[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:42:01.369542[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:42:02.529561[INFO][Arm] Arm init success.
+2025-12-25 11:42:02.639583[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:42:02.639609[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:42:02.639628[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:42:12.643119[INFO][Arm] Arm uninit success.
+2025-12-25 11:42:12.645263[INFO][Arm] Arm uninit success.
+2025-12-25 11:42:55.764581[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:42:55.764617[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:42:55.764634[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:42:56.946229[INFO][Arm] Arm init success.
+2025-12-25 11:42:57.056876[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:42:57.056905[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:42:57.056924[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:43:19.024251[INFO][Arm] Arm uninit success.
+2025-12-25 11:43:19.027538[INFO][Arm] Arm uninit success.
+2025-12-25 11:49:26.259770[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:49:26.259830[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:49:26.259857[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:49:27.262364[INFO][Arm] Arm init success.
+2025-12-25 11:49:27.376053[INFO][Arm] Arm uninit success.
+2025-12-25 11:49:27.378883[INFO][Arm] Arm uninit success.
+2025-12-25 11:50:11.001793[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:50:11.001804[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:50:11.001810[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:50:12.183639[INFO][Arm] Arm init success.
+2025-12-25 11:50:12.293446[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:50:12.293474[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:50:12.293492[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:50:22.299216[INFO][Arm] Arm uninit success.
+2025-12-25 11:50:22.299876[INFO][Arm] Arm uninit success.
+2025-12-25 11:51:25.858673[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:25.858702[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:25.858720[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:51:26.862223[INFO][Arm] Arm init success.
+2025-12-25 11:51:26.972458[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:51:26.972488[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:51:26.972508[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:51:36.976489[INFO][Arm] Arm uninit success.
+2025-12-25 11:51:36.976935[INFO][Arm] Arm uninit success.
+2025-12-25 11:51:58.174186[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:58.174225[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:58.174247[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:51:59.177945[INFO][Arm] Arm init success.
+2025-12-25 11:51:59.287436[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:51:59.287469[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:51:59.287489[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:52:04.777310[INFO][Arm] Arm uninit success.
+2025-12-25 11:52:04.779645[INFO][Arm] Arm uninit success.
+2025-12-25 11:52:39.262605[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:52:39.262632[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:52:39.262644[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:52:40.269365[INFO][Arm] Arm init success.
+2025-12-25 11:52:40.377537[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:52:40.377556[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:52:40.377568[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:52:44.535760[INFO][Arm] Arm uninit success.
+2025-12-25 11:52:44.538258[INFO][Arm] Arm uninit success.
+2025-12-25 11:53:05.008546[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:53:05.008569[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:53:05.008583[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:53:06.011421[INFO][Arm] Arm init success.
+2025-12-25 11:53:06.121812[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:53:06.121842[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:53:06.121872[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:53:16.126635[INFO][Arm] Arm uninit success.
+2025-12-25 11:53:16.128846[INFO][Arm] Arm uninit success.
+2025-12-25 11:53:31.045144[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:53:31.045153[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:53:31.045158[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:53:32.050343[INFO][Arm] Arm init success.
+2025-12-25 11:53:32.156977[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:53:32.156999[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:53:32.157006[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:53:57.254760[INFO][Arm] Arm uninit success.
+2025-12-25 11:53:57.256636[INFO][Arm] Arm uninit success.
+2025-12-25 11:54:43.314967[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:54:43.314993[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:54:43.315008[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:54:44.318193[INFO][Arm] Arm init success.
+2025-12-25 11:54:44.425944[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:54:44.425966[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:54:44.425979[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:54:45.658204[INFO][Arm] Arm uninit success.
+2025-12-25 11:54:45.662542[INFO][Arm] Arm uninit success.
+2025-12-25 11:59:16.675902[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:59:16.675928[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:59:16.675945[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:59:17.834874[INFO][Arm] Arm init success.
+2025-12-25 11:59:17.945098[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 11:59:17.945334[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 11:59:17.945390[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 11:59:27.953021[INFO][Arm] Arm uninit success.
+2025-12-25 11:59:27.955227[INFO][Arm] Arm uninit success.
+2025-12-25 12:00:01.003463[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:00:01.003513[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:00:01.003547[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:00:02.008868[INFO][Arm] Arm init success.
+2025-12-25 12:00:02.116594[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:00:02.116610[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:00:02.116622[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:00:12.119577[INFO][Arm] Arm uninit success.
+2025-12-25 12:00:12.122520[INFO][Arm] Arm uninit success.
+2025-12-25 12:02:04.702061[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:02:04.702112[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:02:04.702146[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:02:05.880687[INFO][Arm] Arm init success.
+2025-12-25 12:02:05.990264[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:02:05.990358[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:02:05.990386[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:02:13.788498[INFO][Arm] Arm uninit success.
+2025-12-25 12:02:13.790897[INFO][Arm] Arm uninit success.
+2025-12-25 12:30:21.546110[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:21.546132[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:21.546146[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:30:22.551251[INFO][Arm] Arm init success.
+2025-12-25 12:30:22.661677[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:30:22.661724[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:30:22.661756[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:30:32.666673[INFO][Arm] Arm uninit success.
+2025-12-25 12:30:32.668569[INFO][Arm] Arm uninit success.
+2025-12-25 12:30:56.533964[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:56.533995[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:56.534024[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:30:57.538796[INFO][Arm] Arm init success.
+2025-12-25 12:31:01.946774[INFO][Arm] Arm uninit success.
+2025-12-25 12:31:01.948631[INFO][Arm] Arm uninit success.
+2025-12-25 12:31:26.873132[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:31:26.873167[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:31:26.873205[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:31:27.877506[INFO][Arm] Arm init success.
+2025-12-25 12:31:27.986982[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:31:27.987029[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:31:27.987046[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:31:37.991287[INFO][Arm] Arm uninit success.
+2025-12-25 12:31:37.992640[INFO][Arm] Arm uninit success.
+2025-12-25 12:36:53.044528[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:36:53.044542[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:36:53.044550[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:36:54.357365[INFO][Arm] Arm init success.
+2025-12-25 12:36:54.468105[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:36:54.468209[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:36:54.468432[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:37:02.554655[INFO][Arm] Arm uninit success.
+2025-12-25 12:37:02.557229[INFO][Arm] Arm uninit success.
+2025-12-25 12:37:17.347473[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:37:17.347494[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:37:17.347509[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:37:18.352309[INFO][Arm] Arm init success.
+2025-12-25 12:37:18.462028[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:37:18.462073[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:37:18.462115[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:37:41.714750[INFO][Arm] Arm uninit success.
+2025-12-25 12:37:41.718133[INFO][Arm] Arm uninit success.
+2025-12-25 12:38:41.484432[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:38:41.484446[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:38:41.484455[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:38:42.490064[INFO][Arm] Arm init success.
+2025-12-25 12:38:42.598186[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:38:42.598216[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:38:42.598235[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:38:49.458343[INFO][Arm] Arm uninit success.
+2025-12-25 12:38:49.462282[INFO][Arm] Arm uninit success.
+2025-12-25 12:39:06.154467[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:06.154496[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:06.154512[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:39:07.157266[INFO][Arm] Arm init success.
+2025-12-25 12:39:07.267872[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:39:07.267977[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:39:07.268009[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:39:11.473551[INFO][Arm] Arm uninit success.
+2025-12-25 12:39:11.477146[INFO][Arm] Arm uninit success.
+2025-12-25 12:39:24.068897[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:24.068943[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:24.068963[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:39:25.073735[INFO][Arm] Arm init success.
+2025-12-25 12:39:25.178945[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:39:25.178956[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:39:25.178963[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:41:33.321895[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:41:33.321942[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:41:33.321974[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:41:34.325199[INFO][Arm] Arm init success.
+2025-12-25 12:41:34.435793[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:41:34.435822[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:41:34.435873[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:41:44.439229[INFO][Arm] Arm uninit success.
+2025-12-25 12:41:44.442602[INFO][Arm] Arm uninit success.
+2025-12-25 12:48:01.212973[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:48:01.213008[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:48:01.213054[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:48:02.392092[INFO][Arm] Arm init success.
+2025-12-25 12:48:02.502072[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:48:02.502142[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:48:02.502158[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:48:12.506404[INFO][Arm] Arm uninit success.
+2025-12-25 12:48:12.510222[INFO][Arm] Arm uninit success.
+2025-12-25 12:48:27.803799[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:48:27.803828[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:48:27.803849[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:48:28.806140[INFO][Arm] Arm init success.
+2025-12-25 12:48:28.916721[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:48:28.916750[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:48:28.916771[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:48:55.439593[INFO][Arm] Arm uninit success.
+2025-12-25 12:48:55.441120[INFO][Arm] Arm uninit success.
+2025-12-25 12:49:31.261203[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:49:31.261220[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:49:31.261231[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:49:32.264657[INFO][Arm] Arm init success.
+2025-12-25 12:49:32.375275[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:49:32.375304[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:49:32.375326[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:49:42.379750[INFO][Arm] Arm uninit success.
+2025-12-25 12:49:42.382894[INFO][Arm] Arm uninit success.
+2025-12-25 12:50:22.621696[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:22.621721[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:22.621735[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:50:23.625390[INFO][Arm] Arm init success.
+2025-12-25 12:50:23.734766[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:50:23.734807[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:50:23.734829[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:50:33.741846[INFO][Arm] Arm uninit success.
+2025-12-25 12:50:33.745320[INFO][Arm] Arm uninit success.
+2025-12-25 12:50:54.424100[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:54.424127[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:54.424147[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:50:55.427525[INFO][Arm] Arm init success.
+2025-12-25 12:50:55.538699[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:50:55.538738[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:50:55.538760[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:51:05.543319[INFO][Arm] Arm uninit success.
+2025-12-25 12:51:05.545492[INFO][Arm] Arm uninit success.
+2025-12-25 12:51:34.258404[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:51:34.258429[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:51:34.258446[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:51:35.262875[INFO][Arm] Arm init success.
+2025-12-25 12:51:35.371533[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:51:35.371587[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:51:35.371604[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:51:45.374151[INFO][Arm] Arm uninit success.
+2025-12-25 12:51:45.378790[INFO][Arm] Arm uninit success.
+2025-12-25 12:53:07.681245[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:53:07.681267[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:53:07.681280[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:53:08.703482[INFO][Arm] Arm init success.
+2025-12-25 12:53:08.813286[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:53:08.813320[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:53:08.813340[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:53:18.819268[INFO][Arm] Arm uninit success.
+2025-12-25 12:53:18.821943[INFO][Arm] Arm uninit success.
+2025-12-25 12:54:50.257881[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:54:50.257901[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:54:50.257913[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:54:51.262299[INFO][Arm] Arm init success.
+2025-12-25 12:54:51.372753[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:54:51.372800[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:54:51.372829[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:54:51.373522[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:54:51.373556[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:54:51.373580[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:55:36.984542[INFO][Arm] Arm uninit success.
+2025-12-25 12:55:36.986015[INFO][Arm] Arm uninit success.
+2025-12-25 12:56:03.744003[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:56:03.744068[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:56:03.744101[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:56:04.750926[INFO][Arm] Arm init success.
+2025-12-25 12:56:04.860957[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:56:04.860988[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:56:04.861007[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:56:04.861460[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 12:56:04.861481[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 12:56:04.861498[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 12:56:49.653761[INFO][Arm] Arm uninit success.
+2025-12-25 12:56:49.657002[INFO][Arm] Arm uninit success.
+2025-12-25 13:58:41.062056[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:41.062064[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:41.062069[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 13:58:41.062571[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-25 13:58:41.064206[INFO][Arm] Arm uninit success.
+2025-12-25 13:59:16.240279[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:16.240304[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:16.240321[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 13:59:17.424002[INFO][Arm] Arm init success.
+2025-12-25 13:59:17.534349[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 13:59:17.534370[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 13:59:17.534384[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 13:59:33.822533[INFO][Arm] Arm uninit success.
+2025-12-25 13:59:33.825771[INFO][Arm] Arm uninit success.
+2025-12-25 13:59:49.239985[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:49.240011[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:49.240036[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 13:59:50.277906[INFO][Arm] Arm init success.
+2025-12-25 13:59:50.388785[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 13:59:50.388816[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 13:59:50.388837[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:00:10.392175[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:00:10.424135[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:00:10.424156[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:00:30.427813[INFO][Arm] Arm uninit success.
+2025-12-25 14:00:30.431044[INFO][Arm] Arm uninit success.
+2025-12-25 14:01:44.732075[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:01:44.732091[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:01:44.732102[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:01:45.736848[INFO][Arm] Arm init success.
+2025-12-25 14:01:45.846794[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:01:45.846827[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:01:45.846846[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:01:55.849732[INFO][Arm] Arm uninit success.
+2025-12-25 14:01:55.853715[INFO][Arm] Arm uninit success.
+2025-12-25 14:04:26.578534[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:04:26.578562[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:04:26.578580[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:04:27.581488[INFO][Arm] Arm init success.
+2025-12-25 14:04:27.692529[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:04:27.692557[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:04:27.692578[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:04:37.696782[INFO][Arm] Arm uninit success.
+2025-12-25 14:04:37.699228[INFO][Arm] Arm uninit success.
+2025-12-25 14:05:18.971340[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:18.971365[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:18.971387[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:05:19.975237[INFO][Arm] Arm init success.
+2025-12-25 14:05:20.092841[INFO][Arm] Arm uninit success.
+2025-12-25 14:05:20.097268[INFO][Arm] Arm uninit success.
+2025-12-25 14:05:36.487640[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:36.487661[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:36.487678[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:05:37.653808[INFO][Arm] Arm init success.
+2025-12-25 14:05:37.764404[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:05:37.764434[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:05:37.764456[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:05:47.768841[INFO][Arm] Arm uninit success.
+2025-12-25 14:05:47.769707[INFO][Arm] Arm uninit success.
+2025-12-25 14:09:14.473245[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:14.473275[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:14.473298[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:09:15.492490[INFO][Arm] Arm init success.
+2025-12-25 14:09:15.603593[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:09:15.603642[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:09:15.603679[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:09:25.608042[INFO][Arm] Arm uninit success.
+2025-12-25 14:09:25.612603[INFO][Arm] Arm uninit success.
+2025-12-25 14:09:50.575252[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:50.575283[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:50.575301[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:09:51.585199[INFO][Arm] Arm init success.
+2025-12-25 14:09:51.695835[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:09:51.695870[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:09:51.695891[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:10:01.707635[INFO][Arm] Arm uninit success.
+2025-12-25 14:10:01.710822[INFO][Arm] Arm uninit success.
+2025-12-25 14:11:17.101553[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:11:17.101584[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:11:17.101623[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:11:18.104688[INFO][Arm] Arm init success.
+2025-12-25 14:11:18.215222[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:11:18.215255[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:11:18.215295[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:11:28.227321[INFO][Arm] Arm uninit success.
+2025-12-25 14:11:28.231284[INFO][Arm] Arm uninit success.
+2025-12-25 14:12:49.195954[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:12:49.196009[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:12:49.196046[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:12:50.200234[INFO][Arm] Arm init success.
+2025-12-25 14:12:50.309134[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:12:50.309163[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:12:50.309180[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:13:00.312082[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:13:00.312212[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:13:00.312241[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:13:10.316449[INFO][Arm] Arm uninit success.
+2025-12-25 14:13:10.320695[INFO][Arm] Arm uninit success.
+2025-12-25 14:13:37.852160[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:13:37.852200[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:13:37.852226[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:13:38.855446[INFO][Arm] Arm init success.
+2025-12-25 14:13:38.963788[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:13:38.963812[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:13:38.963826[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:13:48.967092[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:13:48.967211[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:13:48.967236[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:13:58.975467[INFO][Arm] Arm uninit success.
+2025-12-25 14:13:58.979574[INFO][Arm] Arm uninit success.
+2025-12-25 14:14:17.813557[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:14:17.813589[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:14:17.813607[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:14:18.817499[INFO][Arm] Arm init success.
+2025-12-25 14:14:18.928318[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:14:18.928352[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:14:18.928373[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:14:18.929034[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:14:18.929093[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:14:18.929144[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:15:04.664994[INFO][Arm] Arm uninit success.
+2025-12-25 14:15:04.669264[INFO][Arm] Arm uninit success.
+2025-12-25 14:15:40.241586[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:40.241624[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:40.241643[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:15:41.245666[INFO][Arm] Arm init success.
+2025-12-25 14:15:41.367761[INFO][Arm] Arm uninit success.
+2025-12-25 14:15:41.370568[INFO][Arm] Arm uninit success.
+2025-12-25 14:15:54.465009[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:54.465037[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:54.465049[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:15:55.469867[INFO][Arm] Arm init success.
+2025-12-25 14:15:55.580742[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:15:55.580778[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:15:55.580799[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:16:05.585702[INFO][Arm] Arm uninit success.
+2025-12-25 14:16:05.619154[INFO][Arm] Arm uninit success.
+2025-12-25 14:16:30.326439[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:16:30.326466[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:16:30.326482[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:16:31.331254[INFO][Arm] Arm init success.
+2025-12-25 14:16:31.438073[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:16:31.438090[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:16:31.438100[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:16:51.442519[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:16:51.442614[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:16:51.442631[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:17:11.448884[INFO][Arm] Arm uninit success.
+2025-12-25 14:17:11.450270[INFO][Arm] Arm uninit success.
+2025-12-25 14:17:47.560246[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:47.560313[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:47.560319[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:17:47.560729[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-25 14:17:47.562827[INFO][Arm] Arm uninit success.
+2025-12-25 14:18:05.483942[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:18:05.484032[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:18:05.484051[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:18:06.486048[INFO][Arm] Arm init success.
+2025-12-25 14:18:06.595479[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:18:06.595513[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:18:06.595542[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:18:26.598151[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:18:26.598204[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:18:26.598214[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:18:46.604936[INFO][Arm] Arm uninit success.
+2025-12-25 14:18:46.609183[INFO][Arm] Arm uninit success.
+2025-12-25 14:21:18.727597[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:21:18.727627[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:21:18.727645[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:21:19.732200[INFO][Arm] Arm init success.
+2025-12-25 14:21:19.841772[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:21:19.841811[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:21:19.841828[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:21:39.844863[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:21:39.844982[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:21:39.845009[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:21:59.857149[INFO][Arm] Arm uninit success.
+2025-12-25 14:21:59.858674[INFO][Arm] Arm uninit success.
+2025-12-25 14:24:22.065668[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:22.065693[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:22.065712[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:24:23.071084[INFO][Arm] Arm init success.
+2025-12-25 14:24:23.177924[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:24:23.177939[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:24:23.177949[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:24:37.522438[INFO][Arm] Arm uninit success.
+2025-12-25 14:24:37.525602[INFO][Arm] Arm uninit success.
+2025-12-25 14:24:55.803552[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:55.803582[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:55.803604[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:24:56.808459[INFO][Arm] Arm init success.
+2025-12-25 14:24:56.916828[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:24:56.916853[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:24:56.916866[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:25:54.844248[INFO][Arm] Arm uninit success.
+2025-12-25 14:25:54.846747[INFO][Arm] Arm uninit success.
+2025-12-25 14:28:51.579491[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:28:51.610974[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:28:51.611005[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:28:52.629037[INFO][Arm] Arm init success.
+2025-12-25 14:28:52.741359[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:28:52.741397[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:28:52.741427[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:29:55.131118[INFO][Arm] Arm uninit success.
+2025-12-25 14:29:55.132920[INFO][Arm] Arm uninit success.
+2025-12-25 14:31:08.362262[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:31:08.362292[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:31:08.362312[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:31:09.367390[INFO][Arm] Arm init success.
+2025-12-25 14:31:09.479327[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:31:09.479363[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:31:09.479380[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:31:09.480533[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:31:09.480551[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:31:09.480566[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:31:54.263744[INFO][Arm] Arm uninit success.
+2025-12-25 14:31:54.267560[INFO][Arm] Arm uninit success.
+2025-12-25 14:32:52.468467[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:32:52.468519[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:32:52.468537[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:32:53.648603[INFO][Arm] Arm init success.
+2025-12-25 14:32:53.763391[INFO][Arm] Arm uninit success.
+2025-12-25 14:32:53.765711[INFO][Arm] Arm uninit success.
+2025-12-25 14:33:31.358341[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:33:31.358361[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:33:31.358373[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:33:32.362345[INFO][Arm] Arm init success.
+2025-12-25 14:33:32.471223[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:33:32.471257[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:33:32.471275[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:33:52.473593[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:33:52.473667[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:33:52.473684[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:34:12.481384[INFO][Arm] Arm uninit success.
+2025-12-25 14:34:12.514037[INFO][Arm] Arm uninit success.
+2025-12-25 14:38:52.548421[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:38:52.579934[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:38:52.579963[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:38:53.752828[INFO][Arm] Arm init success.
+2025-12-25 14:38:53.862935[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:38:53.862966[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:38:53.862982[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:39:13.874604[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:39:13.874989[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:39:13.875069[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:39:33.882535[INFO][Arm] Arm uninit success.
+2025-12-25 14:39:33.885041[INFO][Arm] Arm uninit success.
+2025-12-25 14:40:05.277410[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:40:05.277469[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:40:05.277498[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:40:06.284414[INFO][Arm] Arm init success.
+2025-12-25 14:40:06.394123[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:40:06.394158[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:40:06.394174[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:40:16.407259[INFO][Arm] Arm uninit success.
+2025-12-25 14:40:16.408253[INFO][Arm] Arm uninit success.
+2025-12-25 14:40:43.110797[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:40:43.110814[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:40:43.110824[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:40:44.115909[INFO][Arm] Arm init success.
+2025-12-25 14:40:44.226860[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:40:44.226922[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:40:44.226949[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:40:54.235629[INFO][Arm] Arm uninit success.
+2025-12-25 14:40:54.238833[INFO][Arm] Arm uninit success.
+2025-12-25 14:41:27.352591[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:41:27.352629[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:41:27.352653[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:41:28.360562[INFO][Arm] Arm init success.
+2025-12-25 14:41:28.469473[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:41:28.469501[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:41:28.469517[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:41:38.474436[INFO][Arm] Arm uninit success.
+2025-12-25 14:41:38.479118[INFO][Arm] Arm uninit success.
+2025-12-25 14:42:42.437057[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:42:42.437093[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:42:42.437115[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:42:43.441233[INFO][Arm] Arm init success.
+2025-12-25 14:42:43.551893[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:42:43.551931[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:42:43.551953[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:42:53.559523[INFO][Arm] Arm uninit success.
+2025-12-25 14:42:53.560403[INFO][Arm] Arm uninit success.
+2025-12-25 14:43:15.642127[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:43:15.642159[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:43:15.642183[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:43:16.649980[INFO][Arm] Arm init success.
+2025-12-25 14:43:16.759718[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:43:16.759873[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:43:16.759986[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:43:26.764911[INFO][Arm] Arm uninit success.
+2025-12-25 14:43:26.769236[INFO][Arm] Arm uninit success.
+2025-12-25 14:44:47.239931[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:44:47.239960[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:44:47.239977[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:44:48.245002[INFO][Arm] Arm init success.
+2025-12-25 14:44:48.355390[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:44:48.355424[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:44:48.355444[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:44:58.358587[INFO][Arm] Arm uninit success.
+2025-12-25 14:44:58.360352[INFO][Arm] Arm uninit success.
+2025-12-25 14:47:33.678176[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:47:33.678252[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:47:33.678288[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:47:34.683006[INFO][Arm] Arm init success.
+2025-12-25 14:47:34.793960[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:47:34.793990[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:47:34.794009[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:47:44.801301[INFO][Arm] Arm uninit success.
+2025-12-25 14:47:44.807838[INFO][Arm] Arm uninit success.
+2025-12-25 14:49:38.663110[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:49:38.663136[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:49:38.663151[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:49:39.667570[INFO][Arm] Arm init success.
+2025-12-25 14:49:39.776185[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:49:39.776212[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:49:39.776228[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:49:49.783500[INFO][Arm] Arm uninit success.
+2025-12-25 14:49:49.785491[INFO][Arm] Arm uninit success.
+2025-12-25 14:50:11.726580[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:50:11.726612[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:50:11.726635[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:50:12.730952[INFO][Arm] Arm init success.
+2025-12-25 14:50:12.840353[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 14:50:12.840384[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 14:50:12.840400[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 14:50:22.843230[INFO][Arm] Arm uninit success.
+2025-12-25 14:50:22.848490[INFO][Arm] Arm uninit success.
+2025-12-25 14:51:29.597895[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:29.597906[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:29.597914[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:51:29.598239[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-25 14:51:29.601925[INFO][Arm] Arm uninit success.
+2025-12-25 14:51:45.162354[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:45.162362[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:45.162367[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:51:45.162484[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-25 14:51:45.166518[INFO][Arm] Arm uninit success.
+2025-12-25 14:52:05.601079[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:05.601087[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:05.601092[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:52:05.601334[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-25 14:52:05.605287[INFO][Arm] Arm uninit success.
+2025-12-25 14:53:14.641589[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:14.641599[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:14.641606[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:53:14.641711[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-25 14:53:14.645573[INFO][Arm] Arm uninit success.
+2025-12-25 15:10:56.120385[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:10:56.120402[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:10:56.120414[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:10:57.134847[INFO][Arm] Arm init success.
+2025-12-25 15:10:57.244938[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 15:10:57.244957[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 15:10:57.244971[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 15:11:07.253046[INFO][Arm] Arm uninit success.
+2025-12-25 15:11:07.254434[INFO][Arm] Arm uninit success.
+2025-12-25 15:15:18.582700[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582708[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582718[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582822[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-25 15:15:18.585577[INFO][Arm] Arm uninit success.
+2025-12-25 15:15:53.344545[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:53.344570[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:53.344586[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:15:54.366026[INFO][Arm] Arm init success.
+2025-12-25 15:15:54.478480[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 15:15:54.478501[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 15:15:54.478514[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 15:16:44.885134[INFO][Arm] Arm uninit success.
+2025-12-25 15:16:44.888118[INFO][Arm] Arm uninit success.
+2025-12-25 15:17:53.975879[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:17:53.975927[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:17:53.975960[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:17:54.980080[INFO][Arm] Arm init success.
+2025-12-25 15:17:55.088475[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 15:17:55.088505[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 15:17:55.088520[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 15:18:25.601508[INFO][Arm] Arm uninit success.
+2025-12-25 15:18:25.602538[INFO][Arm] Arm uninit success.
+2025-12-25 15:19:12.963911[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:19:12.963936[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:19:12.963953[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:19:13.972291[INFO][Arm] Arm init success.
+2025-12-25 15:19:14.081844[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 15:19:14.081867[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 15:19:14.081885[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 15:19:44.606678[INFO][Arm] Arm uninit success.
+2025-12-25 15:19:44.607644[INFO][Arm] Arm uninit success.
+2025-12-25 15:22:03.871048[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:03.871058[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:03.871063[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:22:03.871282[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-25 15:22:03.875336[INFO][Arm] Arm uninit success.
+2025-12-25 15:23:10.220601[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:23:10.224523[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:23:10.224535[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:23:11.238986[INFO][Arm] Arm init success.
+2025-12-25 15:23:11.350124[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 15:23:11.350148[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 15:23:11.350170[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 15:23:41.875987[INFO][Arm] Arm uninit success.
+2025-12-25 15:23:41.879698[INFO][Arm] Arm uninit success.
+2025-12-25 15:36:43.875300[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:36:43.875313[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:36:43.875320[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:36:44.878457[INFO][Arm] Arm init success.
+2025-12-25 15:36:44.989807[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 15:36:44.989859[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 15:36:44.989892[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 15:36:47.232855[INFO][Arm] Arm uninit success.
+2025-12-25 15:36:47.234438[INFO][Arm] Arm uninit success.
+2025-12-25 15:37:06.161057[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:37:06.161070[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:37:06.161080[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:37:07.163974[INFO][Arm] Arm init success.
+2025-12-25 15:37:07.272782[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 15:37:07.272810[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 15:37:07.272828[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 15:37:56.963425[INFO][Arm] Arm uninit success.
+2025-12-25 15:37:56.964505[INFO][Arm] Arm uninit success.
+2025-12-25 15:41:30.136835[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:41:30.136889[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:41:30.136922[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:41:31.139803[INFO][Arm] Arm init success.
+2025-12-25 15:41:31.250082[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 15:41:31.250115[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 15:41:31.250132[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 15:42:20.960951[INFO][Arm] Arm uninit success.
+2025-12-25 15:42:20.961787[INFO][Arm] Arm uninit success.
+2025-12-25 15:45:10.163484[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:45:10.163514[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:45:10.163530[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:45:11.167451[INFO][Arm] Arm init success.
+2025-12-25 15:45:11.276536[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 15:45:11.276561[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 15:45:11.276579[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 15:46:00.977446[INFO][Arm] Arm uninit success.
+2025-12-25 15:46:00.979481[INFO][Arm] Arm uninit success.
+2025-12-25 16:23:26.094745[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 16:23:26.094775[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 16:23:26.094792[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 16:23:27.097334[INFO][Arm] Arm init success.
+2025-12-25 16:23:27.205243[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 16:23:27.205265[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 16:23:27.205278[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 16:24:16.901676[INFO][Arm] Arm uninit success.
+2025-12-25 16:24:16.903227[INFO][Arm] Arm uninit success.
+2025-12-25 16:29:59.075055[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 16:29:59.075081[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 16:29:59.075097[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 16:30:00.096543[INFO][Arm] Arm init success.
+2025-12-25 16:30:00.209054[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-25 16:30:00.209079[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-25 16:30:00.209094[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-25 16:30:49.905083[INFO][Arm] Arm uninit success.
+2025-12-25 16:30:49.908234[INFO][Arm] Arm uninit success.
+2025-12-26 10:06:05.735376[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:06:05.735398[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:06:05.735410[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:06:06.738372[INFO][Arm] Arm init success.
+2025-12-26 10:06:06.848211[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-26 10:06:06.848242[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-26 10:06:06.848260[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-26 10:06:10.596126[INFO][Arm] Arm uninit success.
+2025-12-26 10:06:10.597188[INFO][Arm] Arm uninit success.
+2025-12-26 10:07:16.902385[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:16.902404[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:16.902417[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:07:17.906535[INFO][Arm] Arm init success.
+2025-12-26 10:07:18.019225[INFO][Arm] Arm uninit success.
+2025-12-26 10:07:18.020207[INFO][Arm] Arm uninit success.
+2025-12-26 10:07:45.170556[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:45.170637[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:45.170653[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:07:46.173996[INFO][Arm] Arm init success.
+2025-12-26 10:07:46.282842[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-26 10:07:46.282872[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-26 10:07:46.282892[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-26 10:08:36.366216[INFO][Arm] Arm uninit success.
+2025-12-26 10:08:36.370313[INFO][Arm] Arm uninit success.
+2025-12-26 10:55:36.289390[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:55:36.291173[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:55:36.291181[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:55:37.304882[INFO][Arm] Arm init success.
+2025-12-26 10:55:37.412364[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-26 10:55:37.412388[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-26 10:55:37.412402[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-26 10:56:20.652922[INFO][Arm] Arm uninit success.
+2025-12-26 10:56:20.655307[INFO][Arm] Arm uninit success.
+2025-12-26 10:57:11.963159[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:11.963200[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:11.963230[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:57:15.057330[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-26 10:57:15.058136[INFO][Arm] Arm uninit success.
+2025-12-26 10:57:49.350429[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:49.350458[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:49.350478[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:57:52.444152[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-26 10:57:52.448205[INFO][Arm] Arm uninit success.
+2025-12-26 10:58:45.576476[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:58:45.576504[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:58:45.576522[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:58:48.669300[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-26 10:58:48.672769[INFO][Arm] Arm uninit success.
+2025-12-26 10:59:08.504815[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:59:08.504841[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:59:08.504859[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:59:09.510698[INFO][Arm] Arm init success.
+2025-12-26 10:59:09.619591[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-26 10:59:09.619620[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-26 10:59:09.619638[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-26 10:59:27.656123[INFO][Arm] Arm uninit success.
+2025-12-26 10:59:27.657517[INFO][Arm] Arm uninit success.
+2025-12-26 11:00:29.008067[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:00:29.008100[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:00:29.008118[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:00:32.095537[ERROR][Arm] Arm initialization failed due to motor 1 init failed
+2025-12-26 11:00:32.097475[INFO][Arm] Arm uninit success.
+2025-12-26 11:01:10.454726[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:01:10.454772[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:01:10.454801[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:01:11.457974[INFO][Arm] Arm init success.
+2025-12-26 11:01:11.567882[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-26 11:01:11.567915[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-26 11:01:11.567935[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-26 11:01:12.580415[INFO][Arm] Arm uninit success.
+2025-12-26 11:01:12.581393[INFO][Arm] Arm uninit success.
+2025-12-26 11:02:04.776746[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:02:04.776772[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:02:04.776787[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:02:05.778424[INFO][Arm] Arm init success.
+2025-12-26 11:02:05.888072[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-26 11:02:05.888100[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-26 11:02:05.888117[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-26 11:02:55.246009[INFO][Arm] Arm uninit success.
+2025-12-26 11:02:55.250244[INFO][Arm] Arm uninit success.
+2025-12-26 11:27:35.452698[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:27:35.456978[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:27:35.457004[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:27:36.473009[INFO][Arm] Arm init success.
+2025-12-26 11:27:36.582192[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-26 11:27:36.582215[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-26 11:27:36.582231[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-26 11:28:25.933147[INFO][Arm] Arm uninit success.
+2025-12-26 11:28:25.934581[INFO][Arm] Arm uninit success.
+2025-12-26 11:31:08.820651[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:31:08.820674[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:31:08.820687[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:31:09.823034[INFO][Arm] Arm init success.
+2025-12-26 11:31:09.931448[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-26 11:31:09.931472[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-26 11:31:09.931488[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-26 11:31:59.274065[INFO][Arm] Arm uninit success.
+2025-12-26 11:31:59.275111[INFO][Arm] Arm uninit success.
+2025-12-26 11:36:26.745834[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:36:26.745865[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:36:26.745882[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:36:27.749476[INFO][Arm] Arm init success.
+2025-12-26 11:36:27.858607[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-26 11:36:27.858636[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-26 11:36:27.858652[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-26 11:37:17.206618[INFO][Arm] Arm uninit success.
+2025-12-26 11:37:17.210413[INFO][Arm] Arm uninit success.
+2025-12-26 11:37:38.043505[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:37:38.043550[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:37:38.043592[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:37:39.046959[INFO][Arm] Arm init success.
+2025-12-26 11:37:39.156043[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-26 11:37:39.156069[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-26 11:37:39.156080[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-26 11:38:09.692318[INFO][Arm] Arm uninit success.
+2025-12-26 11:38:09.696165[INFO][Arm] Arm uninit success.
+2025-12-26 19:52:31.397086[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 19:52:31.397113[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 19:52:31.397130[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 19:52:32.399991[INFO][Arm] Arm init success.
+2025-12-26 19:52:32.509046[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-26 19:52:32.509065[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-26 19:52:32.509081[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-26 19:52:32.933724[INFO][Arm] Arm uninit success.
+2025-12-26 19:52:32.937403[INFO][Arm] Arm uninit success.
+2025-12-26 19:54:08.023306[INFO][Arm] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 19:54:08.023337[INFO][Arm] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 19:54:08.023355[INFO][Arm] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 19:54:09.028545[INFO][Arm] Arm init success.
+2025-12-26 19:54:09.137265[WARN][Arm] Setting param control_mode for motor 1 failed
+2025-12-26 19:54:09.137287[WARN][Arm] Setting param control_mode for motor 2 failed
+2025-12-26 19:54:09.137308[WARN][Arm] Setting param control_mode for motor 3 failed
+2025-12-26 19:54:16.406863[INFO][Arm] Arm uninit success.
+2025-12-26 19:54:16.409768[INFO][Arm] Arm uninit success.

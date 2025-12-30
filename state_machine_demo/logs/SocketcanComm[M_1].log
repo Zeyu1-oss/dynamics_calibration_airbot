@@ -1,0 +1,1345 @@
+2025-12-24 10:18:33.888696[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:18:33.888722[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:18:33.888736[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:18:33.888777[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 10:19:19.954469[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 10:19:33.714810[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:19:33.714831[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:19:33.714851[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:19:33.714916[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 10:20:19.899338[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 10:29:03.537840[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:29:03.537852[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:29:03.537863[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:29:03.537906[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 10:30:34.453115[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:30:34.453141[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:30:34.453172[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:30:34.453251[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 10:35:10.505274[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:35:10.505295[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:35:10.505314[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:35:10.505379[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 10:36:44.245790[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:36:44.245808[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:36:44.245825[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:36:44.245873[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 10:38:53.664575[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:38:53.664598[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:38:53.664618[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:38:53.664680[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 10:39:09.890813[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:39:09.890838[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:39:09.890861[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:39:09.890929[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 10:41:51.586539[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:51.586545[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:51.586550[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:41:51.586558[ERROR][SocketcanComm[M_1]] Interface can0 not found: No such device
+2025-12-24 10:42:27.624406[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:42:27.624426[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:42:27.624445[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:42:27.624499[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 10:57:27.719643[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:57:27.719655[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:57:27.719666[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:57:27.719709[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:01:27.550353[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:01:27.550385[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:01:27.550402[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:01:27.550459[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:12:10.110969[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:12:10.110991[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:12:10.111009[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:12:10.111072[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:17:03.056742[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:17:03.056761[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:17:03.056777[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:17:03.056834[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:32:04.981057[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:04.981064[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:04.981070[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:32:04.981086[ERROR][SocketcanComm[M_1]] Interface can0 not found: No such device
+2025-12-24 11:33:02.684216[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:33:02.684269[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:33:02.684290[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:33:02.684356[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:35:23.218845[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:35:23.218877[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:35:23.218896[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:35:23.218958[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:36:06.465488[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:36:06.465512[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:36:06.465531[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:36:06.465593[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:37:37.186117[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:37:37.186132[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:37:37.186145[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:37:37.186188[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:44:44.274806[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:44.274815[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:44.274823[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:44:44.274852[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:44:50.419799[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:50.419819[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:50.419844[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:44:50.419900[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:47:09.907272[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:47:09.907294[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:47:09.907313[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:47:09.907374[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:49:00.238439[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:49:00.238450[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:49:00.238460[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:49:00.238499[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:51:07.811295[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:07.811313[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:07.811329[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:51:07.811381[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:51:49.720543[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:49.720549[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:49.720555[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:51:49.720574[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:52:53.425147[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:52:53.425191[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:52:53.425214[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:52:53.425295[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:55:20.047464[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:55:20.047481[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:55:20.047495[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:55:20.047540[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:57:02.994725[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:02.994742[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:02.994756[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:57:02.994808[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:57:35.201326[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:35.201341[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:35.201355[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:57:35.201395[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:57:38.186210[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:38.186220[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:38.186234[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:57:38.186261[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 11:57:45.308829[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 11:58:00.617947[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 11:58:08.367160[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 12:01:06.967219[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:01:06.967272[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:01:06.967304[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:01:06.967388[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 12:04:29.811100[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:04:29.811122[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:04:29.811143[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:04:29.811206[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 12:09:12.371970[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:09:12.371986[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:09:12.372000[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:09:12.372049[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 12:11:07.234493[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:11:07.234521[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:11:07.234546[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:11:07.234624[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 12:13:17.711498[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:13:17.711518[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:13:17.711540[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:13:17.711615[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 13:37:32.124572[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:32.124589[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:32.124604[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:37:32.124653[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 13:37:58.970349[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:58.970366[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:58.970381[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:37:58.970431[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 13:39:06.289159[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:39:06.289197[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:39:06.289241[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:39:06.289328[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 13:43:15.374936[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:43:15.374945[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:43:15.374954[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:43:15.374983[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 13:44:13.594545[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:44:13.594564[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:44:13.594578[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:44:13.594628[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 13:44:22.961827[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:44:27.977034[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:44:32.006177[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:44:32.010295[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:44:41.110676[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:44:52.957735[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:48:33.994312[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:48:33.994322[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:48:33.994331[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:48:33.994358[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 13:48:38.152414[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:48:45.347321[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:48:53.394212[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:48:53.398305[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:48:54.977962[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:48:54.982085[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:50:24.226065[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:50:24.226072[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:50:24.226077[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:50:24.226095[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 13:50:28.374267[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:50:28.378412[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:50:29.900264[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:50:33.925996[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:50:35.927594[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:50:37.928269[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:50:44.982266[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:50:48.810738[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:52:49.154698[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:52:49.154717[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:52:49.154738[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:52:49.154829[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 13:52:51.472795[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:53:06.687870[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:53:12.756501[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:53:12.760609[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:53:16.806267[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:53:18.841564[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:53:22.873517[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:53:22.877632[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:53:25.909411[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:53:27.934060[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 13:53:27.938240[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:03:12.352191[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:03:12.352206[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:03:12.352218[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:03:12.352274[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:03:16.684146[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:03:30.916070[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:03:30.920256[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:03:47.114740[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:03:49.125677[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:03:49.129807[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:04:58.394951[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:04:58.394970[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:04:58.394987[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:04:58.395047[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:05:10.741224[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:05:13.737415[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:05:13.741617[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:05:16.776167[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:05:19.364767[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:10.956530[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:06:10.956555[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:06:10.956570[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:06:10.956628[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:06:10.993292[ERROR][SocketcanComm[M_1]] strong write error: 105, No buffer space available
+2025-12-24 14:06:13.261439[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:16.785512[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:16.789647[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:20.473410[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:20.477550[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:24.469340[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:24.473520[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:26.469300[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:26.473458[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:31.529188[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:31.533429[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:40.635958[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:40.640105[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:42.673245[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:44.692215[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:06:50.472144[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:10:41.172251[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:10:41.172268[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:10:41.172283[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:10:41.172332[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:10:56.528480[WARN][SocketcanComm[M_1]] write operation already in progress, writing abort (weak write).
+2025-12-24 14:10:56.532737[WARN][SocketcanComm[M_1]] write operation already in progress, writing abort (weak write).
+2025-12-24 14:13:07.011006[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:13:07.011038[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:13:07.011066[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:13:07.011141[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:13:13.188723[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:13:15.207817[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:13:17.228279[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:16:10.646866[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:16:10.646887[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:16:10.646906[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:16:10.646967[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:16:13.798066[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:16:13.802267[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:16:17.841005[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:16:20.866836[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:16:22.882785[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:16:33.538663[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:16:33.542815[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:16:40.583965[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:16:49.664002[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:16:53.712605[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:16:53.716861[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:16:56.736971[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:26:09.805403[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:26:09.805427[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:26:09.805447[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:26:09.805509[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:26:18.790472[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:26:20.808336[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:29:04.777016[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:29:04.777035[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:29:04.777051[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:29:04.777102[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:35:35.866986[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:35:35.867007[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:35:35.867027[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:35:35.867087[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:38:37.702985[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:38:37.703006[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:38:37.703025[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:38:37.703076[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:39:07.446773[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:39:07.446793[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:39:07.446811[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:39:07.446868[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:41:35.546164[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:35.546171[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:35.546176[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:41:35.546192[ERROR][SocketcanComm[M_1]] Interface slcan not found: No such device
+2025-12-24 14:42:09.562706[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562712[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562718[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562727[ERROR][SocketcanComm[M_1]] Interface slcan not found: No such device
+2025-12-24 14:42:20.165183[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:20.165190[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:20.165195[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:42:20.165202[ERROR][SocketcanComm[M_1]] Interface slcan not found: No such device
+2025-12-24 14:43:48.779298[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:43:48.779321[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:43:48.779346[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:43:48.779406[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:44:30.356053[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:44:30.356073[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:44:30.356083[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:44:30.356111[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:45:09.749515[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:45:09.749526[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:45:09.749536[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:45:09.749567[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:52:25.500551[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:52:25.500568[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:52:25.500582[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:52:25.500631[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:53:01.230049[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:53:01.230067[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:53:01.230086[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:53:01.230142[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:53:03.379251[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:53:11.444843[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:53:11.448998[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:53:22.923013[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:53:22.927158[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:53:26.344300[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:53:26.348421[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:53:28.769551[WARN][SocketcanComm[M_1]] write operation already in progress, writing abort (weak write).
+2025-12-24 14:53:33.362042[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:53:33.366213[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:53:36.397645[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:53:44.482330[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:53:44.486481[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:53:48.527032[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:56:23.530411[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:56:23.530422[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:56:23.530432[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:56:23.530466[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 14:57:08.601896[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 14:57:08.606039[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:13:19.536439[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:13:19.536458[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:13:19.536476[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:13:19.536517[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:13:24.742252[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:13:24.746348[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:14:00.200829[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:00.200845[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:00.200877[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:14:00.200923[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:14:07.305807[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:14:07.309933[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:14:30.861674[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:30.861686[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:30.861697[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:14:30.861733[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:14:55.672999[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:55.673021[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:55.673039[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:14:55.673095[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:14:57.827343[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:15:15.524483[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:15:15.528664[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:15:17.150594[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:15:17.154758[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:15:31.673593[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:15:31.677785[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:15:39.744813[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:15:39.748884[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:17:13.175067[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:17:13.175074[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:17:13.175079[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:17:13.175100[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:17:22.703363[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:18:22.519155[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:18:22.519175[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:18:22.519192[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:18:22.519266[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:18:39.771632[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:18:42.782588[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:18:45.797883[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:18:45.802034[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:18:48.836074[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:18:53.883501[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:18:56.915983[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:18:58.932927[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:18:58.937089[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:19:04.998256[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:19:05.002381[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:19:07.012809[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:19:07.016970[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:21:30.635765[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:21:30.635782[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:21:30.635798[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:21:30.635850[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:25:00.783072[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:25:00.783220[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:25:00.783248[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:25:00.783304[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:25:04.133561[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:25:04.137718[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:26:39.933946[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:26:39.933954[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:26:39.933961[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:26:39.933984[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:26:42.080749[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:26:52.129783[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:26:52.133946[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:29:32.930876[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:29:32.930895[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:29:32.930911[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:29:32.930963[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:29:52.179962[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:29:59.238305[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:29:59.242434[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:30:05.681135[WARN][SocketcanComm[M_1]] write operation already in progress, writing abort (weak write).
+2025-12-24 15:30:06.321054[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:30:12.378336[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:30:12.382469[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:30:14.403885[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:30:14.408092[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:30:18.174703[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:30:18.178873[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:33:48.311208[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:33:48.311220[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:33:48.311240[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:33:48.311274[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:33:51.461451[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:33:51.465574[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:33:54.460644[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:33:54.464848[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:33:56.471281[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:34:09.616794[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:34:09.620921[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:34:12.330424[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:34:19.448082[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:39:33.391599[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:33.391605[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:33.391609[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:39:33.391617[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 15:40:07.595690[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:07.595696[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:07.595702[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:40:07.595710[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 15:40:23.078845[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078854[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078862[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078879[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 15:41:16.524268[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:16.524274[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:16.524286[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:41:16.524298[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 15:45:00.831608[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:45:00.831629[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:45:00.831647[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:45:00.831704[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:45:04.318946[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:45:13.367550[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:45:17.059531[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:45:24.156577[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:45:28.414343[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:45:30.550063[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:46:16.647118[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:16.647124[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:16.647130[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:46:16.647153[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:46:48.572939[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:48.572951[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:48.572962[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:46:48.572997[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:46:56.174103[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:56:10.395469[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:10.395497[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:10.395513[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:56:10.395565[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:56:24.927421[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:24.927438[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:24.927453[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:56:24.927509[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 15:56:46.124500[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:56:46.128687[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:56:52.161539[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:56:52.165709[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:56:54.193134[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:57:01.276824[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:57:03.288046[WARN][SocketcanComm[M_1]] write operation already in progress, writing abort (weak write).
+2025-12-24 15:57:03.292312[WARN][SocketcanComm[M_1]] write operation already in progress, writing abort (weak write).
+2025-12-24 15:57:05.313541[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:57:05.317706[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:57:11.381259[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 15:59:16.179037[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:59:16.179061[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:59:16.179083[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:59:16.179146[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:07:00.974761[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:07:00.974789[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:07:00.974802[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:07:00.974844[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:07:20.964547[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:07:20.968737[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:07:27.999669[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:07:30.020866[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:07:44.188391[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:07:46.216457[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:08:36.287378[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:08:36.287397[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:08:36.287414[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:08:36.287471[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:10:06.975723[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:06.975740[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:06.975753[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:10:06.975802[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:10:15.874175[WARN][SocketcanComm[M_1]] write operation already in progress, writing abort (weak write).
+2025-12-24 16:10:41.311859[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:41.311878[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:41.311903[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:10:41.311954[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:15:09.346830[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:15:09.346851[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:15:09.346869[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:15:09.346975[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:16:12.429499[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:16:12.429518[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:16:12.429538[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:16:12.429594[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:17:39.972253[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:17:39.972278[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:17:39.972295[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:17:39.972354[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:23:30.828788[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:23:30.828808[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:23:30.828825[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:23:30.828884[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:26:36.147957[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:26:36.147973[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:26:36.147985[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:26:36.148049[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:27:21.277926[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:27:21.277948[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:27:21.277961[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:27:21.278006[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:35:49.688862[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:35:49.688894[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:35:49.688915[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:35:49.688976[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:36:11.711209[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:36:11.715383[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:36:18.737374[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:36:18.741489[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:36:27.838421[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:36:32.883775[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:36:32.887947[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:36:34.914687[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:37:42.712799[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:37:42.712805[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:37:42.712811[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:37:42.712829[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:38:25.097829[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:39:28.878584[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:39:28.878610[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:39:28.878633[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:39:28.878699[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:39:33.023337[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:39:38.129911[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:39:59.051652[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:40:03.050706[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:40:03.054829[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:40:12.964378[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:40:12.968501[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:40:25.750183[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:40:25.754301[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:43:45.119775[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:43:45.119793[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:43:45.119809[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:43:45.119859[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:44:07.307372[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:44:07.311487[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:44:09.310309[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:44:11.262337[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:44:11.266447[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:44:54.719201[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:44:54.719223[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:44:54.719252[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:44:54.719313[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:44:57.042292[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:44:57.046495[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:45:14.074308[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:45:23.043206[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:45:23.047390[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:45:33.059357[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:45:35.075048[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:45:37.077192[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:45:39.080254[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:45:39.084365[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:45:44.090456[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:46:16.864837[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:46:16.864845[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:46:16.864854[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:46:16.864878[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:48:51.356802[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:48:51.356819[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:48:51.356834[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:48:51.356885[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:48:53.504495[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:48:57.504430[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:48:57.508611[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:49:09.666064[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 16:54:54.211655[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:54:54.211671[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:54:54.211684[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:54:54.211731[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:55:15.994712[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:55:15.994723[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:55:15.994735[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:55:15.994769[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:56:38.318871[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:56:38.318883[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:56:38.318893[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:56:38.318950[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:57:32.984516[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:57:32.984529[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:57:32.984548[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:57:32.984598[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:58:12.764268[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:12.764275[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:12.764281[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:58:12.764301[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 16:58:49.771824[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:49.771842[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:49.771857[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:58:49.771907[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 17:08:08.348534[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:08:08.348555[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:08:08.348587[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:08:08.348633[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 17:15:15.050309[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:15.050333[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:15.050352[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:15:15.050425[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 17:15:45.770980[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:45.771001[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:45.771026[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:15:45.771083[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 17:16:46.289203[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:16:46.289264[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:16:46.289296[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:16:46.289387[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 17:16:51.153111[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 17:16:51.157314[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 17:23:59.132760[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:23:59.132769[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:23:59.132777[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:23:59.132804[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 17:24:32.831737[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:24:32.831762[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:24:32.831782[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:24:32.831864[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 17:25:49.220663[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:25:49.220703[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:25:49.220719[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:25:49.220777[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 17:26:26.119081[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:26:26.119105[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:26:26.119126[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:26:26.119195[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 17:58:10.538772[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:10.538779[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:10.538785[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:58:10.538803[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 17:58:36.507211[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:36.507256[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:36.507273[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:58:36.507335[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 17:59:09.347822[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:59:09.347845[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:59:09.347862[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:59:09.347918[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 18:19:22.415348[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 18:19:22.415362[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 18:19:22.415374[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 18:19:22.415414[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 18:20:39.639950[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 18:20:39.639972[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 18:20:39.639993[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 18:20:39.640052[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 18:20:50.937819[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 19:48:36.235164[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:48:36.235188[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:48:36.235208[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:48:36.235293[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 19:48:44.243532[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 19:48:44.247935[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-24 19:49:42.563388[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:49:42.563395[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:49:42.563400[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:49:42.563419[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-24 19:51:53.608449[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:53.608456[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:53.608462[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:51:53.608478[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 19:52:21.836685[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:21.836692[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:21.836698[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:52:21.836706[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 19:53:15.065548[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:15.065555[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:15.065560[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:15.065573[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 19:53:28.332539[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:28.332545[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:28.332551[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:28.332566[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 19:53:52.865953[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:52.865961[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:52.865967[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:52.865983[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 19:54:31.144123[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:31.144129[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:31.144134[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:54:31.144142[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 19:55:46.146748[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:46.146756[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:46.146762[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:55:46.146774[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 19:56:10.071490[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:10.071495[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:10.071500[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:56:10.071507[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 19:57:13.183551[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:13.183557[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:13.183562[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:57:13.183575[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 19:58:12.073339[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:12.073350[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:12.073359[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:58:12.073373[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-24 19:58:40.935640[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:40.935659[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:40.935676[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:58:40.935713[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-25 09:40:00.523533[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:40:00.523539[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:40:00.523544[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:40:00.523556[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-25 09:43:23.965799[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965805[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965810[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965818[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-25 09:43:47.807564[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:47.807573[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:47.807580[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:43:47.807593[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-25 09:52:40.685564[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:40.685570[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:40.685574[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:52:40.685587[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-25 09:53:57.305521[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:53:57.305544[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:53:57.305566[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:53:57.305628[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 09:53:57.334093[ERROR][SocketcanComm[M_1]] strong write error: 105, No buffer space available
+2025-12-25 09:55:33.172773[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:33.172785[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:33.172795[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:55:33.172827[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 09:55:57.836335[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:57.836360[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:57.836379[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:55:57.836438[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 09:56:31.982898[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:56:31.982923[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:56:31.982945[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:56:31.983032[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 09:58:36.689866[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:58:36.689881[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:58:36.689892[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:58:36.689932[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 09:59:20.148435[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:20.148457[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:20.148477[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:59:20.148540[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 09:59:53.323956[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:53.323974[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:53.323992[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:59:53.324048[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:00:23.367407[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:04:04.864816[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:04:04.864839[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:04:04.864861[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:04:04.864922[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:04:35.343023[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:04:48.495027[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:04:52.530356[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:18:17.369063[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:18:17.369080[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:18:17.369090[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:18:17.369126[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:18:20.096174[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:18:24.561474[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:18:44.696175[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:18:48.744683[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:20:01.726099[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:01.726120[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:01.726135[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:20:01.726189[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:20:30.170222[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:30.170242[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:30.170271[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:20:30.170347[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:20:41.325876[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:21:05.215047[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:21:05.215071[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:21:05.215098[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:21:05.215169[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:23:32.189351[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:23:32.189373[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:23:32.189392[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:23:32.189464[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:24:31.506635[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:24:31.506653[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:24:31.506669[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:24:31.506715[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:29:03.339280[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:29:03.339369[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:29:03.339395[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:29:03.339467[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:29:23.503122[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:30:41.312470[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:30:41.312481[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:30:41.312491[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:30:41.312525[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:31:03.732301[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:31:05.763371[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:31:09.809186[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:31:09.813336[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:31:13.864497[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:31:56.776294[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:31:56.776337[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:31:56.776358[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:31:56.776422[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:32:26.289162[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:32:30.349098[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:32:32.359231[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:34:25.429975[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:34:25.429998[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:34:25.430052[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:34:25.430117[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:34:53.940251[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:34:55.959463[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:34:57.989079[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:35:06.087240[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:36:55.591334[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:36:55.591353[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:36:55.591367[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:36:55.591419[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:37:17.184902[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:40:01.808124[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:40:01.808148[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:40:01.808169[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:40:01.808231[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:40:19.102765[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:40:24.220941[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:40:27.260948[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:40:39.410127[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:40:41.440804[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:40:43.461439[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:41:53.669567[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:41:53.669590[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:41:53.669613[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:41:53.669685[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:42:17.119191[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:47:53.720288[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:47:53.720314[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:47:53.720336[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:47:53.720410[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:48:21.208492[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:48:27.289585[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:48:32.341834[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:48:36.391219[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:55:45.903763[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:55:45.903788[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:55:45.903811[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:55:45.903877[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 10:56:07.317267[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:56:12.375332[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:56:12.379553[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:56:16.431793[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:56:23.515686[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:56:26.555504[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 10:56:28.582792[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:15:46.054521[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:15:46.054775[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:15:46.054811[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:15:46.054904[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:16:11.687550[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:16:19.787192[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:16:19.791337[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:16:25.869376[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:16:28.904722[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:18:24.436661[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:18:24.436683[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:18:24.436709[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:18:24.436777[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:18:53.931131[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:18:57.983098[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:32:31.330725[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:32:31.330740[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:32:31.330753[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:32:31.330791[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:32:53.755711[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:32:55.785654[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:33:01.867067[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:33:04.899082[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:36:34.811758[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:36:34.811781[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:36:34.811802[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:36:34.811866[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:36:54.224672[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:36:56.224855[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:36:58.257439[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:37:08.381572[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:37:15.473051[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:37:17.504129[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:37:49.101707[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:37:49.101741[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:37:49.101763[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:37:49.101825[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:38:06.538258[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:38:10.482757[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:38:10.487070[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:38:10.491382[WARN][SocketcanComm[M_1]] weak write error: 105, No buffer space available
+2025-12-25 11:38:11.514434[ERROR][SocketcanComm[M_1]] Failed to read from device: Device is disconnected!
+2025-12-25 11:38:11.515336[WARN][SocketcanComm[M_1]] Failed to weak write to device: Device is disconnected!
+2025-12-25 11:38:11.529459[WARN][SocketcanComm[M_1]] Failed to weak write to device: Device is disconnected!
+2025-12-25 11:42:01.369722[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:42:01.369783[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:42:01.369852[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:42:01.369918[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:42:55.764749[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:42:55.764771[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:42:55.764790[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:42:55.764851[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:49:26.259973[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:49:26.260001[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:49:26.260037[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:49:26.260108[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:50:11.001840[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:50:11.001847[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:50:11.001852[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:50:11.001874[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:51:25.858832[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:25.858859[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:25.858930[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:51:25.859063[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:51:58.174390[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:58.174421[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:58.174452[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:51:58.174534[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:52:39.262729[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:52:39.262744[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:52:39.262758[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:52:39.262803[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:53:05.008666[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:53:05.008681[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:53:05.008699[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:53:05.008745[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:53:31.045188[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:53:31.045194[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:53:31.045199[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:53:31.045220[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:54:43.315109[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:54:43.315126[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:54:43.315142[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:54:43.315210[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 11:59:16.676030[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:59:16.676048[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:59:16.676066[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:59:16.676113[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:00:01.003729[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:00:01.003770[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:00:01.003804[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:00:01.003894[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:02:04.702295[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:02:04.702332[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:02:04.702365[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:02:04.702453[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:30:21.546296[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:21.546325[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:21.546339[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:30:21.546386[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:30:56.534103[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:56.534120[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:56.534136[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:30:56.534189[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:31:26.873285[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:31:26.873306[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:31:26.873323[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:31:26.873380[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:36:53.044599[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:36:53.044612[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:36:53.044621[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:36:53.044649[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:37:17.347577[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:37:17.347593[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:37:17.347608[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:37:17.347652[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:38:41.484499[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:38:41.484510[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:38:41.484519[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:38:41.484546[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:39:06.154582[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:06.154599[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:06.154617[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:39:06.154674[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:39:24.069073[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:24.069099[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:24.069119[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:39:24.069172[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:41:33.322148[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:41:33.322184[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:41:33.322237[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:41:33.322325[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:48:01.213168[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:48:01.213191[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:48:01.213211[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:48:01.213274[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:48:27.803968[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:48:27.803990[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:48:27.804036[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:48:27.804103[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:49:31.261286[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:49:31.261299[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:49:31.261310[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:49:31.261351[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:50:22.621807[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:22.621823[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:22.621839[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:50:22.621890[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:50:54.424249[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:54.424276[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:54.424295[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:50:54.424365[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:51:34.258535[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:51:34.258555[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:51:34.258573[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:51:34.258660[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:53:07.681345[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:53:07.681362[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:53:07.681374[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:53:07.681415[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:54:50.257967[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:54:50.257982[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:54:50.257994[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:54:50.258041[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 12:56:03.744244[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:56:03.744275[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:56:03.744304[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:56:03.744379[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 13:58:41.062356[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:41.062365[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:41.062370[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 13:58:41.062381[ERROR][SocketcanComm[M_1]] Interface can0 not found: No such device
+2025-12-25 13:59:16.240425[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:16.240444[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:16.240461[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 13:59:16.240511[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 13:59:49.240114[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:49.271697[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:49.271723[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 13:59:49.271787[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:01:44.732156[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:01:44.732168[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:01:44.732178[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:01:44.732208[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:04:26.578782[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:04:26.578808[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:04:26.578828[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:04:26.578909[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:05:18.971451[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:18.971468[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:18.971481[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:05:18.971522[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:05:36.487791[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:36.487809[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:36.487825[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:05:36.487874[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:09:14.473400[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:14.473422[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:14.473444[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:09:14.473507[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:09:50.575384[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:50.575405[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:50.575454[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:09:50.575509[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:11:17.101724[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:11:17.101749[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:11:17.101768[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:11:17.101832[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:12:49.196144[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:12:49.196164[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:12:49.196181[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:12:49.196236[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:13:37.852352[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:13:37.852375[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:13:37.852396[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:13:37.852457[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:14:17.813714[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:14:17.813737[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:14:17.813757[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:14:17.813819[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:15:40.241736[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:40.241757[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:40.241793[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:15:40.241852[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:15:54.465105[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:54.465119[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:54.465130[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:15:54.465173[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:16:30.326561[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:16:30.326579[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:16:30.326595[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:16:30.326646[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:17:47.560342[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:47.560556[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:47.560561[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:17:47.560568[ERROR][SocketcanComm[M_1]] Interface slcan1 not found: No such device
+2025-12-25 14:18:05.484116[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:18:05.484127[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:18:05.484138[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:18:05.484174[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:21:18.727728[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:21:18.727749[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:21:18.727766[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:21:18.727819[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:24:22.065796[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:22.065814[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:22.065832[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:24:22.065886[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:24:55.803727[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:55.803749[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:55.803770[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:24:55.803833[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:28:51.611373[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:28:51.611390[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:28:51.611409[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:28:51.611473[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:31:08.362421[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:31:08.362445[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:31:08.362464[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:31:08.362520[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:32:52.468626[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:32:52.468653[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:32:52.468670[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:32:52.468718[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:33:31.358448[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:33:31.358464[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:33:31.358476[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:33:31.358518[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:38:52.580379[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:38:52.580401[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:38:52.580420[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:38:52.580493[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:40:05.277627[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:40:05.277658[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:40:05.277685[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:40:05.277763[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:40:43.110885[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:40:43.110897[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:40:43.110907[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:40:43.110938[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:41:27.352757[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:41:27.352781[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:41:27.352802[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:41:27.352864[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:42:42.437217[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:42:42.437270[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:42:42.437301[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:42:42.437363[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:43:15.642287[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:43:15.642310[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:43:15.642331[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:43:15.642390[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:44:47.240078[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:44:47.240099[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:44:47.240115[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:44:47.240172[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:47:33.678370[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:47:33.678388[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:47:33.678405[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:47:33.678462[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:49:38.663228[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:49:38.663251[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:49:38.663266[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:49:38.663316[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:50:11.726729[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:50:11.726751[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:50:11.726776[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:50:11.727110[INFO][SocketcanComm[M_1]] initialized on slcan0
+2025-12-25 14:51:29.597954[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:29.597963[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:29.597972[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:51:29.597983[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-25 14:51:45.162389[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:45.162395[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:45.162399[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:51:45.162406[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-25 14:52:05.601118[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:05.601124[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:05.601131[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:52:05.601139[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-25 14:53:14.641634[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:14.641641[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:14.641646[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:53:14.641659[ERROR][SocketcanComm[M_1]] Interface can0 not found: No such device
+2025-12-25 15:10:56.120665[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:10:56.120861[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:10:56.120872[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:10:56.120913[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-25 15:15:18.582745[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582752[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582757[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582764[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-25 15:15:53.344667[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:53.344686[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:53.344703[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:15:53.344756[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-25 15:17:53.976320[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:17:53.976345[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:17:53.976363[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:17:53.976431[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-25 15:19:12.964067[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:19:12.964089[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:19:12.964108[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:19:12.964164[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-25 15:22:03.871092[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:03.871099[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:03.871105[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:22:03.871113[ERROR][SocketcanComm[M_1]] Interface slcan0 not found: No such device
+2025-12-25 15:23:10.224813[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:23:10.225034[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:23:10.225045[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:23:10.225086[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-25 15:36:43.875357[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:36:43.875364[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:36:43.875371[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:36:43.875397[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-25 15:37:06.161135[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:37:06.161147[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:37:06.161157[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:37:06.161185[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-25 15:41:30.137096[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:41:30.137132[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:41:30.137162[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:41:30.137254[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-25 15:45:10.163615[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:45:10.163643[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:45:10.163659[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:45:10.163715[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-25 16:23:26.094898[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 16:23:26.094918[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 16:23:26.094937[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 16:23:26.094998[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-25 16:29:59.079106[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 16:29:59.079125[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 16:29:59.079142[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 16:29:59.079200[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 10:06:05.735480[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:06:05.735495[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:06:05.735508[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:06:05.735555[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 10:07:16.902481[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:16.902494[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:16.902506[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:07:16.902547[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 10:07:45.170735[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:45.170753[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:45.170768[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:07:45.170823[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 10:55:36.291215[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:55:36.291227[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:55:36.291233[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:55:36.291257[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 10:57:11.963333[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:11.963356[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:11.963376[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:57:11.963452[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 10:57:49.350574[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:49.350594[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:49.350611[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:57:49.350677[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 10:58:45.576604[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:58:45.576620[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:58:45.576638[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:58:45.576693[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 10:59:08.504957[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:59:08.504977[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:59:08.504994[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:59:08.505070[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 11:00:29.008207[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:00:29.008228[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:00:29.008244[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:00:29.008302[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 11:01:10.454934[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:01:10.454986[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:01:10.455026[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:01:10.455095[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 11:02:04.776868[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:02:04.776885[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:02:04.776899[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:02:04.776942[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 11:27:35.457327[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:27:35.457626[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:27:35.457655[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:27:35.457716[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 11:31:08.820754[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:31:08.820772[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:31:08.820789[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:31:08.820848[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 11:36:26.745980[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:36:26.745999[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:36:26.746027[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:36:26.746080[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 11:37:38.043769[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:37:38.043813[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:37:38.043850[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:37:38.043944[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 19:52:31.397212[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 19:52:31.397231[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 19:52:31.397247[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 19:52:31.397308[INFO][SocketcanComm[M_1]] initialized on can0
+2025-12-26 19:54:08.023459[INFO][SocketcanComm[M_1]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 19:54:08.023481[INFO][SocketcanComm[M_1]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 19:54:08.023498[INFO][SocketcanComm[M_1]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 19:54:08.023557[INFO][SocketcanComm[M_1]] initialized on can0

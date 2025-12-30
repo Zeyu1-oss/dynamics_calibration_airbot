@@ -54,7 +54,7 @@ def parse_urdf(file_path):
     robot_element = root
     
     # 只读取前5个link (link1到link5)，跳过base_link
-    NO_DOF = 5
+    NO_DOF = 6
     
     # 初始化存储机器人参数的字典
     robot = {
@@ -136,7 +136,11 @@ def parse_urdf(file_path):
         robot['h'][:, i] = link_mass * com_pos
         
         # 3. 存储修正后的惯性向量 I_vec，平行轴定理。
-        I_new = link_inertia - link_mass * com_vec2mat @ com_vec2mat
+        #    robot.I_vec(:,i) = inertiaMatrix2Vector(link_inertia-...
+        #                             link_mass*com_vec2mat*com_vec2mat);
+        # I_Origin = I_COM - m * [r]× @ [r]×
+        I_new = link_inertia - link_mass * (com_vec2mat @ com_vec2mat)
+
         robot['I_vec'][:, i] = inertiaMatrix2Vector(I_new).flatten()
         
         # 4. 存储标准惯性参数向量 pi (10x1)

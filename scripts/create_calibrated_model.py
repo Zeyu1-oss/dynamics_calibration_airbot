@@ -19,9 +19,7 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
     with open(estimation_pkl_path, 'rb') as f:
         results = pickle.load(f)
     
-    # 兼容新旧两种保存格式
     if 'sol' in results:
-        # 新格式：{'sol': ..., 'method': ..., 'lambda_reg': ...}
         sol = results['sol']
         saved_method = results.get('method', 'unknown')
         print(f"  ✓ 加载的估计方法: {saved_method}")
@@ -46,8 +44,8 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
     n_links = len(pi_s) // 10
     print(f"  ✓ 加载了 {len(pi_s)} 个标准参数 ({n_links} 个link)")
     if pi_fr is not None:
-        n_joints_fr = len(pi_fr) // 3  # 每个关节3个摩擦参数 (Fv, Fc, F0)
-        print(f"  ✓ 加载了 {len(pi_fr)} 个摩擦参数 ({n_joints_fr} 个关节 × 3参数/关节)")
+        n_joints_fr = len(pi_fr) // 2 
+        print(f"  ✓ 加载了 {len(pi_fr)} 个摩擦参数 ({n_joints_fr} 个关节 × 2参数/关节)")
     
     # 2. 解析原始XML
     print("\n[2/4] 解析原始XML...")
@@ -74,7 +72,7 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
             continue
         
         # 提取10个参数
-        # ⚠️ 注意：pi_s中存储的是 I_Origin（相对于link frame origin）
+        # pi_s中存储的是 I_Origin（相对于link frame origin）
         # 因为parse_urdf做了转换：I_vec = I_COM - m*skew(r_com)^2
         Ixx_origin, Ixy_origin, Ixz_origin = pi_s[param_idx:param_idx + 3]
         Iyy_origin, Iyz_origin = pi_s[param_idx + 3:param_idx + 5]
@@ -104,11 +102,11 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
             [Ixz_origin, Iyz_origin, Izz_origin]
         ])
         
-        # ✅ 应用平行轴定理逆转换
         # I_origin = I_COM - m * [r]× @ [r]×  (parse_urdf.py)
         # 反过来：I_COM = I_origin + m * [r]× @ [r]×
-        I_com = I_origin + mass * (com_skew @ com_skew)  # 注意：没有 .T
-        # 提取转换后的惯性参数
+        # I_com = I_origin + mass * (com_skew @ com_skew.T) 
+        I_com = I_origin + mass * (com_skew @ com_skew)   
+        # I_com = I_origin 
         Ixx = I_com[0, 0]
         Ixy = I_com[0, 1]
         Ixz = I_com[0, 2]
@@ -193,7 +191,7 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
         
         for i, joint_name in enumerate(joint_names):
             # 每个关节在 pi_fr 中占 3 个位置 [Fv, Fc, F0]
-            friction_idx = i * 3
+            friction_idx = i * 2
             
             if friction_idx + 1 >= len(pi_fr):
                 print(f"  ⚠️  参数索引 {friction_idx+1} 超出范围 (pi_fr 长度 {len(pi_fr)})，跳过 {joint_name}")

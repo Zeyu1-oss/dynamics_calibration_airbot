@@ -1,0 +1,55 @@
+1766560367.0693471 [INFO] [launch]: All log files can be found below /userdata/2025-12-24-07-12-47-068719-discover-Legion-Y7000-IRX10-122
+1766560367.0694475 [INFO] [launch]: Default logging verbosity is set to INFO
+1766560367.7062569 [INFO] [server_node-1]: process started with pid [129]
+1766560367.7064435 [INFO] [ros2_control_node-2]: process started with pid [131]
+1766560367.7065368 [INFO] [spawner-3]: process started with pid [133]
+1766560367.7066214 [INFO] [spawner-4]: process started with pid [135]
+1766560367.7067006 [INFO] [spawner-5]: process started with pid [137]
+1766560367.7067759 [INFO] [spawner-6]: process started with pid [139]
+1766560367.7068486 [INFO] [spawner-7]: process started with pid [141]
+1766560367.7069211 [INFO] [spawner-8]: process started with pid [143]
+1766560367.7069921 [INFO] [spawner-9]: process started with pid [145]
+1766560367.7070613 [INFO] [robot_state_publisher-10]: process started with pid [147]
+1766560367.7071328 [INFO] [move_group-11]: process started with pid [149]
+1766560367.7072010 [INFO] [servo_node-12]: process started with pid [151]
+1766560367.7072783 [INFO] [server-13]: process started with pid [153]
+1766560367.7073491 [INFO] [aggregator_node-14]: process started with pid [155]
+1766560367.7074182 [INFO] [component_container_mt-15]: process started with pid [157]
+1766560367.7774565 [server-13] 1766560367.777186 [199]     server: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///root/cyclonedds.xml line 8)
+1766560367.8090014 [servo_node-12] 1766560367.808795 [199] servo_node: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///root/cyclonedds.xml line 8)
+1766560367.8174536 [servo_node-12] [33m[WARN] [1766560367.817218542] [PZ27C02404000144.servo_node]: Could not enable FIFO RT scheduling policy. Continuing with the default.[0m
+1766560367.8177285 [servo_node-12] [33m[WARN] [1766560367.817339138] [PZ27C02404000144.servo_node]: Realtime kernel is recommended for better performance.[0m
+1766560367.9778187 [spawner-3] 1766560367.977557 [199]    spawner: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///root/cyclonedds.xml line 8)
+1766560367.9781599 [spawner-6] 1766560367.977585 [199]    spawner: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///root/cyclonedds.xml line 8)
+1766560367.9783206 [spawner-4] 1766560367.977668 [199]    spawner: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///root/cyclonedds.xml line 8)
+1766560367.9851930 [spawner-7] 1766560367.984946 [199]    spawner: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///root/cyclonedds.xml line 8)
+1766560367.9882603 [spawner-9] 1766560367.987565 [199]    spawner: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///root/cyclonedds.xml line 8)
+1766560368.0092993 [spawner-8] 1766560368.009044 [199]    spawner: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///root/cyclonedds.xml line 8)
+1766560368.0174677 [spawner-5] 1766560368.016955 [199]    spawner: config: //CycloneDDS/Domain/General: 'NetworkInterfaceAddress': deprecated element (file:///root/cyclonedds.xml line 8)
+1766560368.3732879 [INFO] [spawner-6]: process has finished cleanly [pid 139]
+1766560368.3751500 [INFO] [spawner-7]: process has finished cleanly [pid 141]
+1766560368.3937962 [INFO] [spawner-4]: process has finished cleanly [pid 135]
+1766560368.4900563 [INFO] [spawner-8]: process has finished cleanly [pid 143]
+1766560368.4907212 [INFO] [spawner-5]: process has finished cleanly [pid 137]
+1766560368.5206995 [INFO] [spawner-3]: process has finished cleanly [pid 133]
+1766560368.5608671 [INFO] [spawner-9]: process has finished cleanly [pid 145]
+1766560371.7784612 [servo_node-12] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+1766560371.7786820 [servo_node-12]          at line 127 in /root/ros2_ws/src/deps/ros/class_loader/src/class_loader.cpp
+1766562093.8827982 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1766562093.8890793 [INFO] [component_container_mt-15]: sending signal 'SIGINT' to process[component_container_mt-15]
+1766562093.8916292 [INFO] [aggregator_node-14]: sending signal 'SIGINT' to process[aggregator_node-14]
+1766562093.8945210 [INFO] [server-13]: sending signal 'SIGINT' to process[server-13]
+1766562093.8971071 [INFO] [servo_node-12]: sending signal 'SIGINT' to process[servo_node-12]
+1766562093.9002423 [INFO] [move_group-11]: sending signal 'SIGINT' to process[move_group-11]
+1766562093.9030604 [INFO] [robot_state_publisher-10]: sending signal 'SIGINT' to process[robot_state_publisher-10]
+1766562093.9069493 [INFO] [ros2_control_node-2]: sending signal 'SIGINT' to process[ros2_control_node-2]
+1766562093.9093688 [INFO] [server_node-1]: sending signal 'SIGINT' to process[server_node-1]
+1766562093.9577873 [server-13] terminate called without an active exception
+1766562093.9972038 [INFO] [servo_node-12]: process has finished cleanly [pid 151]
+1766562094.0705318 [INFO] [move_group-11]: process has finished cleanly [pid 149]
+1766562094.0869534 [ERROR] [server-13]: process has died [pid 153, exit code -6, cmd '/root/ros2_ws/install/sdk_server/lib/sdk_server/server --ros-args --log-level warn --ros-args -r __ns:=/PZ27C02404000144 --params-file /tmp/launch_params_3hvqwt8w'].
+1766562094.9197724 [INFO] [component_container_mt-15]: process has finished cleanly [pid 157]
+1766562094.9327266 [INFO] [aggregator_node-14]: process has finished cleanly [pid 155]
+1766562094.9457488 [INFO] [robot_state_publisher-10]: process has finished cleanly [pid 147]
+1766562094.9858222 [ERROR] [server_node-1]: process has died [pid 129, exit code 1, cmd '/root/ros2_ws/install/airbot_system_identify/lib/airbot_system_identify/server_node --ros-args --log-level warn --ros-args -r __node:=heath_checker -r __ns:=/PZ27C02404000144 --params-file /tmp/launch_params_m5k6ktmu'].
+1766562095.3546288 [INFO] [ros2_control_node-2]: process has finished cleanly [pid 131]

@@ -147,7 +147,7 @@ def main():
     
     original_xml = "models/mjcf/manipulator/airbot_play_force/_play_force.xml"
     calibrated_xml = "models/mjcf/manipulator/airbot_play_force/_play_force_calibrated.xml"
-    mat_file = "models/ptrnSrch_N7T25QR-5.mat"
+    mat_file = "models/ptrnSrch_N7T25QR-6.mat"
     
     sim_time = 25
     control_dt = 0.001

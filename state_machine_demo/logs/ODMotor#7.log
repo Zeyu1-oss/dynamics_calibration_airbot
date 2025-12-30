@@ -1,0 +1,1060 @@
+2025-12-24 10:18:27.756101[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:18:27.756154[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:18:27.756160[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:18:30.844472[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 10:19:27.581140[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:19:27.581156[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:19:27.581162[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:19:30.669351[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 10:28:57.430699[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:28:57.430716[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:28:57.430723[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:29:00.520966[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 10:30:28.329704[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:30:28.329725[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:30:28.329730[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:30:31.416632[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 10:35:04.377528[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:35:04.377544[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:35:04.377549[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:35:07.466356[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 10:36:38.107908[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:36:38.107924[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:36:38.107930[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:36:41.197647[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 10:38:47.538365[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:38:47.538383[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:38:47.538388[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:38:50.627631[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 10:39:03.767422[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:39:03.767436[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:39:03.767442[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:39:06.855866[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 10:41:51.585493[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:51.585513[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:51.585519[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:41:51.585672[ERROR][ODMotor#7] Connecting to motor 7 via can0 failed.
+2025-12-24 10:42:21.501719[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:42:21.501741[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:42:21.501747[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:42:24.590341[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 10:57:21.596813[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:57:21.596832[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:57:21.596838[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:57:24.684861[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:01:21.415262[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:01:21.415284[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:01:21.415291[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:01:24.505338[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:12:03.993746[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:12:03.993771[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:12:03.993775[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:12:07.083132[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:16:56.924918[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:16:56.924936[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:16:56.924942[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:17:00.015792[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:32:04.979567[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:04.979586[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:04.979591[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:32:04.979904[ERROR][ODMotor#7] Connecting to motor 7 via can0 failed.
+2025-12-24 11:32:56.553607[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:56.553623[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:56.553628[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:32:59.643498[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:35:17.088243[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:35:17.088259[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:35:17.088264[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:35:20.181937[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:36:00.337008[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:36:00.337025[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:36:00.337029[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:36:03.426020[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:37:31.096436[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:37:31.096453[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:37:31.096460[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:37:34.184321[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:44:38.155397[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:38.155412[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:38.155416[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:44:41.251527[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:44:44.299830[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:44.299848[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:44.299852[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:44:47.387848[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:47:03.810179[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:47:03.810206[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:47:03.810211[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:47:06.898965[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:48:54.113285[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:48:54.113303[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:48:54.113308[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:48:57.202026[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:51:01.673135[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:01.673158[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:01.673162[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:51:04.763883[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:51:43.632061[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:43.632083[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:43.632096[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:51:46.715040[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:52:47.301199[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:52:47.301220[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:52:47.301233[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:52:50.390748[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:55:13.910839[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:55:13.910858[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:55:13.910863[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:55:17.001351[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:56:56.868374[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:56:56.868392[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:56:56.868396[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:56:59.958002[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:57:29.069087[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:29.069114[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:29.069119[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:57:32.078720[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:32.078738[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:32.078743[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:57:32.155795[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 11:57:35.169246[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 12:01:00.845335[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:01:00.845355[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:01:00.845359[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:01:03.932654[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 12:04:23.679323[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:04:23.679343[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:04:23.679348[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:04:26.766999[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 12:09:06.226429[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:09:06.226445[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:09:06.226450[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:09:09.317888[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 12:11:01.140695[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:11:01.140711[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:11:01.140718[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:11:04.230635[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 12:13:11.612105[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:13:11.612125[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:13:11.612130[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 12:13:14.702642[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 13:37:25.996479[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:25.996496[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:25.996502[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:37:29.083861[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 13:37:52.832448[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:52.832465[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:52.832472[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:37:55.922048[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 13:39:00.161288[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:39:00.161311[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:39:00.161316[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:39:03.251866[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 13:43:09.247148[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:43:09.247178[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:43:09.247186[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:43:12.337623[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 13:44:07.469128[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:44:07.469145[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:44:07.469150[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:44:10.558346[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 13:48:27.867959[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:48:27.867979[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:48:27.867984[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:48:30.957894[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 13:50:18.090462[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:50:18.090482[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:50:18.090489[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:50:21.180656[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 13:52:43.024748[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:52:43.024768[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:52:43.024773[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 13:52:46.114488[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:03:06.230995[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:03:06.231016[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:03:06.231023[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:03:09.319240[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:04:52.257918[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:04:52.257943[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:04:52.257948[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:04:55.348270[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:06:04.832601[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:06:04.832622[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:06:04.832627[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:06:07.922285[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:10:35.062145[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:10:35.062161[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:10:35.062167[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:10:38.150269[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:13:00.882697[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:13:00.882714[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:13:00.882720[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:13:03.969937[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:16:04.535528[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:16:04.535547[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:16:04.535551[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:16:07.624212[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:26:03.672256[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:26:03.672274[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:26:03.672279[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:26:06.761347[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:28:58.678998[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:28:58.679013[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:28:58.679019[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:29:01.772694[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:35:29.730784[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:35:29.730805[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:35:29.730815[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:35:32.819943[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:38:31.544672[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:38:31.544692[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:38:31.544697[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:38:34.635414[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:39:01.357480[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:39:01.357495[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:39:01.357501[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:39:04.445409[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:41:35.544672[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:35.544691[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:35.544696[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:41:35.544875[ERROR][ODMotor#7] Connecting to motor 7 via slcan failed.
+2025-12-24 14:42:09.561724[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:09.561741[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:09.561746[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562375[ERROR][ODMotor#7] Connecting to motor 7 via slcan failed.
+2025-12-24 14:42:20.164175[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:20.164194[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:20.164199[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:42:20.164417[ERROR][ODMotor#7] Connecting to motor 7 via slcan failed.
+2025-12-24 14:43:42.651257[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:43:42.651279[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:43:42.651284[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:43:45.741136[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:44:24.225303[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:44:24.225320[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:44:24.225326[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:44:27.313487[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:45:03.614464[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:45:03.614488[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:45:03.614495[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:45:06.704287[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:52:19.378121[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:52:19.378141[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:52:19.378147[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:52:22.465727[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:52:55.108555[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:52:55.108579[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:52:55.108583[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:52:58.196336[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 14:56:17.403482[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:56:17.403503[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:56:17.403511[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:56:20.493532[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:13:13.398647[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:13:13.398667[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:13:13.398674[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:13:16.487489[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:13:54.083056[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:13:54.083076[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:13:54.083083[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:13:57.169539[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:14:24.763628[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:24.763645[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:24.763651[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:14:27.853267[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:14:49.543832[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:49.543848[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:49.543854[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:14:52.630702[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:17:07.044593[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:17:07.044609[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:17:07.044616[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:17:10.135309[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:18:16.399583[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:18:16.399604[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:18:16.399609[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:18:19.489452[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:21:24.511350[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:21:24.511368[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:21:24.511374[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:21:27.599680[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:24:54.647258[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:24:54.647294[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:24:54.647300[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:24:57.734432[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:26:33.797984[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:26:33.798005[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:26:33.798012[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:26:36.885854[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:29:26.797410[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:29:26.797428[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:29:26.797434[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:29:29.885675[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:33:42.189943[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:33:42.189958[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:33:42.189967[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:33:45.277350[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:39:33.390783[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:33.390801[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:33.390806[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:39:33.390966[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 15:40:07.594788[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:07.594804[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:07.594809[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:40:07.594926[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 15:40:23.078048[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078066[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078071[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078189[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 15:41:16.522859[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:16.522875[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:16.522880[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:41:16.523030[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 15:44:54.687933[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:44:54.687952[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:44:54.687957[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:44:57.781906[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:46:10.521759[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:10.521776[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:10.521781[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:46:13.608552[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:46:42.449758[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:42.449776[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:42.449781[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:46:45.540242[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:56:04.294188[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:04.294204[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:04.294209[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:56:07.383841[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:56:18.803748[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:18.803763[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:18.803768[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:56:21.892255[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 15:59:10.085377[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:59:10.085414[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:59:10.085420[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:59:13.172942[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:06:54.849545[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:06:54.849564[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:06:54.849571[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:06:57.939890[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:08:30.162635[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:08:30.162654[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:08:30.162659[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:08:33.251073[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:10:00.855702[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:00.855718[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:00.855727[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:10:03.943177[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:10:35.191018[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:35.191039[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:35.191046[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:10:38.278247[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:15:03.228146[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:15:03.228162[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:15:03.228167[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:15:06.315137[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:16:06.291010[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:16:06.291027[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:16:06.291033[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:16:09.380884[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:17:33.841529[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:17:33.841545[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:17:33.841552[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:17:36.930993[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:23:24.706263[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:23:24.706282[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:23:24.706288[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:23:27.793962[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:26:30.024051[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:26:30.024069[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:26:30.024074[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:26:33.111930[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:27:15.152491[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:27:15.152509[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:27:15.152514[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:27:18.240441[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:35:43.563787[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:35:43.563820[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:35:43.563826[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:35:46.650913[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:37:36.596467[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:37:36.596487[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:37:36.596492[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:37:39.683452[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:39:22.755865[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:39:22.755882[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:39:22.755887[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:39:25.842704[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:43:38.986348[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:43:38.986366[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:43:38.986371[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:43:42.076179[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:44:48.601048[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:44:48.601067[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:44:48.601072[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:44:51.687847[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:46:10.745888[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:46:10.745905[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:46:10.745910[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:46:13.833921[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:48:45.219465[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:48:45.219484[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:48:45.219489[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:48:48.309585[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:54:48.079237[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:54:48.079265[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:54:48.079269[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:54:51.165355[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:55:09.863888[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:55:09.863902[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:55:09.863908[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:55:12.952631[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:56:32.193316[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:56:32.193331[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:56:32.193337[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:56:35.281714[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:57:26.852113[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:57:26.852133[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:57:26.852138[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:57:29.940095[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:58:06.648017[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:06.648033[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:06.648038[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:58:09.735470[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 16:58:43.654917[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:43.654935[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:43.654940[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 16:58:46.742258[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 17:08:02.237832[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:08:02.237848[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:08:02.237854[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:08:05.328336[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 17:15:08.933813[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:08.933831[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:08.933837[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:15:12.020810[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 17:15:39.651416[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:39.651435[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:39.651441[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:15:42.739715[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 17:16:40.164150[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:16:40.164166[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:16:40.164171[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:16:43.253558[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 17:23:53.034607[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:23:53.034624[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:23:53.034629[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:23:56.124036[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 17:24:26.713587[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:24:26.713605[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:24:26.713610[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:24:29.800659[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 17:25:43.092443[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:25:43.092458[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:25:43.092462[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:25:46.180751[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 17:26:19.993387[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:26:19.993402[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:26:19.993407[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:26:23.083587[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 17:58:04.412418[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:04.412435[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:04.412440[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:58:07.499578[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 17:58:30.374010[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:30.374027[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:30.374033[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:58:33.463411[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 17:59:03.224765[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:59:03.224782[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:59:03.224788[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 17:59:06.313851[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 18:19:16.294902[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 18:19:16.294918[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 18:19:16.294940[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 18:19:19.382751[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 18:20:33.513626[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 18:20:33.513644[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 18:20:33.513649[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 18:20:36.601417[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 19:48:30.117233[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:48:30.117254[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:48:30.117259[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:48:33.205008[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 19:49:36.457301[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:49:36.457316[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:49:36.457321[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:49:39.545420[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-24 19:51:53.607094[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:53.607118[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:53.607123[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:51:53.607488[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 19:52:21.835820[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:21.835837[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:21.835842[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:52:21.835972[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 19:53:15.064634[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:15.064652[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:15.064657[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:15.064983[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 19:53:28.331596[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:28.331613[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:28.331618[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:28.331756[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 19:53:52.864648[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:52.864667[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:52.864672[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:52.864815[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 19:54:31.143133[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:31.143150[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:31.143155[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:54:31.143605[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 19:55:46.145651[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:46.145667[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:46.145672[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:55:46.145956[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 19:56:10.070580[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:10.070594[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:10.070600[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:56:10.070891[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 19:57:13.182420[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:13.182438[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:13.182443[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:57:13.182579[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 19:58:12.071765[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:12.071792[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:12.071800[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:58:12.072017[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-24 19:58:40.931480[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:40.931507[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:40.931516[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:58:40.931792[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-25 09:40:00.521902[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:40:00.521922[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:40:00.521928[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:40:00.522457[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-25 09:43:23.964947[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:23.964965[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:23.964970[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965429[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-25 09:43:47.806442[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:47.806460[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:47.806466[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:43:47.806675[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-25 09:52:40.684650[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:40.684665[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:40.684670[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:52:40.684918[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-25 09:53:51.206202[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:53:51.206219[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:53:51.206226[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:53:54.295456[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 09:55:27.042569[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:27.042588[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:27.042593[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:55:30.131529[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 09:55:51.701600[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:51.701617[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:51.701623[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:55:54.791577[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 09:56:25.858689[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:56:25.858705[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:56:25.858710[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:56:28.950397[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 09:58:30.565913[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:58:30.565930[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:58:30.565935[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:58:33.655398[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 09:59:14.028729[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:14.028754[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:14.028760[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:59:17.117280[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 09:59:47.203229[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:47.203245[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:47.203250[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:59:50.290943[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:03:58.728646[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:03:58.728664[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:03:58.728668[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:04:01.818070[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:18:11.249523[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:18:11.249542[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:18:11.249546[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:18:14.336967[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:19:55.604078[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:19:55.604108[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:19:55.604114[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:19:58.691844[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:20:24.046294[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:24.046310[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:24.046315[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:20:27.134103[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:20:59.086330[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:59.086347[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:59.086359[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:21:02.173905[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:23:26.048813[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:23:26.048832[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:23:26.048839[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:23:29.143337[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:24:25.372831[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:24:25.372851[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:24:25.372856[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:24:28.461665[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:28:57.209046[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:28:57.209066[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:28:57.209073[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:29:00.299339[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:30:35.182546[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:30:35.182562[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:30:35.182567[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:30:38.269869[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:31:50.649666[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:31:50.649684[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:31:50.649694[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:31:53.739683[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:34:19.304056[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:34:19.304073[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:34:19.304078[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:34:22.394871[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:36:49.458193[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:36:49.458211[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:36:49.458216[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:36:52.554992[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:39:55.685511[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:39:55.685529[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:39:55.685534[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:39:58.773726[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:41:47.553097[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:41:47.553113[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:41:47.553119[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:41:50.640322[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:47:47.582837[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:47:47.584738[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:47:47.584770[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:47:50.673476[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 10:55:39.765456[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:55:39.765474[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:55:39.765479[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 10:55:42.856587[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:15:39.930975[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:15:39.930995[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:15:39.931000[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:15:43.021765[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:18:18.311039[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:18:18.311058[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:18:18.311064[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:18:21.400047[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:32:25.240911[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:32:25.240930[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:32:25.240936[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:32:28.329433[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:36:28.692082[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:36:28.692099[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:36:28.692104[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:36:31.782596[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:37:42.968831[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:37:42.968846[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:37:42.968851[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:37:46.057221[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:41:55.232375[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:41:55.232394[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:41:55.232402[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:41:58.320875[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:42:49.642671[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:42:49.642688[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:42:49.642693[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:42:52.730565[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:49:20.149754[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:49:20.149773[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:49:20.149779[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:49:23.239310[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:50:04.878875[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:50:04.878894[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:50:04.878899[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:50:07.965850[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:51:19.744184[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:19.744203[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:19.744208[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:51:22.830639[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:51:52.054830[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:52.054846[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:52.054851[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:51:55.143800[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:52:33.129271[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:52:33.129296[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:52:33.129301[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:52:36.218121[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:52:58.875826[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:52:58.875843[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:52:58.875847[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:53:01.965656[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:53:24.915742[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:53:24.915759[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:53:24.915765[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:53:28.003854[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:54:37.181620[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:54:37.181641[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:54:37.181646[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:54:40.271019[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:59:10.538353[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:59:10.538373[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:59:10.538378[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:59:13.627686[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 11:59:54.877500[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:59:54.877517[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:59:54.877521[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 11:59:57.965710[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:01:58.581993[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:01:58.582019[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:01:58.582024[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:02:01.671513[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:30:15.419665[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:15.419684[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:15.419691[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:30:18.506236[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:30:50.407672[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:50.407688[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:50.407693[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:30:53.495388[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:31:20.751642[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:31:20.751659[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:31:20.751664[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:31:23.840039[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:36:46.908260[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:36:46.908280[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:36:46.908285[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:36:49.997307[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:37:11.225112[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:37:11.225131[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:37:11.225135[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:37:14.312780[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:38:35.369327[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:38:35.369344[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:38:35.369353[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:38:38.454633[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:39:00.032109[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:00.032126[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:00.032130[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:39:03.120225[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:39:17.950097[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:17.950116[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:17.950121[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:39:21.038381[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:41:27.193536[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:41:27.193555[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:41:27.193560[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:41:30.282107[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:47:55.097145[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:47:55.097162[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:47:55.097168[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:47:58.186623[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:48:21.692235[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:48:21.692252[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:48:21.692257[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:48:24.780422[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:49:25.141878[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:49:25.141896[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:49:25.141902[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:49:28.229886[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:50:16.504405[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:16.504423[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:16.504431[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:50:19.591740[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:50:48.304587[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:48.304603[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:48.304610[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:50:51.392816[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:51:28.137680[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:51:28.137700[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:51:28.137707[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:51:31.227345[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:53:01.549019[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:53:01.549039[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:53:01.549053[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:53:04.637732[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:54:44.133077[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:54:44.133094[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:54:44.133099[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:54:47.221125[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 12:55:57.616174[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:55:57.616190[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:55:57.616195[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 12:56:00.703773[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 13:58:41.058985[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:41.060873[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:41.060879[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 13:58:41.061797[ERROR][ODMotor#7] Connecting to motor 7 via can0 failed.
+2025-12-25 13:59:10.128625[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:10.128641[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:10.128647[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 13:59:13.218454[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 13:59:43.113935[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:43.113951[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:43.113956[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 13:59:46.201984[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:01:38.604765[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:01:38.604781[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:01:38.604786[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:01:41.692262[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:04:20.458233[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:04:20.458250[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:04:20.458255[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:04:23.547361[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:05:12.844419[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:12.844439[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:12.844445[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:05:15.934133[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:05:30.364840[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:30.364855[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:30.364861[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:05:33.451754[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:09:08.355506[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:08.355523[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:08.355527[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:09:11.444047[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:09:44.445717[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:44.445736[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:44.445741[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:09:47.534891[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:11:10.978241[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:11:10.978259[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:11:10.978264[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:11:14.066643[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:12:43.071873[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:12:43.071889[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:12:43.071894[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:12:46.159850[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:13:31.718679[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:13:31.718699[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:13:31.718705[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:13:34.806088[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:14:11.692482[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:14:11.692501[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:14:11.692506[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:14:14.780267[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:15:34.125729[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:34.125745[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:34.125751[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:15:37.218076[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:15:48.334005[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:48.334023[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:48.334028[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:15:51.420352[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:16:24.197105[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:16:24.197123[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:16:24.197133[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:16:27.283133[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:17:47.557821[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:47.559583[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:47.559590[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:17:47.559992[ERROR][ODMotor#7] Connecting to motor 7 via slcan1 failed.
+2025-12-25 14:17:59.360202[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:59.360219[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:59.360224[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:18:02.450223[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:21:12.593693[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:21:12.593709[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:21:12.593714[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:21:15.682421[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:24:15.944781[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:15.944800[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:15.944805[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:24:19.032605[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:24:49.673663[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:49.673683[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:49.673687[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:24:52.763051[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:28:45.451825[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:28:45.451846[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:28:45.451851[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:28:48.542539[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:31:02.238650[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:31:02.238699[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:31:02.238705[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:31:05.326322[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:32:46.328503[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:32:46.328521[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:32:46.328529[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:32:49.420612[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:33:25.253065[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:33:25.253083[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:33:25.253090[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:33:28.341992[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:38:46.395878[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:38:46.397885[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:38:46.397893[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:38:49.485595[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:39:59.155248[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:39:59.155267[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:39:59.155271[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:40:02.244608[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:40:36.985770[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:40:36.985795[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:40:36.985800[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:40:40.073894[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:41:21.226181[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:41:21.226198[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:41:21.226202[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:41:24.320586[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:42:36.311283[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:42:36.311302[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:42:36.311306[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:42:39.400067[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:43:09.523860[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:43:09.523880[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:43:09.523886[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:43:12.611920[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:44:41.119220[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:44:41.119236[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:44:41.119241[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:44:44.206583[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:47:27.546377[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:47:27.546395[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:47:27.546401[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:47:30.635693[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:49:32.544437[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:49:32.544455[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:49:32.544460[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:49:35.631064[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:50:05.603280[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:50:05.603295[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:50:05.603300[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:50:08.693404[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 14:51:29.596969[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:29.596986[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:29.596993[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:51:29.597313[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-25 14:51:45.161351[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:45.161370[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:45.161375[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:51:45.161591[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-25 14:52:05.600195[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:05.600213[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:05.600218[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:52:05.600445[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-25 14:53:14.640345[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:14.640364[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:14.640369[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:53:14.640583[ERROR][ODMotor#7] Connecting to motor 7 via can0 failed.
+2025-12-25 15:10:49.985244[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:10:49.985409[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:10:49.985415[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:10:53.079418[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 15:15:18.580514[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:18.580533[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:18.580538[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582471[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-25 15:15:47.202952[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:47.202970[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:47.202975[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:15:50.295070[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 15:17:47.857772[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:17:47.857790[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:17:47.857798[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:17:50.947346[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 15:19:06.854690[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:19:06.854707[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:19:06.854712[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:19:09.945858[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 15:22:03.870414[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:03.870433[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:03.870439[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:22:03.870602[ERROR][ODMotor#7] Connecting to motor 7 via slcan0 failed.
+2025-12-25 15:23:04.082551[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:23:04.084239[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:23:04.084246[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:23:07.177778[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 15:36:37.733711[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:36:37.733738[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:36:37.733742[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:36:40.827850[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 15:37:00.059434[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:37:00.059450[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:37:00.059457[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:37:03.147474[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 15:41:24.036830[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:41:24.036846[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:41:24.036856[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:41:27.130192[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 15:45:04.054773[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:45:04.054789[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:45:04.054794[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:45:07.146597[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 16:23:19.962373[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 16:23:19.962390[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 16:23:19.962395[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 16:23:23.054287[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-25 16:29:52.967311[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 16:29:52.967330[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 16:29:52.967335[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 16:29:56.060776[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 10:05:59.619880[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:05:59.619903[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:05:59.619907[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:06:02.709586[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 10:07:10.791195[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:10.791212[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:10.791216[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:07:13.885069[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 10:07:39.033338[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:39.033362[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:39.033367[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:07:42.133764[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 10:55:33.142240[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:55:33.142259[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:55:33.142264[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:55:36.238617[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 10:57:05.852911[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:05.852929[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:05.852934[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:57:08.945701[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 10:57:43.206916[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:43.206935[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:43.206940[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:57:46.301739[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 10:58:39.438817[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:58:39.438840[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:58:39.438845[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:58:42.530327[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 10:59:05.360509[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:59:05.360527[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:59:05.360531[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 10:59:08.452836[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 11:00:22.888060[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:00:22.888076[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:00:22.888081[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:00:25.979875[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 11:01:04.312379[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:01:04.312397[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:01:04.312402[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:01:07.407236[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 11:01:58.653194[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:01:58.653213[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:01:58.653218[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:02:01.742965[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 11:27:29.309365[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:27:29.311305[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:27:29.311313[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:27:32.403710[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 11:31:02.690262[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:31:02.690284[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:31:02.690291[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:31:05.780847[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 11:36:20.621486[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:36:20.621506[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:36:20.621510[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:36:23.716365[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 11:37:31.919188[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:37:31.919207[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:37:31.919212[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 11:37:35.009245[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 19:52:25.268275[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 19:52:25.268294[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 19:52:25.268299[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 19:52:28.358906[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0
+2025-12-26 19:54:01.880940[INFO][ODMotor#7] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 19:54:01.880960[INFO][ODMotor#7] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 19:54:01.880965[INFO][ODMotor#7] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-26 19:54:04.973341[ERROR][ODMotor#7] Motor 7 init failed, expected 38 params, got 0

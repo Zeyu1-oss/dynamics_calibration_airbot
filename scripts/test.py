@@ -10,7 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy import interpolate
 import time
-
+COMPARE_CSV_PATH="results/data/vali_ptrnSrch_N7T25QR-6_converted.csv"
 MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force.xml" 
 MAT_FILE_PATH = "models/ptrnSrch_N7T25QR-6.mat"
 OUTPUT_CSV_PATH = "results/data_csv/vali——0fre.csv" 
@@ -21,7 +21,6 @@ CONTROL_HZ = 1000
 CONTROL_DT = 1.0 / CONTROL_HZ
 
 USE_FEEDBACK = True
-
 
 def plot_comparison(recorded_data, T, N, wf, a, b, c_pol, q0, n_joints):
     """
@@ -234,7 +233,6 @@ def main():
         
         if (model.opt.enableflags & mujoco.mjtEnableBit.mjENBL_INVDISCRETE) and \
            (model.opt.integrator != mujoco.mjtIntegrator.mjINT_RK4):
-            # 获取下一个步长的理论速度期望
             _, qv_next_m, _ = mixed_trajectory_calculator(t + model.opt.timestep, T, N, wf, a, b, c_pol, q0)
             target_qacc = (qv_next_m[:, 0] - qv_des) / model.opt.timestep
 
@@ -357,14 +355,12 @@ def main():
         print(f"  - 时间范围: {resampled_times[0]:.3f}s - {resampled_times[-1]:.3f}s")
 
         # 生成对比图（与 torque_control.py 一致）
-        try:
-            plot_comparison(recorded_data, T, N, wf, a, b, c_pol, q0, n_joints)
-        except Exception as e:
-            print(f"警告：生成对比图时出错 - {e}")
+        # try:
+        #     plot_comparison(recorded_data, T, N, wf, a, b, c_pol, q0, n_joints)
+        # except Exception as e:
+        #     print(f"警告：生成对比图时出错 - {e}")
 
-        print("\n" + "="*60)
         print("仿真结果统计:")
-        print("="*60)
         q_errors = []
         qdot_errors = []
         fb_magnitudes = []
@@ -380,16 +376,6 @@ def main():
         print(f"  - 最差关节: {np.argmax(q_errors)+1} (RMSE: {np.max(q_errors):.6f} rad)")
         print(f"\n速度:")
         print(f"  - 平均RMSE: {np.mean(qdot_errors):.6f} rad/s")
-
-        print(f"\n数据质量评估:")
-        if np.mean(q_errors) < 0.01:
-            print("  ✓ 数据质量优秀，适合参数识别")
-        elif np.mean(q_errors) < 0.05:
-            print("  ⚠ 数据质量良好，可以考虑用于参数识别")
-        else:
-            print("  ✗ 数据质量较差，建议调整控制参数或检查模型")
-    else:
-        print("\n警告：没有记录到有效数据")
 
 if __name__ == "__main__":
     main()

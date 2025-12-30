@@ -1,0 +1,1220 @@
+2025-12-24 10:15:24.954455[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:15:24.954531[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:15:24.954542[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:15:24.973126[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:17:02.767548[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:17:02.767674[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:17:02.767693[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:17:02.787955[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:17:09.316235[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:17:09.316387[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:17:09.316395[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:17:09.318426[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:18:23.033363[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:18:23.033457[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:18:23.033467[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:18:23.034867[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:19:22.997588[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:19:22.997626[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:19:22.997637[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:19:23.000979[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:28:52.876275[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:28:52.876352[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:28:52.876360[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:28:52.901167[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:30:23.720788[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:30:23.720831[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:30:23.720839[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:30:23.723672[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:34:59.755522[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:34:59.755742[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:34:59.755770[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:34:59.774896[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:36:33.484894[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:36:33.485056[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:36:33.485080[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:36:33.487260[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:38:42.846497[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:38:42.846535[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:38:42.846543[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:38:42.863791[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:38:59.161277[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:38:59.161459[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:38:59.161491[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:38:59.163130[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:41:46.380878[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:46.380992[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:46.381012[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:41:46.385479[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:42:16.844243[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:42:16.844275[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:42:16.844284[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:42:16.848091[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:54:42.069382[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:54:42.069462[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:54:42.069477[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:54:42.101118[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:56:13.231829[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:56:13.231880[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:56:13.231890[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:56:13.248659[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:57:16.965201[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:57:16.965249[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:57:16.965259[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:57:16.968435[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 10:58:44.603075[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:58:44.603134[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:58:44.603143[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 10:58:44.633913[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:01:16.784677[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:01:16.784798[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:01:16.784806[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:01:16.786980[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:04:25.950956[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:04:25.951068[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:04:25.951187[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:04:25.966819[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:08:06.106237[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:08:06.106384[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:08:06.106410[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:08:06.153150[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:08:08.188235[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:08:08.188407[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:08:08.188434[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:08:08.224439[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:08:09.608473[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:08:09.608527[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:08:09.608540[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:08:09.665534[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:10:05.573746[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:10:05.573842[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:10:05.573852[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:10:05.610720[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:10:07.616337[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:10:07.616411[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:10:07.616419[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:10:07.636628[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:10:08.884839[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:10:08.884900[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:10:08.884923[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:10:08.982494[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:11:59.355339[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:11:59.355443[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:11:59.355452[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:11:59.357491[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:16:52.302407[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:16:52.302489[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:16:52.302499[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:16:52.307613[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:17:57.315678[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:17:57.315722[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:17:57.315730[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:17:57.344625[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:23:55.931276[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:23:55.931377[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:23:55.931386[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:23:55.947124[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:23:58.930931[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:23:58.930984[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:23:58.930995[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:23:58.947648[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:24:01.317806[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:24:01.317866[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:24:01.317888[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:24:01.340155[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:28:56.127130[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:28:56.127182[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:28:56.127194[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:28:56.154061[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:30:58.512192[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:30:58.512265[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:30:58.512279[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:30:58.543718[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:31:59.871409[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:31:59.871455[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:31:59.871466[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:31:59.873568[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:32:51.428537[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:51.428686[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:51.428696[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:32:51.431514[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:34:08.921010[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:34:08.921076[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:34:08.921094[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:34:08.926880[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:34:18.285327[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:34:18.285382[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:34:18.285390[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:34:18.288512[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:35:11.945496[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:35:11.945610[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:35:11.945621[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:35:11.948569[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:35:55.775757[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:35:55.775819[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:35:55.775836[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:35:55.778218[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:37:26.453755[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:37:26.453779[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:37:26.453785[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:37:26.456568[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:40:06.370924[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:40:06.371112[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:40:06.371144[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:40:06.398677[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:43:50.506123[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:43:50.506164[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:43:50.506173[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:43:50.533286[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:44:33.528239[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:33.528481[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:33.528505[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:44:33.537426[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:44:39.673673[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:39.673745[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:44:39.673765[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:44:39.678503[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:46:48.966000[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:46:48.966039[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:46:48.966047[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:46:48.981539[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:46:59.147006[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:46:59.147062[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:46:59.147083[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:46:59.151506[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:47:59.156194[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:47:59.156411[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:47:59.156421[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:47:59.194536[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:48:38.941931[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:48:38.942120[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:48:38.942158[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:48:38.973902[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:48:49.492667[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:48:49.492714[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:48:49.492722[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:48:49.495307[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:50:04.530674[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:50:04.530917[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:50:04.530950[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:50:04.547374[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:50:05.957265[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:50:05.957384[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:50:05.957393[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:50:05.988316[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:50:07.503965[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:50:07.504001[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:50:07.504008[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:50:07.520642[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:50:45.420918[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:50:45.421100[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:50:45.421125[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:50:45.450766[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:50:56.995159[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:50:56.995193[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:50:56.995214[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:50:57.013197[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:51:38.804776[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:38.804817[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:51:38.804826[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:51:38.808901[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:52:42.651786[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:52:42.651812[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:52:42.651961[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:52:42.678672[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:55:09.328106[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:55:09.328269[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:55:09.328310[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:55:09.331112[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:56:52.237925[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:56:52.238007[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:56:52.238016[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:56:52.242534[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:57:24.428126[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:24.428169[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:24.428178[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:57:24.430184[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 11:57:27.489520[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:27.489608[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:57:27.489630[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 11:57:27.492264[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 12:00:56.211817[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:00:56.211903[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:00:56.211912[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 12:00:56.215118[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 12:03:01.862658[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:03:01.862751[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:03:01.862760[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 12:03:02.601060[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 12:03:41.296397[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:03:41.296437[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:03:41.296445[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 12:03:41.315285[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 12:03:52.197526[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:03:52.197573[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:03:52.197581[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 12:03:52.218593[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 12:04:19.057508[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:04:19.057593[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:04:19.057630[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 12:04:19.060489[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 12:09:01.581878[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:09:01.582030[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:09:01.582039[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 12:09:01.585583[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 12:10:56.447665[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:10:56.447847[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:10:56.447866[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 12:10:56.452794[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 12:13:06.924600[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:13:06.924627[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:13:06.924634[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 12:13:06.927833[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 12:17:19.268781[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:17:19.268865[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:17:19.268886[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 12:17:19.362500[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 12:17:25.277747[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 12:17:25.277867[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 12:17:25.277876[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 12:17:25.310911[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 13:37:21.315460[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:21.315532[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:21.315541[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 13:37:21.319812[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 13:37:48.187095[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:48.187207[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:37:48.187218[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 13:37:48.191113[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 13:38:55.518924[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:38:55.518961[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:38:55.518969[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 13:38:55.521416[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 13:43:04.547983[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:43:04.548122[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:43:04.548131[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 13:43:04.553278[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 13:44:02.896307[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:44:02.896458[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:44:02.896467[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 13:44:02.898639[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 13:48:23.226714[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:48:23.226756[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:48:23.226765[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 13:48:23.229534[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 13:50:13.428064[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:50:13.428104[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:50:13.428113[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 13:50:13.448613[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 13:52:38.349468[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 13:52:38.349498[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 13:52:38.349509[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 13:52:38.366574[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:02:13.939697[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:02:13.939734[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:02:13.939742[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:02:14.431351[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:03:01.611664[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:03:01.611776[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:03:01.611786[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:03:01.613601[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:04:47.587529[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:04:47.587575[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:04:47.587583[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:04:47.608949[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:06:00.192993[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:06:00.193025[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:06:00.193032[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:06:00.195158[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:10:30.399486[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:10:30.399702[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:10:30.399728[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:10:30.402195[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:12:56.250148[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:12:56.250230[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:12:56.250261[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:12:56.255100[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:15:59.815340[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:15:59.815395[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:15:59.815407[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:15:59.817763[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:25:59.014838[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:25:59.015051[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:25:59.015077[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:25:59.032918[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:28:54.033744[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:28:54.033783[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:28:54.033799[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:28:54.035885[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:35:25.135263[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:35:25.135307[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:35:25.135315[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:35:25.142428[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:38:26.839616[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:38:26.839662[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:38:26.839679[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:38:26.892725[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:38:56.721438[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:38:56.721490[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:38:56.721500[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:38:56.725145[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:41:30.888081[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:30.888149[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:30.888157[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:41:30.890679[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:42:04.909340[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:04.909385[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:04.909410[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:42:04.912843[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:42:15.493046[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:15.493170[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:15.493190[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:42:15.500040[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:43:37.984765[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:43:37.984826[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:43:37.984834[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:43:37.987799[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:44:19.560460[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:44:19.560533[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:44:19.560562[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:44:19.565491[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:44:58.941860[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:44:58.941894[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:44:58.941914[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:44:58.960093[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:52:14.721210[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:52:14.721278[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:52:14.721291[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:52:14.725189[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:52:50.429031[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:52:50.429187[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:52:50.429204[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:52:50.432072[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 14:56:12.682852[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:56:12.682946[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:56:12.682957[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 14:56:12.689264[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:13:08.691396[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:13:08.691522[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:13:08.691547[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:13:08.693911[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:13:49.425005[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:13:49.425068[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:13:49.425085[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:13:49.426642[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:14:20.135191[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:20.135240[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:20.135250[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:14:20.136634[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:14:44.837923[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:44.837965[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:14:44.837973[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:14:44.859619[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:17:02.347938[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:17:02.347980[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:17:02.347995[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:17:02.366331[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:18:11.731674[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:18:11.731806[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:18:11.731814[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:18:11.735774[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:21:19.835642[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:21:19.835799[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:21:19.835826[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:21:19.837746[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:24:49.933164[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:24:49.933346[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:24:49.933378[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:24:49.937938[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:26:29.156927[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:26:29.156998[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:26:29.157007[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:26:29.162494[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:29:22.142526[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:29:22.142592[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:29:22.142600[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:29:22.147307[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:33:37.542838[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:33:37.542902[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:33:37.542923[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:33:37.545894[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:39:28.734313[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:28.734343[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:28.734351[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:39:28.737534[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:40:02.929255[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:02.929410[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:02.929440[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:40:02.933489[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:40:18.480051[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:18.480075[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:18.480082[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:40:18.481433[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:41:11.891075[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:11.891108[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:11.891137[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:41:11.915265[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:44:49.921696[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:44:49.921745[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:44:49.921759[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:44:49.941653[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:46:05.876002[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:05.876145[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:05.876163[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:46:05.878433[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:46:37.777844[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:37.777983[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:46:37.778009[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:46:37.783143[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:55:59.632706[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:55:59.632877[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:55:59.632905[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:55:59.636538[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:56:14.153377[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:14.153476[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:56:14.153492[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:56:14.158533[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 15:59:05.389567[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:59:05.389721[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:59:05.389747[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 15:59:05.394628[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:06:50.139346[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:06:50.139480[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:06:50.139506[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:06:50.141403[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:08:25.456143[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:08:25.456190[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:08:25.456199[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:08:25.459387[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:09:56.192576[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:09:56.192680[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:09:56.192686[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:09:56.195484[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:10:30.520825[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:30.520870[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:10:30.520881[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:10:30.524164[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:14:58.637518[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:14:58.637568[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:14:58.637580[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:14:58.640435[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:16:01.603815[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:16:01.603911[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:16:01.603921[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:16:01.607485[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:17:29.141448[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:17:29.141625[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:17:29.141651[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:17:29.144625[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:23:20.014163[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:23:20.014245[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:23:20.014258[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:23:20.015938[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:26:25.310892[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:26:25.310962[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:26:25.310982[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:26:25.316451[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:27:10.395387[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:27:10.395527[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:27:10.395556[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:27:10.401282[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:35:38.962683[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:35:38.962844[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:35:38.962857[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:35:38.966215[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:37:31.953871[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:37:31.954028[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:37:31.954036[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:37:31.958677[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:39:18.165291[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:39:18.165351[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:39:18.165367[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:39:18.167818[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:43:34.291126[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:43:34.291148[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:43:34.291156[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:43:34.309869[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:44:43.929608[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:44:43.929776[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:44:43.929804[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:44:43.932508[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:46:06.084932[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:46:06.084966[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:46:06.084974[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:46:06.087995[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:48:40.566657[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:48:40.566794[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:48:40.566808[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:48:40.568504[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:54:43.382555[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:54:43.382604[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:54:43.382621[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:54:43.403253[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:55:05.194125[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:55:05.194219[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:55:05.194233[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:55:05.197846[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:56:27.536614[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:56:27.536667[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:56:27.536683[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:56:27.543264[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:57:22.214456[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:57:22.214616[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:57:22.214642[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:57:22.216030[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:58:01.985586[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:01.985785[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:01.985831[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:58:01.987992[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 16:58:38.988142[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:38.988203[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 16:58:38.988222[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 16:58:38.989964[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 17:07:57.537029[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:07:57.537075[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:07:57.537091[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 17:07:57.561083[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 17:15:04.336907[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:04.336987[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:04.336995[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 17:15:04.338962[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 17:15:34.999767[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:34.999812[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:15:34.999819[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 17:15:35.001416[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 17:16:35.562832[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:16:35.562879[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:16:35.562886[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 17:16:35.567190[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 17:23:48.323015[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:23:48.323091[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:23:48.323099[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 17:23:48.326866[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 17:24:22.099633[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:24:22.099792[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:24:22.099805[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 17:24:22.101195[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 17:25:38.411047[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:25:38.411095[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:25:38.411113[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 17:25:38.431278[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 17:26:15.384298[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:26:15.384369[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:26:15.384377[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 17:26:15.387337[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 17:57:59.769670[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:57:59.769788[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:57:59.769808[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 17:57:59.775993[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 17:58:25.755594[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:25.755857[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:25.755892[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 17:58:25.763378[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 17:58:58.593778[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:58.593826[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 17:58:58.593834[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 17:58:58.596368[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 18:19:11.623508[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 18:19:11.623549[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 18:19:11.623556[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 18:19:11.629097[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 18:20:28.894006[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 18:20:28.894099[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 18:20:28.894117[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 18:20:28.898511[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:48:25.505275[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:48:25.505329[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:48:25.505344[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:48:25.506824[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:49:31.848460[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:49:31.848542[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:49:31.848551[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:49:31.851846[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:51:48.923844[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:48.923888[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:48.923900[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:51:48.942075[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:52:17.145457[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:17.145640[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:17.145665[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:52:17.148507[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:53:10.499910[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:10.499954[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:10.499963[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:53:10.504338[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:53:23.718559[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:23.718595[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:23.718604[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:53:23.741094[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:53:48.298245[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:48.298335[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:48.298345[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:53:48.303544[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:54:26.553843[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:26.553895[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:26.553905[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:54:26.559122[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:55:41.579756[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:41.579811[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:41.579837[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:55:41.584118[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:56:05.349992[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:05.350122[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:05.350133[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:56:05.351823[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:57:08.605602[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:08.605730[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:08.605751[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:57:08.607985[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:58:05.070050[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:05.070132[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:05.070155[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:58:05.106525[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-24 19:58:33.740262[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:33.740469[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:33.740514[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-24 19:58:33.749120[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 09:39:55.874963[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:39:55.875071[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:39:55.875097[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 09:39:55.935458[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 09:43:19.392720[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:19.392892[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:19.392908[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 09:43:19.398057[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 09:43:43.206057[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:43.206235[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:43.206260[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 09:43:43.300111[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 09:52:36.136065[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:36.136094[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:36.136102[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 09:52:36.138790[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 09:53:46.584270[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:53:46.584389[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:53:46.584398[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 09:53:46.587350[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 09:55:22.411721[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:22.411762[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:22.411770[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 09:55:22.415621[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 09:55:47.155387[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:47.155550[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:55:47.155573[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 09:55:47.160631[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 09:56:21.323347[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:56:21.323463[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:56:21.323475[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 09:56:21.326777[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 09:58:25.945583[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:58:25.945756[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:58:25.945787[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 09:58:25.948424[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 09:59:09.439534[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:09.439561[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:09.439577[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 09:59:09.461258[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 09:59:42.651264[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:42.651311[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:59:42.651320[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 09:59:42.654786[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:03:54.196326[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:03:54.196366[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:03:54.196374[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:03:54.201365[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:18:06.657747[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:18:06.657775[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:18:06.657785[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:18:06.659537[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:19:51.013001[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:19:51.013192[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:19:51.013217[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:19:51.018496[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:20:19.468703[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:19.468779[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:19.468796[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:20:19.471565[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:20:54.500126[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:54.500194[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:20:54.500212[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:20:54.503561[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:23:21.498051[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:23:21.498150[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:23:21.498158[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:23:21.501925[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:24:20.754315[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:24:20.754363[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:24:20.754371[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:24:20.755709[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:28:52.628262[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:28:52.628434[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:28:52.628460[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:28:52.632000[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:30:30.626301[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:30:30.626349[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:30:30.626365[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:30:30.643622[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:31:46.056614[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:31:46.056653[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:31:46.056662[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:31:46.059554[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:34:14.688828[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:34:14.688951[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:34:14.688969[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:34:14.692151[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:36:44.867104[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:36:44.867264[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:36:44.867288[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:36:44.868951[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:39:51.138431[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:39:51.138622[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:39:51.138646[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:39:51.140312[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:41:42.978151[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:41:42.978176[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:41:42.978183[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:41:42.979564[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:47:42.987894[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:47:42.987973[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:47:42.987982[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:47:42.989883[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 10:55:35.178559[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 10:55:35.178714[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 10:55:35.178744[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 10:55:35.180740[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:15:35.323105[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:15:35.323203[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:15:35.323212[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:15:35.324660[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:18:13.717701[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:18:13.717917[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:18:13.717946[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:18:13.720904[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:32:20.654274[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:32:20.654400[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:32:20.654413[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:32:20.658065[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:36:24.084844[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:36:24.084896[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:36:24.084916[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:36:24.090620[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:37:38.364745[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:37:38.364918[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:37:38.364929[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:37:38.369959[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:41:50.517384[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:41:50.517427[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:41:50.517435[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:41:50.519250[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:42:45.069508[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:42:45.069670[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:42:45.069679[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:42:45.072772[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:49:15.500907[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:49:15.500957[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:49:15.500981[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:49:15.522970[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:50:00.291492[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:50:00.291524[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:50:00.291532[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:50:00.293330[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:51:15.160679[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:15.160876[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:15.160899[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:51:15.169732[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:51:47.480281[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:47.480367[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:51:47.480376[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:51:47.484676[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:52:28.547148[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:52:28.547180[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:52:28.547187[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:52:28.551514[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:52:54.325586[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:52:54.325703[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:52:54.325719[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:52:54.328524[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:53:20.322902[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:53:20.322942[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:53:20.322952[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:53:20.327143[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:54:32.617101[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:54:32.617169[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:54:32.617196[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:54:32.622939[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:59:05.871852[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:59:05.871891[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:59:05.871901[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:59:05.895726[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 11:59:50.284868[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 11:59:50.284972[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 11:59:50.284991[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 11:59:50.290467[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:01:54.020130[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:01:54.020275[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:01:54.020299[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:01:54.026235[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:30:10.838575[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:10.838629[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:10.838638[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:30:10.859857[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:30:45.851980[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:45.852158[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:30:45.852183[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:30:45.855177[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:31:16.152857[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:31:16.152900[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:31:16.152909[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:31:16.156692[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:36:42.255442[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:36:42.255609[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:36:42.255630[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:36:42.259480[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:37:06.561295[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:37:06.561333[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:37:06.561341[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:37:06.563754[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:38:30.610120[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:38:30.610277[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:38:30.610288[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:38:30.612376[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:38:55.413191[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:38:55.413243[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:38:55.413252[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:38:55.416453[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:39:13.320725[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:13.320771[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:39:13.320802[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:39:13.343778[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:41:22.565053[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:41:22.565276[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:41:22.565302[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:41:22.569103[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:47:50.439815[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:47:50.439861[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:47:50.439869[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:47:50.441554[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:48:17.073887[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:48:17.073953[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:48:17.073965[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:48:17.080157[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:49:20.537704[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:49:20.537787[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:49:20.537794[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:49:20.539541[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:50:11.850742[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:11.850770[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:11.850789[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:50:11.873398[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:50:43.677219[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:43.677280[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:50:43.677298[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:50:43.679747[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:51:23.532653[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:51:23.532791[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:51:23.532800[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:51:23.534790[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:52:56.936041[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:52:56.936093[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:52:56.936115[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:52:56.955570[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:54:39.512484[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:54:39.512551[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:54:39.512602[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:54:39.515624[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 12:55:52.978226[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 12:55:52.978337[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 12:55:52.978355[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 12:55:52.984055[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 13:58:35.923402[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:35.923757[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:35.923766[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 13:58:35.937875[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 13:59:04.963171[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:04.963283[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:04.963296[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 13:59:04.986772[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 13:59:38.502328[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:38.502543[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:59:38.502570[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 13:59:38.508627[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:01:33.989587[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:01:33.989629[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:01:33.989638[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:01:33.992907[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:04:15.895667[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:04:15.895759[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:04:15.895766[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:04:15.902085[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:05:08.221777[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:08.221836[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:08.221921[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:05:08.227228[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:05:25.736026[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:25.736135[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:05:25.736143[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:05:25.754650[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:09:03.736073[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:03.736176[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:03.736239[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:09:03.739505[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:09:39.867912[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:39.867959[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:09:39.867968[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:09:39.889975[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:11:06.362894[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:11:06.362935[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:11:06.362943[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:11:06.366036[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:12:38.436488[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:12:38.436586[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:12:38.436605[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:12:38.440046[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:13:27.077034[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:13:27.077062[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:13:27.077070[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:13:27.087232[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:14:07.081370[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:14:07.081534[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:14:07.081544[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:14:07.083721[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:15:29.492300[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:29.492354[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:29.492367[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:15:29.496149[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:15:43.729607[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:43.729654[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:15:43.729663[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:15:43.731829[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:16:19.583129[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:16:19.583161[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:16:19.583169[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:16:19.585773[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:17:42.904960[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:42.905117[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:42.905157[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:17:42.913443[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:17:54.751208[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:54.751248[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:54.751257[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:17:54.754563[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:21:07.981048[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:21:07.981118[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:21:07.981136[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:21:07.987690[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:24:11.305483[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:11.305607[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:11.305616[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:24:11.312877[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:24:45.083484[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:45.083515[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:24:45.083536[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:24:45.086933[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:28:40.780880[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:28:40.780941[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:28:40.780956[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:28:40.788105[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:30:57.648805[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:30:57.648845[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:30:57.648853[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:30:57.653465[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:32:41.715665[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:32:41.715729[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:32:41.715747[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:32:41.719090[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:33:20.635640[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:33:20.635678[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:33:20.635686[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:33:20.654392[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:38:41.839354[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:38:41.839416[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:38:41.839429[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:38:41.850284[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:39:54.537048[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:39:54.537093[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:39:54.537101[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:39:54.540890[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:40:32.374388[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:40:32.374512[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:40:32.374521[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:40:32.379771[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:41:16.586766[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:41:16.586808[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:41:16.586820[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:41:16.605482[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:42:31.707184[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:42:31.707297[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:42:31.707306[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:42:31.710961[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:43:04.918533[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:43:04.918606[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:43:04.918623[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:43:04.925436[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:44:36.516890[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:44:36.517006[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:44:36.517031[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:44:36.525574[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:47:22.950333[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:47:22.950370[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:47:22.950381[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:47:22.969516[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:49:27.953804[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:49:27.953841[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:49:27.953847[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:49:27.957175[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:50:01.049393[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:50:01.049516[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:50:01.049527[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:50:01.053755[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:51:25.039345[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:25.039428[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:25.039455[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:51:25.047650[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:51:40.610415[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:40.610647[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:40.610692[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:51:40.613474[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:52:01.036087[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:01.036276[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:01.036284[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:52:01.042435[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 14:53:10.055497[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:10.055521[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:10.055532[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 14:53:10.082112[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 15:10:45.301391[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:10:45.301631[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:10:45.301661[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 15:10:45.324161[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 15:15:14.004072[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:14.004177[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:14.004205[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 15:15:14.007815[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 15:15:42.607666[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:42.607714[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:42.607722[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 15:15:42.610882[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 15:17:43.287558[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:17:43.287666[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:17:43.287674[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 15:17:43.291706[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 15:19:02.256213[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:19:02.256346[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:19:02.256362[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 15:19:02.263228[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 15:21:59.270845[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:21:59.271085[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:21:59.271111[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 15:21:59.276239[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 15:22:59.397331[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:59.397384[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:59.397394[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 15:22:59.406050[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 15:36:33.029357[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:36:33.029411[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:36:33.029420[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 15:36:33.142053[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 15:36:55.454310[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:36:55.454461[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:36:55.454469[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 15:36:55.458422[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 15:41:19.433439[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:41:19.433494[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:41:19.433501[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 15:41:19.454880[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 15:44:59.456853[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:44:59.457028[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:44:59.457066[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 15:44:59.464836[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 16:23:15.372401[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 16:23:15.372446[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 16:23:15.372453[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 16:23:15.374035[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-25 16:29:48.342933[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 16:29:48.342963[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 16:29:48.342976[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-25 16:29:48.360484[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 10:05:55.034850[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:05:55.034968[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:05:55.034992[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 10:05:55.039367[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 10:07:06.197872[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:06.198099[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:06.198144[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 10:07:06.203666[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 10:07:34.428075[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:34.428164[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:07:34.428193[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 10:07:34.437387[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 10:55:28.486025[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:55:28.486194[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:55:28.486212[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 10:55:28.543003[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 10:57:01.274318[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:01.274447[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:01.274458[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 10:57:01.276863[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 10:57:38.614439[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:38.614495[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:57:38.614505[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 10:57:38.619564[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 10:58:34.835820[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:58:34.835964[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:58:34.835975[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 10:58:34.843282[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 10:59:00.771900[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 10:59:00.772090[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 10:59:00.772131[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 10:59:00.783115[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 11:00:18.298778[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:00:18.298931[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:00:18.298940[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 11:00:18.301396[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 11:00:59.747723[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:00:59.747771[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:00:59.747788[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 11:00:59.755157[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 11:01:54.057527[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:01:54.057578[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:01:54.057587[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 11:01:54.064761[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 11:27:24.694155[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:27:24.694406[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:27:24.694432[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 11:27:24.742259[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 11:30:58.050949[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:30:58.050960[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:30:58.050967[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 11:30:58.072799[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 11:36:16.022149[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:36:16.022177[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:36:16.022183[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 11:36:16.026172[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 11:37:27.336384[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 11:37:27.336594[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 11:37:27.336620[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 11:37:27.340761[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 19:45:37.238842[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 19:45:37.239255[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 19:45:37.239266[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 19:45:38.465830[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 19:47:28.673920[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 19:47:28.674099[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 19:47:28.674139[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 19:47:28.739206[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 19:48:25.597021[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 19:48:25.597082[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 19:48:25.597091[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 19:48:25.647261[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 19:52:20.657986[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 19:52:20.658142[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 19:52:20.658183[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 19:52:20.660578[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 19:52:38.169327[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 19:52:38.169408[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 19:52:38.169425[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 19:52:38.398057[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5
+2025-12-26 19:53:57.276653[INFO][AsioExecutor[worker#4]] zlog version: 0.1.4.dev11+g996d249
+2025-12-26 19:53:57.276790[INFO][AsioExecutor[worker#4]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-26 19:53:57.276801[WARN][AsioExecutor[worker#4]] Failed to configure SCHED_FIFO, running with normal priority
+2025-12-26 19:53:57.282004[INFO][AsioExecutor[worker#4]] Set thread affinity to core 5

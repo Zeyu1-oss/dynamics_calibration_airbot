@@ -1,0 +1,384 @@
+2025-12-24 10:41:51.585571[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:51.585610[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:51.585615[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:41:51.585620[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on can0
+2025-12-24 10:41:51.586322[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:51.586328[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:51.586334[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:41:51.586339[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on can0
+2025-12-24 10:41:51.586565[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:51.586571[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 10:41:51.586577[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 10:41:51.586585[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on can0
+2025-12-24 11:32:04.979647[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:04.979656[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:04.979662[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:32:04.979667[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on can0
+2025-12-24 11:32:04.980353[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:04.980358[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:04.980363[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:32:04.980369[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on can0
+2025-12-24 11:32:04.981094[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:04.981101[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 11:32:04.981107[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 11:32:04.981113[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on can0
+2025-12-24 14:41:35.544748[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:35.544756[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:35.544761[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:41:35.544767[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan
+2025-12-24 14:41:35.545462[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:35.545467[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:35.545472[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:41:35.545477[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan
+2025-12-24 14:41:35.546198[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:35.546205[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:41:35.546210[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:41:35.546216[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan
+2025-12-24 14:42:09.561799[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:09.561806[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:09.561812[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:42:09.561817[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan
+2025-12-24 14:42:09.562585[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562592[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562597[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562609[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan
+2025-12-24 14:42:09.562733[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562739[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562747[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:42:09.562753[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan
+2025-12-24 14:42:20.164253[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:20.164260[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:20.164265[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:42:20.164269[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan
+2025-12-24 14:42:20.164998[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:20.165003[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:20.165008[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:42:20.165013[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan
+2025-12-24 14:42:20.165208[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:20.165213[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 14:42:20.165218[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 14:42:20.165223[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan
+2025-12-24 15:39:33.390854[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:33.390860[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:33.390865[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:39:33.390870[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 15:39:33.391393[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:33.391399[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:33.391404[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:39:33.391409[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 15:39:33.391624[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:33.391630[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:39:33.391635[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:39:33.391641[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 15:40:07.594858[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:07.594866[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:07.594871[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:40:07.594877[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 15:40:07.595580[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:07.595586[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:07.595592[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:40:07.595598[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 15:40:07.595716[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:07.595721[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:07.595727[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:40:07.595732[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 15:40:23.078119[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078127[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078139[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078143[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 15:40:23.078247[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078252[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078256[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078261[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 15:40:23.078887[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078895[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078902[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:40:23.078909[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 15:41:16.522929[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:16.522936[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:16.522941[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:41:16.522946[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 15:41:16.523797[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:16.523850[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:16.523856[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:41:16.523861[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 15:41:16.524304[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:16.524309[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 15:41:16.524314[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 15:41:16.524319[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:51:53.607173[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:53.607184[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:53.607191[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:51:53.607196[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:51:53.608005[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:53.608011[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:53.608016[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:51:53.608020[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:51:53.608490[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:53.608497[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:51:53.608503[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:51:53.608509[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:52:21.835896[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:21.835904[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:21.835910[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:52:21.835915[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:52:21.836542[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:21.836549[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:21.836555[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:52:21.836561[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:52:21.836715[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:21.836720[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:52:21.836725[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:52:21.836730[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:53:15.064722[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:15.064732[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:15.064739[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:15.064745[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:53:15.065236[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:15.065243[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:15.065248[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:15.065254[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:53:15.065580[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:15.065585[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:15.065590[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:15.065596[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:53:28.331670[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:28.331677[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:28.331683[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:28.331693[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:53:28.331815[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:28.331820[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:28.331825[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:28.331830[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:53:28.332573[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:28.332579[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:28.332585[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:28.332591[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:53:52.864722[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:52.864730[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:52.864736[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:52.864742[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:53:52.865552[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:52.865560[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:52.865566[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:52.865572[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:53:52.865990[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:52.865996[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:53:52.866002[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:53:52.866008[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:54:31.143213[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:31.143222[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:31.143231[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:54:31.143245[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:54:31.143912[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:31.143918[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:31.143923[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:54:31.143928[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:54:31.144148[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:31.144153[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:54:31.144158[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:54:31.144163[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:55:46.145721[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:46.145729[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:46.145734[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:55:46.145739[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:55:46.146461[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:46.146466[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:46.146471[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:55:46.146475[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:55:46.146782[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:46.146788[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:55:46.146795[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:55:46.146803[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:56:10.070648[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:10.070656[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:10.070661[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:56:10.070667[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:56:10.071345[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:10.071349[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:10.071354[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:56:10.071359[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:56:10.071513[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:10.071519[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:56:10.071524[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:56:10.071533[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:57:13.182494[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:13.182501[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:13.182506[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:57:13.182511[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:57:13.183342[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:13.183347[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:13.183351[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:57:13.183356[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:57:13.183581[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:13.183586[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:57:13.183597[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:57:13.183602[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:58:12.071890[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:12.071904[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:12.071913[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:58:12.071922[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:58:12.073048[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:12.073058[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:12.073067[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:58:12.073076[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:58:12.073384[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:12.073393[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:12.073402[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:58:12.073410[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:58:40.931602[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:40.931615[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:40.931625[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:58:40.931634[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:58:40.932607[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:40.932623[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:40.932640[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:58:40.932654[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-24 19:58:40.935737[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:40.935757[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-24 19:58:40.935775[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-24 19:58:40.935794[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 09:40:00.521978[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:40:00.521985[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:40:00.521990[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:40:00.521997[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 09:40:00.522704[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:40:00.522717[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:40:00.522722[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:40:00.522728[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 09:40:00.523562[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:40:00.523568[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:40:00.523574[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:40:00.523579[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 09:43:23.965038[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965045[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965051[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965056[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 09:43:23.965679[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965684[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965689[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965694[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 09:43:23.965826[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965831[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965836[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:43:23.965841[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 09:43:47.806535[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:47.806544[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:47.806552[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:43:47.806559[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 09:43:47.807308[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:47.807316[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:47.807323[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:43:47.807331[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 09:43:47.807611[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:47.807619[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:43:47.807627[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:43:47.807635[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 09:52:40.684720[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:40.684726[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:40.684731[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:52:40.684736[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 09:52:40.685284[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:40.685289[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:40.685296[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:52:40.685301[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 09:52:40.685594[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:40.685599[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 09:52:40.685605[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 09:52:40.685610[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 13:58:41.061208[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:41.061504[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:41.061509[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 13:58:41.061515[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on can0
+2025-12-25 13:58:41.061972[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:41.061977[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:41.061982[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 13:58:41.061988[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on can0
+2025-12-25 13:58:41.062388[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:41.062396[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 13:58:41.062404[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 13:58:41.062474[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on can0
+2025-12-25 14:17:47.559850[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:47.559858[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:47.559863[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:17:47.559869[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan1
+2025-12-25 14:17:47.560116[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:47.560120[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:47.560125[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:17:47.560130[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan1
+2025-12-25 14:17:47.560573[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:47.560577[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:17:47.560582[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:17:47.560586[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan1
+2025-12-25 14:51:29.597068[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:29.597080[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:29.597089[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:51:29.597098[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 14:51:29.597692[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:29.597701[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:29.597709[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:51:29.597718[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 14:51:29.597992[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:29.598001[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:29.598021[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:51:29.598030[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 14:51:45.161424[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:45.161431[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:45.161436[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:51:45.161441[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 14:51:45.162283[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:45.162288[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:45.162293[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:51:45.162298[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 14:51:45.162411[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:45.162416[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:51:45.162422[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:51:45.162427[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 14:52:05.600278[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:05.600286[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:05.600291[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:52:05.600296[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 14:52:05.600954[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:05.600962[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:05.600967[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:52:05.600972[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 14:52:05.601144[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:05.601149[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:52:05.601154[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:52:05.601159[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 14:53:14.640417[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:14.640424[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:14.640429[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:53:14.640435[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on can0
+2025-12-25 14:53:14.641340[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:14.641346[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:14.641351[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:53:14.641357[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on can0
+2025-12-25 14:53:14.641665[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:14.641671[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 14:53:14.641676[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 14:53:14.641682[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on can0
+2025-12-25 15:15:18.580598[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582278[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582287[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582292[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 15:15:18.582529[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582534[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582539[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582544[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 15:15:18.582770[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582775[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582780[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:15:18.582785[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 15:22:03.870491[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:03.870499[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:03.870505[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:22:03.870518[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 15:22:03.870960[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:03.870967[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:03.870973[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:22:03.870978[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
+2025-12-25 15:22:03.871119[INFO][CommHandler[factory]] zlog version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:03.871125[INFO][CommHandler[factory]] zlog_cpp version: 0.1.4.dev11+g996d249
+2025-12-25 15:22:03.871131[INFO][CommHandler[factory]] AIRBOT Drivers: v0.1.4.dev11+g996d249
+2025-12-25 15:22:03.871136[ERROR][CommHandler[factory]] Failed to initialize SocketcanCommHandler on slcan0
