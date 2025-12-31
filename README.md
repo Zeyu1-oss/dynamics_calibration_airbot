@@ -131,8 +131,7 @@ python csv_pvt_control.py
 - `--no-read`: 仅发送控制命令，不读取反馈（用于测试）
 
 由于电机tau=k*I的k参数不准确，需要多采集几组数据来估计gain，改argument里面的csv轨迹参数来获得多组数据。
-/diagram/torque_comparison_aligned.png
-运行cali_gains.py可以运行原始mjcf仿真和真实数据做最小二乘法得到j2和j3的电流drive gains，对j2和j3数据处理后自动保存至results/unified_corrected_j2j3
+运行cali_gains.py可以运行原始mjcf仿真和真实数据做最小二乘法得到近似的j2和j3的电流drive gains，对j2和j3数据处理后自动保存至results/unified_corrected_j2j3
 
 ![原始urdf和真实数据对比图（j2和j3差异较大）](diagram/image.png)
 
