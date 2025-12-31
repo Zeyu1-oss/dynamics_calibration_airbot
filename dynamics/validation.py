@@ -4,7 +4,7 @@
 
 import numpy as np
 import matplotlib
-matplotlib.use('Agg')  # 使用非交互式后端，避免在无GUI环境下卡住
+matplotlib.use('Agg') 
 import matplotlib.pyplot as plt
 import sys
 import os
@@ -326,10 +326,6 @@ def load_estimation_results(pkl_path='estimation_results.pkl'):
 
 
 def main():
-    """
-    主函数：加载估计结果并在验证数据上进行验证
-    专注于PC-OLS-REG方法，同时保留对其他方法的支持
-    """
     import h5py
     
     
@@ -357,7 +353,6 @@ def main():
         print(f"  ✓ 基础参数数量: {baseQR['numberOfBaseParameters']}")
     
     except Exception as e:
-        print(f"  ❌ 加载baseQR失败: {e}")
         sys.exit(1)
     
     # 2. 加载估计结果
@@ -367,7 +362,6 @@ def main():
     try:
         estimation_data = load_estimation_results(pkl_path)
     except Exception as e:
-        print(f"  ❌ 加载估计结果失败: {e}")
         print("  请先运行 parameter_estimation.py 进行参数估计")
         sys.exit(1)
     
@@ -378,7 +372,7 @@ def main():
     # 3. 设置验证参数
     print("\n步骤 3/4: 设置验证参数...")
     drv_gains = np.ones(6)
-    validation_data_path = 'results/data_csv/vali——0fre.csv'  # 使用相同或不同的数据集进行验证
+    validation_data_path = 'results/data_csv/vali_ptrnSrch_N8T25QR.csv'  # 使用相同或不同的数据集进行验证
     idx = [0, 2500]  # 可以使用不同的数据范围
     
     print(f"  验证数据: {validation_data_path}")
@@ -391,14 +385,11 @@ def main():
     sol = estimation_data.get('sol')
     
     if sol is None:
-        print("  ❌ 未找到估计结果")
         sys.exit(1)
     
     # 根据方法进行相应的验证
     if method_used == 'PC-OLS-REG':
-        print(f"\n{'='*70}")
         print(f"  主要验证: PC-OLS-REG（物理一致性 + URDF正则化）")
-        print(f"{'='*70}")
         
         # 传入pi_s进行双重验证
         rre, results = validate_dynamic_params(

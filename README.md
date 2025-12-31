@@ -103,9 +103,6 @@ pip install oct2py
 # MuJoCo Python绑定
 pip install mujoco
 
-# 可选：MOSEK求解器（提高优化精度和速度）
-# 访问 https://www.mosek.com/products/academic-licenses/ 获取免费学术许可证
-pip install Mosek
 ```
 
 ### 真实机器人控制（可选）
@@ -136,11 +133,11 @@ octave --version
 
 ### 1. 生成仿真数据
 
-使用MuJoCo仿真生成测试数据，。先運行仿真檢查是否有碰撞風險，數據保存在results/data_csv/目錄下,真機運行可以讀取裏面的位置速度數據。
-：
+使用MuJoCo仿真生成测试数据，先在仿真運行激勵軌跡檢查是否有碰撞風險，數據保存在results/data_csv/目錄下,真機運行可以讀取裏面的位置速度數據。
+測試結果models/exciting_trajectory/ptrnSrch_N7T25QR-6.mat作爲激勵軌跡效果最好,
 
 ```bash
-python scripts/test_simulation.py 測試結果models/exciting_trajectory/ptrnSrch_N7T25QR-6.mat作爲激勵軌跡效果最好,
+python scripts/test_simulation.py 
 ```
 
 生成的数据保存在 `results/data_csv/` 目录。
@@ -183,7 +180,7 @@ python scripts/create_calibarated_model_withmotor.py
 
 ### 4. 验证结果（可選）
 
-验证估计参数的准确性：
+验证估计参数的准确性：跟後續vali_sim.py目的類似，這裏是對比辨識的參數和測量數據差距，運行後可以查看對比圖
 
 ```bash
 python dynamics/validation.py
@@ -206,7 +203,6 @@ python scripts/vali_sim.py
 - 仿真数据（通过 `scripts/test_simulation.py` 生成）
 - 真实机器人数据（通过 `state_machine_demo/csv_pvt_control.py` 采集）
 
-数据格式要求见 [数据格式](#数据格式) 部分。
 
 #### 步骤2：选择估计方法
 
@@ -262,7 +258,7 @@ LAMBDA_REG = 5e-4  # 正则化系数，通常范围：1e-5 到 1e-3
 标准CSV格式，包含以下列：
 
 ```
-time, q1, q2, q3, q4, q5, q6, qd1, qd2, qd3, qd4, qd5, qd6, i1, i2, i3, i4, i5, i6
+time, q1, q2, q3, q4, q5, q6, qd1, qd2, qd3, qd4, qd5, qd6, tau1, tau2, tau3, tau4, tau5, tau6
 ```
 
 - `time`: 时间戳（秒）
@@ -380,7 +376,7 @@ python csv_pvt_control.py --csv ../vali_traj/ptrnSrch_N7T25QR-6.csv --can can0 -
 ```
 
 **参数说明**：
-- `--csv`: 输入轨迹文件（CSV包含激勵軌跡的位置速度）
+- `--csv`: 输入轨迹文件,先運行仿真scripts/test_simulation.py（CSV包含激勵軌跡的位置速度）
 - `--can`: CAN接口名称（默认：can0）
 - `--eef`: 末端执行器类型（默认：none）
 - `--duration`: 执行时长（秒，默认：完整轨迹）
@@ -394,18 +390,10 @@ python csv_pvt_control.py --csv ../vali_traj/ptrnSrch_N7T25QR-6.csv --can can0 -
 - 期望关节位置、速度
 - 时间戳
 
-### 数据转换
-
-真实机器人数据需要转换为标准格式：
-
-```bash
-# 使用 process_trajectory.py 转换数据
-python process_trajectory.py --input state_machine_demo/real_data/xxx.csv --output results/data_csv/xxx.csv
-```
 
 
 ## 输出文件
-
+運行dynamics/parameter_estimation_withmotordynamics.py或者dynamics/parameter_estimation.py後生成的結果
 ### 估计结果
 
 - `results/estimation_results.pkl`: 估计参数（不含电机）
