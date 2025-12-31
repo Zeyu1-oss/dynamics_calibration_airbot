@@ -312,21 +312,6 @@ s.t. 物理约束
 
 
 
-### 验证结果
-
-- `results/validation_results.pkl`: 验证结果汇总
-- `results/validation_OLS_detailed.csv`: OLS方法详细验证数据
-- `results/validation_PC-OLS_detailed.csv`: PC-OLS方法详细验证数据
-- `results/validation_PC-OLS-REG_detailed.csv`: PC-OLS-REG方法详细验证数据
-- `results/validation_*_summary.csv`: 各方法验证汇总
-
-### 可视化图表
-
-- `diagram/validation_*.png`: 验证对比图
-- `diagram/model_comparison_*.png`: 模型对比图
-- `diagram/torque_comparison_*.png`: 力矩对比图
-- `diagram/trajectory_comparison.png`: 轨迹对比图
-
 ### 校准模型
 
 - `models/mjcf/manipulator/airbot_play_force/_play_force_calibrated.xml`: 校准后的MuJoCo模型
