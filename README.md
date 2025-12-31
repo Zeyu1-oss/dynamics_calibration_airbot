@@ -158,7 +158,7 @@ python parameter_estimation_withmotordynamics.py
 ```bash
 
 # 含电机动力学
-python scripts/create_calibarated_model_withmotor.py
+python scripts/create_calibrated_model_withmotor.py
 
 
 ```
