@@ -110,7 +110,7 @@ octave --version
 ### 真实机器人数据采集
 
 使用 `state_machine_demo/csv_pvt_control.py` 从真实机器人采集数据，激励轨迹在results/data_csv/，建议都跑一遍
-**输出格式**：
+
 采集的数据保存在 `state_machine_demo/real_data/` 目录，包含：
 - 实际关节位置、速度、力矩
 - 期望关节位置、速度
