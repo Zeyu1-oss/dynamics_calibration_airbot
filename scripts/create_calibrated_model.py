@@ -103,8 +103,7 @@ def create_calibrated_xml(estimation_pkl_path, original_xml_path, output_xml_pat
         ])
         
         # I_origin = I_COM - m * [r]× @ [r]×  (parse_urdf.py)
-        # 反过来：I_COM = I_origin + m * [r]× @ [r]×
-        # I_com = I_origin + mass * (com_skew @ com_skew.T) 
+        # I_com = I_origin + mass * (com_skew @ com_skew) 
         I_com = I_origin + mass * (com_skew @ com_skew)   
         # I_com = I_origin 
         Ixx = I_com[0, 0]

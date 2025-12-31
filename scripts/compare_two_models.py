@@ -14,7 +14,6 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 
 def mixed_trajectory_calculator(t_vec, T, N, wf, a, b, c_pol, q0):
-    """计算期望轨迹（与test.py一致）"""
     t_vec = np.atleast_1d(t_vec)
     J = a.shape[0]  
     M = len(t_vec)  
@@ -51,18 +50,6 @@ def mixed_trajectory_calculator(t_vec, T, N, wf, a, b, c_pol, q0):
 
 
 def run_simulation(model_path, T, N, wf, a, b, c_pol, q0, sim_time, control_dt, visualize=False):
-    """
-    
-    Args:
-        model_path: 模型XML路径
-        T, N, wf, a, b, c_pol, q0: 轨迹参数
-        sim_time: 仿真时长
-        control_dt: 控制时间步
-        visualize: 是否可视化
-    
-    Returns:
-        recorded_data: 记录的数据
-    """
     
     model = mujoco.MjModel.from_xml_path(model_path)
     data = mujoco.MjData(model)

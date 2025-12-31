@@ -81,16 +81,13 @@ def plot_torque_comparison(recorded_data, n_joints, external_csv_path):
         fig.suptitle(f'Torque Validation: MuJoCo vs Real Data\n(Source: {os.path.basename(MAT_FILE_PATH)})', 
                      fontsize=16, fontweight='bold', y=0.98)
 
-        # 應用時間偏移補償
         adjusted_time_sim = time_sim - TIME_SHIFT_COMPENSATION
 
         for i in range(n_joints):
-            # 對齊真實數據到仿真時間軸
             f_interp = interpolate.interp1d(ext_time, ext_data[:, TAU_START_IDX + i], 
                                            kind='linear', fill_value='extrapolate')
             tau_ext_aligned = f_interp(adjusted_time_sim)
 
-            # 左側：曲線對比
             ax_t = axes[i, 0]
             ax_t.plot(time_sim, tau_ext_aligned, 'b-', label='Real Data (CSV)', linewidth=1.5, alpha=0.6)
             ax_t.plot(time_sim, tau_sim[:, i], 'r--', label='MuJoCo Sim', linewidth=1.2)
@@ -98,7 +95,6 @@ def plot_torque_comparison(recorded_data, n_joints, external_csv_path):
             ax_t.grid(True, linestyle=':', alpha=0.5)
             if i == 0: ax_t.legend(loc='upper right')
 
-            # 右側：殘差
             ax_err = axes[i, 1]
             torque_error = tau_sim[:, i] - tau_ext_aligned
             ax_err.plot(time_sim, torque_error, 'g-', linewidth=0.8)

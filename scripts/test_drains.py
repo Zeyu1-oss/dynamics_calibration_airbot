@@ -15,11 +15,8 @@ SIM_TIME = 25
 CONTROL_HZ = 1000  
 CONTROL_DT = 1.0 / CONTROL_HZ           
 
-# 比例系數 K (你可以手動調整這個值，或者看腳本最後生成的建議值)
-# 最終力矩 = MuJoCo力矩 * K
 K_SCALES = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0] 
 
-# ================= 核心邏輯 =================
 
 def get_real_data(csv_path):
     """讀取真實機器人數據"""
@@ -51,7 +48,6 @@ def mixed_trajectory_calculator(t_vec, T, N, wf, a, b, c_pol, q0):
     return qd, qdot_d, qddot_d
 
 def main():
-    # 1. 加載模型與軌跡
     model = mujoco.MjModel.from_xml_path(MODEL_XML_PATH)
     data = mujoco.MjData(model)
     mat_contents = sio.loadmat(MAT_FILE_PATH)
@@ -59,7 +55,6 @@ def main():
     tp = mat_contents['traj_par'][0, 0]
     T, N, wf, q0 = tp['T'][0,0], int(tp['N'][0,0]), tp['wf'][0,0], tp['q0']
 
-    # 2. 獲取真實數據用於對比
     t_real, tau_real_all = get_real_data(COMPARE_CSV_PATH)
 
     recorded_sim = {'time': [], 'tau_sim': []}
@@ -82,11 +77,8 @@ def main():
         recorded_sim['time'].append(t)
         recorded_sim['tau_sim'].append(tau_theoretical)
         
-        # 物理步進
         data.ctrl[:6] = tau_theoretical
         mujoco.mj_step(model, data)
-
-    # 3. 分析與擬合 K
     time_sim = np.array(recorded_sim['time'])
     tau_sim = np.array(recorded_sim['tau_sim'])
     
@@ -94,14 +86,12 @@ def main():
     print("\n📊 比例系數 K 分析結果 (Real = K * Sim):")
     
     for i in range(6):
-        # 將仿真數據插值到真實數據的時間戳
         f_interp = interpolate.interp1d(time_sim, tau_sim[:, i], fill_value="extrapolate")
         tau_sim_aligned = f_interp(t_real)
         
         # 計算最優 K (最小二乘法: K = sum(sim*real) / sum(sim^2))
         k_opt = np.sum(tau_sim_aligned * tau_real_all[:, i]) / np.sum(tau_sim_aligned**2)
         
-        # 繪圖
         plt.subplot(3, 2, i+1)
         plt.plot(t_real, tau_real_all[:, i], 'r', alpha=0.5, label='Real Data')
         plt.plot(time_sim, tau_sim[:, i] * k_opt, 'b--', label=f'Sim * {k_opt:.3f}')
