@@ -137,6 +137,8 @@ python csv_pvt_control.py --csv ../vali_ptrnSrch_N7T25QR-6.csv --can can0 --eef 
 ### 估计结果
 ```bash
 cd ..
+python parameter_estimation.py
+#或
 python parameter_estimation_withmotordynamics.py
 ```
 - `results/estimation_results.pkl`: 估计参数（不含电机）
