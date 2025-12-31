@@ -86,18 +86,13 @@ pip install mujoco
 
 ```
 
-### 真实机器人控制（可选）
+### 真实机器人控制
 
-如果需要使用真实机器人进行数据采集：
 
 ```bash
 # 安装 airbot_state_machine 包
 pip install airbot_state_machine-0.1.4.dev11+g996d249-py3-none-any.whl
 
-# 或从源码安装
-# git clone <repository_url>
-# cd airbot_state_machine
-# pip install .
 ```
 
 ### 安装Octave（如果未安装）
