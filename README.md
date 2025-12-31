@@ -109,7 +109,13 @@ octave --version
 
 ### 真实机器人数据采集
 
-使用 `state_machine_demo/csv_pvt_control.py` 从真实机器人采集数据，建议使用ptrnSrch_N7T25QR-5.mat或ptrnSrch_N7T25QR-6.mat
+使用 `state_machine_demo/csv_pvt_control.py` 从真实机器人采集数据，建议使用ptrnSrch_N7T25QR-5.mat或ptrnSrch_N7T25QR-6.mat，
+**输出格式**：
+采集的数据保存在 `state_machine_demo/real_data/` 目录，包含：
+- 实际关节位置、速度、力矩
+- 期望关节位置、速度
+时间戳生成的数据第一行需要删掉。
+
 
 ```bash
 cd state_machine_demo
@@ -121,7 +127,7 @@ python csv_pvt_control.py
 - `--eef`: 末端执行器类型（默认：none）
 - `--duration`: 执行时长（秒，默认：完整轨迹）
 - `--output`: 输出文件路径（默认：自动生成）
-- `--tau-filter`: 力矩滤波窗口大小（默认：10）
+- `--tau-filter`: 力矩滤波窗口大小（默认：1不滤波）
 - `--no-read`: 仅发送控制命令，不读取反馈（用于测试）
 
 由于电机tau=k*I的k参数不准确，需要多采集几组数据来估计gain，改argument里面的csv轨迹参数来获得多组数据。
