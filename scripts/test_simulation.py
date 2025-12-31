@@ -12,7 +12,7 @@ from scipy import interpolate
 import time
 
 MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force.xml" 
-MAT_FILE_PATH = "models/exciting_trajectory/ptrnSrch_N7T25QR-6.mat"
+MAT_FILE_PATH = "models/exciting_trajectory/ga_N12T25.mat"
 
 # Auto-generate output CSV name from MAT file
 mat_basename = os.path.splitext(os.path.basename(MAT_FILE_PATH))[0]
@@ -22,7 +22,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 mat_basename = os.path.splitext(os.path.basename(MAT_FILE_PATH))[0]
 OUTPUT_CSV_PATH = os.path.join(OUTPUT_DIR, f"vali_{mat_basename}.csv")
-USE_VIEWER = True  
+USE_VIEWER = False
 RECORD_DATA = True  
 SIM_TIME = 25
 CONTROL_HZ = 1000  

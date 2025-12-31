@@ -109,7 +109,7 @@ octave --version
 
 ### 真实机器人数据采集
 
-使用 `state_machine_demo/csv_pvt_control.py` 从真实机器人采集数据，建议使用ptrnSrch_N7T25QR-5.mat或ptrnSrch_N7T25QR-6.mat，
+使用 `state_machine_demo/csv_pvt_control.py` 从真实机器人采集数据，轨迹数据在results/data_csv/，建议都跑一边，辨识的时候用-5和-6
 **输出格式**：
 采集的数据保存在 `state_machine_demo/real_data/` 目录，包含：
 - 实际关节位置、速度、力矩
