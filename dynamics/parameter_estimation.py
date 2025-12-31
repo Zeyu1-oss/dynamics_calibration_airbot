@@ -302,7 +302,7 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
             )
         except Exception as mosek_err:
             # 回退到SCS求解器，极致精度配置
-            print(f"  MOSEK不可用或失败: {mosek_err}")
+            # print(f"  MOSEK不可用或失败: {mosek_err}")
             result = problem.solve(
                 solver=cp.SCS,
                 verbose=False,

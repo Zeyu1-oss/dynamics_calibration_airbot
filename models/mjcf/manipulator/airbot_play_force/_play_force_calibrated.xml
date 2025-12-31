@@ -40,33 +40,33 @@
       
       <geom name="base_link_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" material="1" type="mesh" mesh="base_link.STL" class="visual" />
       <body name="link1" pos="0 0 0.1127" quat="1.0 0.0 0.0 0.0">
-        <joint name="joint1" type="hinge" ref="0.0" range="-3.1416 2.0944" armature="1.0003487943e-06" axis="0 0 1" damping="0.0000000000e+00" frictionloss="1.3068948674e-01" />
-        <inertial pos="0.0000000043 -0.0000000296 -0.0209696483" mass="0.6070009368" fullinertia="1.0629094276e-03 1.0629094276e-03 5.0000132251e-04 2.2790802192e-16 1.0619190168e-14 -5.4646386319e-13" />
+        <joint name="joint1" type="hinge" ref="0.0" range="-3.1416 2.0944" armature="2.0235057333e-05" axis="0 0 1" damping="2.7689621234e-05" frictionloss="1.3733385393e-01" />
+        <inertial pos="0.0000000027 -0.0000000182 -0.0210487956" mass="0.6074527935" fullinertia="1.0625308736e-03 1.0625308739e-03 2.8935350410e-04 -2.2704415538e-14 9.8124735950e-15 -3.8838068772e-13" />
         
         <geom name="link1_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" material="1" type="mesh" mesh="link1.STL" class="visual" />
         <body name="link2" pos="0 0 0" quat="0.1358665314310754 0.1358711302557462 -0.6939313632833966 0.6939298124821854">
-          <joint name="joint2" type="hinge" ref="0.0" armature="1.0002099290e-06" range="-2.9671 0.17453" axis="0 0 1" damping="0.0000000000e+00" frictionloss="1.9400533116e-01" />
-          <inertial pos="-0.0538749229 0.0037303023 0.0042563273" mass="1.0098000000" fullinertia="4.9999982890e-04 5.0000232054e-04 5.0000112753e-04 -1.1936628192e-09 9.6755878564e-11 -1.8689779449e-10" />
+          <joint name="joint2" type="hinge" ref="0.0" armature="5.2015169755e-03" range="-2.9671 0.17453" axis="0 0 1" damping="3.5388029924e-05" frictionloss="1.7907317606e-01" />
+          <inertial pos="-0.0534804440 0.0063886221 0.0026358987" mass="1.0097999115" fullinertia="5.5997973066e-04 5.8725939925e-04 5.4921611842e-04 -9.5934049711e-06 -1.4878354014e-06 6.9016566443e-06" />
           <geom name="link2_collision" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="link2.STL" class="collision" />
           <geom name="link2_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" material="1" type="mesh" mesh="link2.STL" class="visual" />
           <body name="link3" pos="0.27009 0 0" quat="0.55806023303518 0.0 0.0 0.8298004436638489">
-            <joint name="joint3" type="hinge" ref="0.0" armature="9.9765830710e-07" range="-0.087266 3.1416" axis="0 0 1" damping="0.0000000000e+00" frictionloss="1.6552490899e-01" />
-            <inertial pos="0.0041191652 0.0529268507 -0.0044419655" mass="0.6300000002" fullinertia="4.9999782719e-04 5.0000091780e-04 4.9999728594e-04 1.2940116639e-09 -5.6014377953e-10 6.8555990878e-10" />
+            <joint name="joint3" type="hinge" ref="0.0" armature="1.6722495361e-05" range="-0.087266 3.1416" axis="0 0 1" damping="2.3143533101e-05" frictionloss="1.6960326627e-01" />
+            <inertial pos="0.0038255094 0.0659249131 -0.0004193723" mass="0.6300033272" fullinertia="5.6216302174e-03 1.0551620212e-03 6.0054244727e-03 -1.4984649077e-03 -1.1816700536e-04 -3.4404605182e-04" />
             <geom name="link3_collision" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="link3.STL" class="collision" />
             <geom name="link3_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" material="1" type="mesh" mesh="link3.STL" class="visual" />
             <body name="link4" pos="0 0.29015 0" quat="0.4999981633974483 -0.49999999999662686 -0.49999999999662686 -0.5000018366025516">
-              <joint name="joint4" type="hinge" ref="0.0" armature="9.9992826227e-07" range="-3.0107 3.0107" axis="0 0 1" damping="6.5391059243e-03" frictionloss="8.1535616871e-02" />
-              <inertial pos="-0.0118283776 -0.0400343667 -0.2505878004" mass="0.3231000002" fullinertia="5.8739822816e-04 5.4882872729e-04 6.3141243529e-04 -6.2814576998e-05 -1.0579039940e-05 -1.4312509632e-05" />
+              <joint name="joint4" type="hinge" ref="0.0" armature="8.8930283948e-06" range="-3.0107 3.0107" axis="0 0 1" damping="1.1984010889e-02" frictionloss="9.0125770134e-02" />
+              <inertial pos="-0.0088763930 0.0184604140 -0.2673092830" mass="0.3231033785" fullinertia="4.4927100004e-03 4.4928948828e-03 2.2906692555e-04 -6.4010030764e-05 5.7125422066e-04 5.6616766213e-04" />
               <geom name="link4_collision" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="link4.STL" class="collision" />
               <geom name="link4_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" material="1" type="mesh" mesh="link4.STL" class="visual" />
               <body name="link5" pos="0 0 0" quat="0.7071054825112363 0.7071080798594735 0.0 0.0">
-                <joint name="joint5" type="hinge" ref="0.0" armature="2.5092493491e-03" range="-1.7628 1.7628" axis="0 0 1" damping="2.5398228575e-02" frictionloss="5.7215705447e-02" />
-                <inertial pos="0.0012837634 0.0542729351 -0.0485386017" mass="0.3627000001" fullinertia="1.2701511431e-03 3.6708953766e-03 3.8183999739e-03 1.1454507861e-03 9.4353084119e-04 -3.7794664288e-04" />
+                <joint name="joint5" type="hinge" ref="0.0" armature="1.1390221227e-02" range="-1.7628 1.7628" axis="0 0 1" damping="6.1735200211e-03" frictionloss="6.2949314860e-02" />
+                <inertial pos="0.0025186266 0.0434286267 0.0106662192" mass="0.3627034830" fullinertia="5.9234668540e-04 5.7963505302e-04 5.4299815662e-04 -5.3856991521e-07 -1.0160126363e-05 7.4865234380e-07" />
                 <geom name="link5_collision" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="link5.STL" class="collision" />
                 <geom name="link5_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" material="1" type="mesh" mesh="link5.STL" class="visual" />
                 <body name="link6" pos="0 0 0" quat="0.7071054825112363 -0.7071080798594735 0.0 0.0">
-                  <joint name="joint6" type="hinge" ref="0.0" armature="1.0022438597e-06" range="-30107 30107" axis="0 0 1" damping="3.6523331009e-02" frictionloss="5.0354105011e-02" />
-                  <inertial pos="0.0025461705 -0.0359007466 0.0507170806" mass="0.0990000001" fullinertia="5.0090174037e-04 1.3444753545e-03 1.3449359537e-03 2.3839198430e-05 -1.3701828894e-05 3.8650631798e-07" />
+                  <joint name="joint6" type="hinge" ref="0.0" armature="4.1888160655e-03" range="-30107 30107" axis="0 0 1" damping="2.4374285132e-02" frictionloss="5.4350471179e-02" />
+                  <inertial pos="0.0132677251 -0.0116898498 0.0519113021" mass="0.0990034947" fullinertia="1.1625150831e-03 1.7718931534e-03 1.1587278644e-03 -1.7001205408e-05 -5.8123104163e-04 -7.6033861808e-06" />
                   <geom name="link6_collision" pos="0 0 0" quat="1.0 0.0 0.0 0.0" type="mesh" mesh="link6.STL" class="collision" />
                   <geom name="link6_visual" pos="0 0 0" quat="1.0 0.0 0.0 0.0" material="1" type="mesh" mesh="link6.STL" class="visual" />
                   <body name="eef_connect_base_link" pos="0.0 0.0 0.0955" quat="1.0 0.0 0.0 0.0">

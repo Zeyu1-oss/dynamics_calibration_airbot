@@ -109,13 +109,12 @@ octave --version
 
 ### 真实机器人数据采集
 
-使用 `state_machine_demo/csv_pvt_control.py` 从真实机器人采集数据：
+使用 `state_machine_demo/csv_pvt_control.py` 从真实机器人采集数据，建议使用ptrnSrch_N7T25QR-5.mat或ptrnSrch_N7T25QR-6.mat
 
 ```bash
 cd state_machine_demo
-python csv_pvt_control.py --csv ../vali_ptrnSrch_N7T25QR-6.csv --can can0 --eef none
+python csv_pvt_control.py
 ```
-
 **参数说明**：
 - `--csv`: 输入轨迹文件,先運行仿真scripts/test_simulation.py（CSV包含激勵軌跡的位置速度）
 - `--can`: CAN接口名称（默认：can0）
@@ -125,6 +124,14 @@ python csv_pvt_control.py --csv ../vali_ptrnSrch_N7T25QR-6.csv --can can0 --eef 
 - `--tau-filter`: 力矩滤波窗口大小（默认：10）
 - `--no-read`: 仅发送控制命令，不读取反馈（用于测试）
 
+由于电机tau=k*I的k参数不准确，需要多采集几组数据来估计gain，改argument里面的csv轨迹参数来获得多组数据。
+运行cali_gains.py可以运行原始mjcf仿真和真实数据做最小二乘法得到j2和j3的电流drive gains，对j2和j3数据处理后自动保存至results/unified_corrected_j2j3
+
+```bash
+cd ..
+python scripts/cali_gains.py
+```
+
 **输出格式**：
 采集的数据保存在 `state_machine_demo/real_data/` 目录，包含：
 - 实际关节位置、速度、力矩
@@ -132,17 +139,16 @@ python csv_pvt_control.py --csv ../vali_ptrnSrch_N7T25QR-6.csv --can can0 --eef 
 - 时间戳
 
 
-## 输出文件
 
-### 估计结果
+### 参数辨识
+
+需要先采集真实数据，改679行-695行真实数据路径
+
 ```bash
-cd ..
-python parameter_estimation.py
-#或
 python parameter_estimation_withmotordynamics.py
 ```
-- `results/estimation_results.pkl`: 估计参数（不含电机）
-- `results/estimation_results_with_motor.pkl`: 估计参数（含电机）
+- 结果保存至`results/estimation_results_with_motor.pkl`: 估计参数（含电机）
+
 
 ### 生成校准模型
 
@@ -162,7 +168,7 @@ python scripts/create_calibarated_model_withmotor.py
 2. 解析原始MuJoCo XML模型
 3. 更新每个link的质量和惯性矩阵
 4. 更新摩擦参数
-5. 更新电机参数（如果使用了含电机版本）
+5. 更新电机参数
 
 ### validation
 ```bash

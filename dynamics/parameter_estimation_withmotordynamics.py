@@ -265,7 +265,7 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
     epsilon_motor = 1e-6  # 电机惯量下界（kg·m²）
     
     # 典型电机反射惯量范围（根据关节大小）
-    I_motor_max = np.array([0.5, 1.0, 0.3, 0.05, 0.01, 0.005])  # kg·m²
+    I_motor_max = np.array([0.1, 0.1, 0.1, 0.1, 0.1, 0.1])  # kg·m²
     
     for i in range(6):
         # Fv >= 0
@@ -315,7 +315,7 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
                 }
             )
         except Exception as mosek_err:
-            print(f"  MOSEK不可用: {mosek_err}")
+            # print(f"  MOSEK不可用: {mosek_err}")
             result = problem.solve(
                 solver=cp.SCS,
                 verbose=False,
@@ -676,12 +676,12 @@ def main():
     # 配置
     METHOD = 'PC-OLS-REG'
     LAMBDA_REG = 0.0001
-    USE_MULTIPLE_TRAJECTORIES = False
+    USE_MULTIPLE_TRAJECTORIES = True
     
     if USE_MULTIPLE_TRAJECTORIES:
         data_paths = [
-            'state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-6.csv',
-            'state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-5.csv',
+            'state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-6(1).csv',
+            'state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-5(1).csv',
         ]
         data_ranges = [
             [0, 4800],
