@@ -114,7 +114,7 @@ octave --version
 
 ```bash
 cd state_machine_demo
-python csv_pvt_control.py --csv ../vali_traj/ptrnSrch_N7T25QR-6.csv --can can0 --eef none
+python csv_pvt_control.py --csv ../vali_ptrnSrch_N7T25QR-6.csv --can can0 --eef none
 ```
 
 **参数说明**：
