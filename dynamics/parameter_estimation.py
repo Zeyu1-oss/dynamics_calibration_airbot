@@ -8,6 +8,9 @@ import os
 from scipy.io import loadmat
 from oct2py import Oct2Py
 HAS_OCT2PY = True
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 from utils.parse_urdf import parse_urdf
 
 

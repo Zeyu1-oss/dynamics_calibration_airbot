@@ -22,16 +22,14 @@ calibration_airbot/
 │   ├── validation.py                        # 验证函数
 │   └── base_params_qr.py                    # 基础参数QR分解
 ├── scripts/              # 工具脚本
-│   ├── test.py                              # 生成仿真数据
-│   ├── test_simulation.py                   # 仿真测试
+│   ├── test_simulation.py                   # 生成仿真數據
 │   ├── create_calibrated_model.py          # 生成校准模型（不含电机动力学）
-│   ├── create_calibarated_model_withmotor.py  # 生成校准模型（包含电机动力学）
-│   ├── compare_two_models.py                # 模型对比
-│   ├── compare_open_loop.py                 # 开环对比
-│   └── validate_simulation.py               # 仿真验证
+│   ├── create_calibrated_model_withmotor.py  # 生成校准模型（包含电机动力学）
+│   ├── compare_two_models.py                # 仿真模型对比
 ├── utils/                # 工具函数
 │   ├── parse_urdf.py                        # URDF解析
 │   └── data_processing.py                   # 数据处理
+│   └── read_pkl.py                 
 ├── state_machine_demo/    # 真实机器人控制示例
 │   ├── basic_usage.py                       # 基础使用示例
 │   ├── csv_pvt_control.py                   # CSV轨迹跟踪（PVT控制）
@@ -61,13 +59,11 @@ calibration_airbot/
 │   │           ├── _play_force.xml          # 原始模型
 │   │           └── _play_force_calibrated.xml  # 校准模型
 │   ├── urdf/                                # URDF模型
-│   └── ptrnSrch_N7T25QR-*.mat              # 激励轨迹参数（傅里叶级数+多项式）
+│   └── models/exciting_trajectory/ptrnSrch_N7T25QR-*.mat      # 激励轨迹参数（傅里叶级数+多项式）
 └── results/              # 结果输出
     ├── data_csv/                            # 仿真測試保存的数据
     ├── estimation_results.pkl              # 估计结果s（不含电机）
     ├── estimation_results_with_motor.pkl   # 估计结果（含电机）
-    ├── validation_results.pkl               # 验证结果
-    └── validation_*.csv                     # 验证详细数据
 ```
 
 ## 安装依赖
@@ -115,41 +111,44 @@ octave --version
 ```
 
 ## 快速开始
+## 真实机器人
 
-### 1. 生成仿真数据
+### 数据采集
 
-使用MuJoCo仿真生成测试数据，先在仿真運行激勵軌跡檢查是否有碰撞風險，數據保存在results/data_csv/目錄下,真機運行可以讀取裏面的位置速度數據。
-測試結果models/exciting_trajectory/ptrnSrch_N7T25QR-6.mat作爲激勵軌跡效果最好,
-
-```bash
-python scripts/test_simulation.py 
-```
-
-生成的数据保存在 `results/data_csv/` 目录。
-
-### 2. 参数估计
-
-运行参数估计：
+使用 `state_machine_demo/csv_pvt_control.py` 从真实机器人采集数据：
 
 ```bash
-# 不含电机动力学
-python dynamics/parameter_estimation.py
-
-# 含电机动力学（armature）
-python dynamics/parameter_estimation_withmotordynamics.py
-結果 results/estimation_results.pkl
+cd state_machine_demo
+python csv_pvt_control.py --csv ../vali_traj/ptrnSrch_N7T25QR-6.csv --can can0 --eef none
 ```
 
-**配置选项**（在对应文件的 `main()` 函数中修改）：
+**参数说明**：
+- `--csv`: 输入轨迹文件,先運行仿真scripts/test_simulation.py（CSV包含激勵軌跡的位置速度）
+- `--can`: CAN接口名称（默认：can0）
+- `--eef`: 末端执行器类型（默认：none）
+- `--duration`: 执行时长（秒，默认：完整轨迹）
+- `--output`: 输出文件路径（默认：自动生成）
+- `--tau-filter`: 力矩滤波窗口大小（默认：10）
+- `--no-read`: 仅发送控制命令，不读取反馈（用于测试）
 
-```python
-METHOD = 'PC-OLS-REG'      # 可选: 'OLS', 'PC-OLS', 'PC-OLS-REG'
-LAMBDA_REG = 5e-4          # 正则化系数（仅PC-OLS-REG）
-data_paths = 'results/data_csv/vali_ptrnSrch_N7T25QR-6.csv'
-data_ranges = [0, 2500]    # 数据范围（行索引）
+**输出格式**：
+采集的数据保存在 `state_machine_demo/real_data/` 目录，包含：
+- 实际关节位置、速度、力矩
+- 期望关节位置、速度
+- 时间戳
+
+
+## 输出文件
+
+### 估计结果
+```bash
+cd ..
+python parameter_estimation_withmotordynamics.py
 ```
+- `results/estimation_results.pkl`: 估计参数（不含电机）
+- `results/estimation_results_with_motor.pkl`: 估计参数（含电机）
 
-### 3. 生成校准模型
+### 生成校准模型
 
 根据估计结果生成校准后的MuJoCo airbot模型：
 
@@ -159,37 +158,22 @@ python scripts/create_calibrated_model.py
 
 # 含电机动力学
 python scripts/create_calibarated_model_withmotor.py
+
+
 ```
+校准模型生成会：
+1. 加载估计的标准参数 `pi_s`（60维，6个link × 10参数/link）
+2. 解析原始MuJoCo XML模型
+3. 更新每个link的质量和惯性矩阵
+4. 更新摩擦参数
+5. 更新电机参数（如果使用了含电机版本）
 
-输出：`models/mjcf/manipulator/airbot_play_force/_play_force_calibrated.xml`
-
-### 4. 验证结果（可選）
-
-验证估计参数的准确性：跟後續vali_sim.py目的類似，這裏是對比辨識的參數和測量數據差距，運行後可以查看對比圖
-
-```bash
-python dynamics/validation.py
-```
-
-
-### 5. 驗證校準的mjcf
-
+### validation
 ```bash
 python scripts/vali_sim.py
 ```
 
-## 详细使用指南
-
-### 参数估计流程
-
-#### 步骤1：准备数据
-
-数据可以是：
-- 仿真数据（通过 `scripts/test_simulation.py` 生成）
-- 真实机器人数据（通过 `state_machine_demo/csv_pvt_control.py` 采集）
-
-
-#### 步骤2：选择估计方法
+#### 选择估计方法
 
 **OLS (Ordinary Least Squares)**
 - 优点：计算快速
@@ -206,29 +190,8 @@ python scripts/vali_sim.py
 - 缺点：需要调整正则化系数
 - 适用：**推荐方法**，有URDF参考模型时
 
-#### 步骤3：运行估计
 
-```python
-# 在 parameter_estimation.py 中配置
-METHOD = 'PC-OLS-REG'
-LAMBDA_REG = 5e-4  # 正则化系数，通常范围：1e-5 到 1e-3
-```
 
-#### 步骤4：检查结果
-
-查看 `results/estimation_results.pkl` 中的统计信息：
-- RMSE（均方根误差）
-- 条件数（矩阵条件数，反映数值稳定性）
-- 参数范围（是否在合理范围内）
-
-### 模型生成流程
-
-校准模型生成会：
-1. 加载估计的标准参数 `pi_s`（60维，6个link × 10参数/link）
-2. 解析原始MuJoCo XML模型
-3. 更新每个link的质量和惯性矩阵
-4. 更新摩擦参数（如果估计了）
-5. 更新电机参数（如果使用了含电机版本）
 
 ### 验证流程
 
@@ -349,40 +312,7 @@ s.t. 物理约束
 - Fc（库伦摩擦系数）> 0
 - armature（电机惯性）> 0（如果估计电机动力学）
 
-## 真实机器人控制
 
-### 数据采集
-
-使用 `state_machine_demo/csv_pvt_control.py` 从真实机器人采集数据：
-
-```bash
-cd state_machine_demo
-python csv_pvt_control.py --csv ../vali_traj/ptrnSrch_N7T25QR-6.csv --can can0 --eef none
-```
-
-**参数说明**：
-- `--csv`: 输入轨迹文件,先運行仿真scripts/test_simulation.py（CSV包含激勵軌跡的位置速度）
-- `--can`: CAN接口名称（默认：can0）
-- `--eef`: 末端执行器类型（默认：none）
-- `--duration`: 执行时长（秒，默认：完整轨迹）
-- `--output`: 输出文件路径（默认：自动生成）
-- `--tau-filter`: 力矩滤波窗口大小（默认：10）
-- `--no-read`: 仅发送控制命令，不读取反馈（用于测试）
-
-**输出格式**：
-采集的数据保存在 `state_machine_demo/real_data/` 目录，包含：
-- 实际关节位置、速度、力矩
-- 期望关节位置、速度
-- 时间戳
-
-
-
-## 输出文件
-運行dynamics/parameter_estimation_withmotordynamics.py或者dynamics/parameter_estimation.py後生成的結果
-### 估计结果
-
-- `results/estimation_results.pkl`: 估计参数（不含电机）
-- `results/estimation_results_with_motor.pkl`: 估计参数（含电机）
 
 ### 验证结果
 
@@ -403,5 +333,4 @@ python csv_pvt_control.py --csv ../vali_traj/ptrnSrch_N7T25QR-6.csv --can can0 -
 
 - `models/mjcf/manipulator/airbot_play_force/_play_force_calibrated.xml`: 校准后的MuJoCo模型
 
-## 故障排除
 
