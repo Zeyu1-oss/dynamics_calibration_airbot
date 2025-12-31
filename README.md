@@ -146,7 +146,7 @@ python scripts/cali_gains.py
 需要先采集真实数据，改679行-695行真实数据路径
 
 ```bash
-python parameter_estimation_withmotordynamics.py
+python dynamics/parameter_estimation_withmotordynamics.py
 ```
 - 结果保存至`results/estimation_results_with_motor.pkl`: 估计参数（含电机）
 
