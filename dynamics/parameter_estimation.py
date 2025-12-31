@@ -455,12 +455,11 @@ def parse_ur_data(path_to_data, idx_start, idx_end):
 def filter_data(data_dict, fs=500.0): 
     from scipy.signal import butter, filtfilt
     
-    print(f"  过滤数据 (基于 MATLAB 逻辑，采样率 fs={fs} Hz)...")
     
     nyq = 0.5 * fs # 奈奎斯特频率
     
     normal_cutoff_vel = 0.15 
-    N_order = 5  # 与MATLAB一致：FilterOrder=5（10阶IIR滤波器）
+    N_order = 5  # 
     
     b_vel, a_vel = butter(N_order, normal_cutoff_vel, btype='low', analog=False)
     
@@ -503,11 +502,6 @@ def filter_data(data_dict, fs=500.0):
 
 
 def load_urdf_parameters(urdf_path):
-    """
-    从URDF加载前5个link的参考参数
-    Returns:
-        pi_urdf: (50,) 数组，包含link1-link5的参数（每个link 10个参数）
-    """
     if not os.path.exists(urdf_path):
         print(f"  ⚠️  URDF文件不存在: {urdf_path}")
         return np.zeros(60) 

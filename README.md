@@ -114,8 +114,8 @@ octave --version
 采集的数据保存在 `state_machine_demo/real_data/` 目录，包含：
 - 实际关节位置、速度、力矩
 - 期望关节位置、速度
--时间戳生成的数据第一行需要删掉。
-
+- 时间戳生成的数据
+- 生成的数据第一行需要删掉。
 
 ```bash
 cd state_machine_demo
@@ -138,11 +138,6 @@ cd ..
 python scripts/cali_gains.py
 ```
 
-**输出格式**：
-采集的数据保存在 `state_machine_demo/real_data/` 目录，包含：
-- 实际关节位置、速度、力矩
-- 期望关节位置、速度
-- 时间戳
 
 
 
@@ -161,8 +156,6 @@ python parameter_estimation_withmotordynamics.py
 根据估计结果生成校准后的MuJoCo airbot模型：
 
 ```bash
-# 不含电机动力学
-python scripts/create_calibrated_model.py
 
 # 含电机动力学
 python scripts/create_calibarated_model_withmotor.py
@@ -220,7 +213,7 @@ time, q1, q2, q3, q4, q5, q6, qd1, qd2, qd3, qd4, qd5, qd6, tau1, tau2, tau3, ta
 - `time`: 时间戳（秒）
 - `q1-q6`: 关节位置（弧度）
 - `qd1-qd6`: 关节速度（弧度/秒）
-- `i1-i6`: 关节力矩/电流（Nm或A）
+- `tau1-tau6`: 关节力矩
 
 **注意**：
 - 加速度 `qdd` 会自动通过数值微分计算，无需提供
@@ -235,7 +228,7 @@ time, q1, q2, q3, q4, q5, q6, qd1, qd2, qd3, qd4, qd5, qd6, tau1, tau2, tau3, ta
 {
     'sol': {
         'pi_b': np.array,      # 基础参数（最小参数集）
-        'pi_fr': np.array,     # 摩擦参数（12维：6关节×2参数）
+        'pi_fr': np.array,     # 摩擦参数+电机（12维：6关节×3参数）
         'pi_s': np.array,      # 标准参数（60维：6link×10参数）
         'masses': np.array     # 估计的质量（6维）
     },
@@ -289,16 +282,12 @@ s.t. 物理约束
 - **缺点**：需要调整正则化系数 λ
 - **适用场景**：**推荐方法**，有URDF参考模型时
 
-**正则化系数选择**：
-- 太小（<1e-5）：接近PC-OLS，可能偏离参考值
-- 太大（>1e-3）：过度依赖参考值，可能忽略数据信息
-- 推荐范围：1e-5 到 1e-3，通常 5e-4 效果较好
 
 ## 物理约束
 
 ### 质量约束
 
-- 所有6个link的质量在URDF参考值的±20%范围内
+- 所有6个link的质量在URDF参考值的±10%范围内
 - 最小质量：1g（防止数值问题）
 - 可在 `parameter_estimation.py` 中修改 `error_range` 参数
 
