@@ -106,9 +106,8 @@ octave --version
 ```
 
 ## 快速开始
-## 真实机器人
 
-### 数据采集
+### 真实机器人数据采集
 
 使用 `state_machine_demo/csv_pvt_control.py` 从真实机器人采集数据：
 
