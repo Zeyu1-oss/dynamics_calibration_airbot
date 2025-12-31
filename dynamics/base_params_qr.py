@@ -3,12 +3,8 @@ import numpy as np
 from scipy.linalg import qr
 import sympy as sp
 
-# 方法 1: 使用 Oct2Py 调用 MATLAB 函数 (最简单)
 
 def base_params_qr_oct2py(includeMotorDynamics=False, matlab_dir='autogen'):
-    # Returns:
-    #     pi_lgr_base: 基础参数的符号表达式
-    #     baseQR: 包含QR分解结果的字典
     print("使用QR分解计算基础参数 (Oct2Py版本)")
     np.random.seed(42) 
     try:
@@ -167,9 +163,6 @@ def base_params_qr_oct2py(includeMotorDynamics=False, matlab_dir='autogen'):
     assert error < 1e-6, f"W2 = W1*beta 关系验证失败，误差: {error}"
     print("  ✓ 验证通过")
     
-    # -----------------------------------------------------------------------
-    # 计算基础参数
-    # -----------------------------------------------------------------------
     print("\n步骤 5/5: 计算基础参数")
     
     # 构建置换矩阵 (符号版本)
@@ -217,7 +210,6 @@ def base_params_qr_oct2py(includeMotorDynamics=False, matlab_dir='autogen'):
     return pi_lgr_base, baseQR
 
 
-# 方法 2: 纯Python版本 (使用Python生成的regressor)
 
 def base_params_qr_python(includeMotorDynamics=False):
     print("使用QR分解计算基础参数 (纯Python版本)")
@@ -231,9 +223,6 @@ def base_params_qr_python(includeMotorDynamics=False):
         raise ImportError(f"无法导入 standard_regressor_airbot: {e}\n"
                          "请先运行 generate_rb_regressor_complete.py 生成函数")
     
-    # -----------------------------------------------------------------------
-    # 设置关节限制
-    # -----------------------------------------------------------------------
     print("\n步骤 1/5: 设置关节限制")
     
     q_min = np.deg2rad([180, 100, -20, 100, 90, 100])
@@ -281,9 +270,6 @@ def base_params_qr_python(includeMotorDynamics=False):
     
     print(f"  总参数数量: {nParams}")
     
-    # -----------------------------------------------------------------------
-    # 生成观测矩阵 W (使用Python函数)
-    # -----------------------------------------------------------------------
     print("\n步骤 3/5: 生成观测矩阵 (使用Python函数)")
     
     W = []
@@ -323,9 +309,6 @@ def base_params_qr_python(includeMotorDynamics=False):
     W = np.vstack(W)
     print(f"\n  观测矩阵 W 形状: {W.shape}")
     
-    # -----------------------------------------------------------------------
-    # QR分解 (与上面相同的逻辑)
-    # -----------------------------------------------------------------------
     print("\n步骤 4/5: 执行QR分解")
     
     Q, R, E = qr(W, pivoting=True, mode='economic')
@@ -347,9 +330,6 @@ def base_params_qr_python(includeMotorDynamics=False):
     assert error < 1e-6, f"验证失败，误差: {error}"
     print(f"  ✓ 验证通过 (误差: {error:.2e})")
     
-    # -----------------------------------------------------------------------
-    # 计算基础参数
-    # -----------------------------------------------------------------------
     print("\n步骤 5/5: 计算基础参数")
     
     E_sym = sp.zeros(nParams, nParams)

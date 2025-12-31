@@ -12,8 +12,8 @@ import matplotlib.pyplot as plt
 from scipy import interpolate
 
 # COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_opt(1).csv"
-# COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ga_N12T25(1).csv"
-COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-6(1).csv"
+COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ga_N12T25(1).csv"
+# COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-6(1).csv"
 # COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-7(1).csv"
 # COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N8T25QR_maxq1.csv"
 # COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N8T25QR-8.csv"
