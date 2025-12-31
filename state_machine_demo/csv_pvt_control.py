@@ -97,7 +97,7 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(description="CSV Trajectory PVT Control")
-    parser.add_argument("--csv", type=str, default="../vali_ptrnSrch_N7T25QR-6.csv", help="CSV trajectory file path")
+    parser.add_argument("--csv", type=str, default="../results/data_csv/vali_ptrnSrch_N7T25QR-6.csv", help="CSV trajectory file path")
     parser.add_argument("--can", type=str, default="can0", help="CAN interface")
     parser.add_argument("--eef", type=str, default="none", help="End-effector type")
     parser.add_argument("--duration", type=float, default=None, help="Duration (seconds), default: full trajectory")

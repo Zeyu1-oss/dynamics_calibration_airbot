@@ -12,7 +12,7 @@ from scipy import interpolate
 import time
 
 MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force.xml" 
-MAT_FILE_PATH = "models/exciting_trajectory/ptrnSrch_N8T25QR.mat"
+MAT_FILE_PATH = "models/exciting_trajectory/ptrnSrch_N7T25QR-6.mat"
 
 # Auto-generate output CSV name from MAT file
 mat_basename = os.path.splitext(os.path.basename(MAT_FILE_PATH))[0]
@@ -373,9 +373,6 @@ def main():
         # except Exception as e:
             # print(f"警告：生成对比图时出错 - {e}")
 
-        print("\n" + "="*60)
-        print("仿真结果统计:")
-        print("="*60)
         q_errors = []
         qdot_errors = []
         fb_magnitudes = []
