@@ -680,15 +680,15 @@ def main():
     
     if USE_MULTIPLE_TRAJECTORIES:
         data_paths = [
-            'state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-6(1).csv',
-            'state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-5(1).csv',
+            'results/unified_corrected_j2j3/unified_corrected_vali_ptrnSrch_N7T25QR-6(1).csv',
+            'results/unified_corrected_j2j3/unified_corrected_vali_ptrnSrch_N7T25QR-5.csv',
         ]
         data_ranges = [
             [0, 4800],
             [0, 4800],
         ]
     else:
-        data_paths = 'state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-6.csv'
+        data_paths = 'results/unified_corrected_j2j3/unified_corrected_vali_ptrnSrch_N7T25QR-6.csv'
         data_ranges = [0, 4800]
     
     drv_gains = np.ones(6)

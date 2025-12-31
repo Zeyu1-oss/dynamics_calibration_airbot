@@ -11,14 +11,14 @@ import glob
 import matplotlib.pyplot as plt
 from scipy import interpolate
 
-# COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_opt(1).csv"
-COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ga_N12T25(1).csv"
-# COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-6(1).csv"
-# COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-7(1).csv"
-# COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N8T25QR_maxq1.csv"
-# COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N8T25QR-8.csv"
-# COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N8T25QR.csv"
-# COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-5(1).csv"
+# COMPARE_CSV_PATH = "results/unified_corrected_j2j3/unified_corrected_vali_opt(1).csv"
+# COMPARE_CSV_PATH = "results/unified_corrected_j2j3/unified_corrected_vali_ga_N12T25(1).csv"
+# COMPARE_CSV_PATH = "results/unified_corrected_j2j3/unified_corrected_vali_ptrnSrch_N7T25QR-6(1).csv"
+# COMPARE_CSV_PATH = "results/unified_corrected_j2j3/unified_corrected_vali_ptrnSrch_N7T25QR-7(1).csv"
+# COMPARE_CSV_PATH = "results/unified_corrected_j2j3/unified_corrected_vali_ptrnSrch_N8T25QR_maxq1.csv"
+COMPARE_CSV_PATH = "results/unified_corrected_j2j3/unified_corrected_vali_ptrnSrch_N8T25QR-8.csv"
+# COMPARE_CSV_PATH = "results/unified_corrected_j2j3/unified_corrected_vali_ptrnSrch_N8T25QR.csv"
+# COMPARE_CSV_PATH = "results/unified_corrected_j2j3/unified_corrected_vali_ptrnSrch_N7T25QR-5(1).csv"
 # COMPARE_CSV_PATH = "results/unified_corrected_j2j3/unified_corrected_vali_ga_N12T25(1).csv"
 MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force_calibrated.xml" 
 
