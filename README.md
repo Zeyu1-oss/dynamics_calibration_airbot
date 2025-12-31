@@ -109,7 +109,7 @@ octave --version
 
 ### 真实机器人数据采集
 
-使用 `state_machine_demo/csv_pvt_control.py` 从真实机器人采集数据，轨迹数据在results/data_csv/，建议都跑一边，辨识的时候用-5和-6
+使用 `state_machine_demo/csv_pvt_control.py` 从真实机器人采集数据，激励轨迹在results/data_csv/，建议都跑一遍
 **输出格式**：
 采集的数据保存在 `state_machine_demo/real_data/` 目录，包含：
 - 实际关节位置、速度、力矩
@@ -122,7 +122,7 @@ cd state_machine_demo
 python csv_pvt_control.py
 ```
 **参数说明**：
-- `--csv`: 输入轨迹文件,先運行仿真scripts/test_simulation.py（CSV包含激勵軌跡的位置速度）
+- `--csv`: 输入轨迹文件
 - `--can`: CAN接口名称（默认：can0）
 - `--eef`: 末端执行器类型（默认：none）
 - `--duration`: 执行时长（秒，默认：完整轨迹）
