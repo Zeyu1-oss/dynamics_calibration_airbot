@@ -1,8 +1,8 @@
 import pickle
-import pprint  # 用于美观地打印复杂数据结构
+import pprint  
 
 # 指定您的 pkl 文件路径
-file_path = 'results/estimation_results.pkl' 
+file_path = '../results/estimation_results.pkl' 
 
 try:
     with open(file_path, 'rb') as f:

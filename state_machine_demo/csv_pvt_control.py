@@ -103,7 +103,7 @@ def main():
     parser.add_argument("--duration", type=float, default=None, help="Duration (seconds), default: full trajectory")
     parser.add_argument("--output", type=str, default=None, help="Output data file (default: auto-generated)")
     parser.add_argument("--no-read", action="store_true", help="Control-only mode: send commands without reading feedback")
-    parser.add_argument("--tau-filter", type=int, default=10, help="Torque filter window size (default: 10)")
+    parser.add_argument("--tau-filter", type=int, default=1, help="Torque filter window size (default: 10)等於1不濾波")
     args = parser.parse_args()
     
     # Auto-generate output filename if not specified

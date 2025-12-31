@@ -10,17 +10,28 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy import interpolate
 import time
-COMPARE_CSV_PATH="results/data/vali_ptrnSrch_N7T25QR-6_converted.csv"
+
 MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force.xml" 
-MAT_FILE_PATH = "models/ptrnSrch_N7T25motorQR.mat"
-OUTPUT_CSV_PATH = "results/data_csv/vali——0fre.csv" 
+MAT_FILE_PATH = "models/exciting_trajectory/ptrnSrch_N8T25QR.mat"
+
+# Auto-generate output CSV name from MAT file
+mat_basename = os.path.splitext(os.path.basename(MAT_FILE_PATH))[0]
+OUTPUT_CSV_PATH = f"vali_{mat_basename}.csv"
+OUTPUT_DIR = "results/data_csv"
+os.makedirs(OUTPUT_DIR, exist_ok=True) 
+
+mat_basename = os.path.splitext(os.path.basename(MAT_FILE_PATH))[0]
+OUTPUT_CSV_PATH = os.path.join(OUTPUT_DIR, f"vali_{mat_basename}.csv")
 USE_VIEWER = True  
 RECORD_DATA = True  
 SIM_TIME = 25
 CONTROL_HZ = 1000  
 CONTROL_DT = 1.0 / CONTROL_HZ
+SAVE_HZ = 200  # Data saving frequency
+SAVE_INTERVAL = CONTROL_HZ // SAVE_HZ  # Save every N control steps
 
-USE_FEEDBACK = True
+USE_FEEDBACK = False
+
 
 def plot_comparison(recorded_data, T, N, wf, a, b, c_pol, q0, n_joints):
     """
@@ -186,7 +197,9 @@ def mixed_trajectory_calculator(t_vec, T, N, wf, a, b, c_pol, q0):
     return qd, qdot_d, qddot_d
 
 def main():
-
+    print(f"Loading MAT file: {MAT_FILE_PATH}")
+    print(f"Output CSV will be: {OUTPUT_CSV_PATH}")
+    print(f"Control: {CONTROL_HZ}Hz, Save: {SAVE_HZ}Hz\n")
 
     model = mujoco.MjModel.from_xml_path(MODEL_XML_PATH)
     data = mujoco.MjData(model)
@@ -233,6 +246,7 @@ def main():
         
         if (model.opt.enableflags & mujoco.mjtEnableBit.mjENBL_INVDISCRETE) and \
            (model.opt.integrator != mujoco.mjtIntegrator.mjINT_RK4):
+            # 获取下一个步长的理论速度期望
             _, qv_next_m, _ = mixed_trajectory_calculator(t + model.opt.timestep, T, N, wf, a, b, c_pol, q0)
             target_qacc = (qv_next_m[:, 0] - qv_des) / model.opt.timestep
 
@@ -248,7 +262,7 @@ def main():
 
         data.ctrl[:n_joints] = tau_total
 
-        if RECORD_DATA:
+        if RECORD_DATA and (step_count % SAVE_INTERVAL == 0):
             recorded_data['time'].append(t)
             recorded_data['q'].append(data.qpos[:n_joints].copy())
             recorded_data['qdot'].append(data.qvel[:n_joints].copy())
@@ -257,7 +271,6 @@ def main():
             recorded_data['tau_ff'].append(tau_ff)
             recorded_data['tau_fb'].append(tau_fb)
 
-    # 4. 运行
     if USE_VIEWER:
         with mujoco.viewer.launch_passive(model, data) as viewer:
             while viewer.is_running() and data.time < SIM_TIME:
@@ -277,8 +290,9 @@ def main():
         while data.time < SIM_TIME:
             controller(model, data)
             mujoco.mj_step(model, data)
+            step_count += 1
 
-    print(f"仿真完成。数据点数量: {len(recorded_data['time'])}")
+    print(f"仿真完成。总控制步数: {step_count}, 保存数据点: {len(recorded_data['time'])} (保存频率: {SAVE_HZ}Hz)")
 
     if RECORD_DATA and len(recorded_data['time']) > 0:
         print("\n正在保存仿真结果...")
@@ -299,8 +313,8 @@ def main():
             q_des_array[idx, :] = qd[:, 0]
             qdot_des_array[idx, :] = qdot_d[:, 0]
 
-        # 重采样到100Hz（与理论数据保持一致）
-        sample_interval = 0.01  # 100 Hz
+        # 重采样到200Hz
+        sample_interval = 0.005  # 200 Hz
         resampled_times = np.arange(time_array[0], time_array[-1], sample_interval)
         q_resampled = np.zeros((len(resampled_times), n_joints))
         qdot_resampled = np.zeros((len(resampled_times), n_joints))
@@ -334,9 +348,9 @@ def main():
             tau_resampled
         ])
 
-        detailed_path = OUTPUT_CSV_PATH.replace('.csv', '_detailed.csv')
-        np.savetxt(detailed_path, detailed_data, delimiter=',', fmt='%.6f',
-                   header='time, q1-6, qdot1-6, qddot1-6, tau_total1-6, tau_ff1-6, tau_fb1-6')
+        # detailed_path = OUTPUT_CSV_PATH.replace('.csv', '_detailed.csv')
+        # np.savetxt(detailed_path, detailed_data, delimiter=',', fmt='%.6f',
+        #            header='time, q1-6, qdot1-6, qddot1-6, tau_total1-6, tau_ff1-6, tau_fb1-6')
 
         parseur_data = np.column_stack([
             resampled_times,
@@ -348,19 +362,20 @@ def main():
         ])
         np.savetxt(OUTPUT_CSV_PATH, parseur_data, delimiter=',', fmt='%.6f')
 
-        print(f"✓ 详细数据已保存到: {detailed_path}")
+        # print(f"✓ 详细数据已保存到: {detailed_path}")
         print(f"✓ 兼容数据已保存到: {OUTPUT_CSV_PATH}")
         print(f"  - 原始数据点: {len(time_array)}")
-        print(f"  - 重采样后数据点: {len(resampled_times)} (100Hz)")
+        print(f"  - 重采样后数据点: {len(resampled_times)} ({SAVE_HZ}Hz)")
         print(f"  - 时间范围: {resampled_times[0]:.3f}s - {resampled_times[-1]:.3f}s")
 
-        # 生成对比图（与 torque_control.py 一致）
         # try:
-        #     plot_comparison(recorded_data, T, N, wf, a, b, c_pol, q0, n_joints)
+            # plot_comparison(recorded_data, T, N, wf, a, b, c_pol, q0, n_joints)
         # except Exception as e:
-        #     print(f"警告：生成对比图时出错 - {e}")
+            # print(f"警告：生成对比图时出错 - {e}")
 
+        print("\n" + "="*60)
         print("仿真结果统计:")
+        print("="*60)
         q_errors = []
         qdot_errors = []
         fb_magnitudes = []
@@ -370,12 +385,7 @@ def main():
             q_errors.append(np.sqrt(np.mean(q_error**2)))
             qdot_errors.append(np.sqrt(np.mean(qdot_error**2)))
             fb_magnitudes.append(np.mean(np.abs(tau_fb_array[:, i])))
-        print(f"位置:")
-        print(f"  - 平均RMSE: {np.mean(q_errors):.6f} rad ({np.mean(q_errors)*180/np.pi:.4f}°)")
-        print(f"  - 最佳关节: {np.argmin(q_errors)+1} (RMSE: {np.min(q_errors):.6f} rad)")
-        print(f"  - 最差关节: {np.argmax(q_errors)+1} (RMSE: {np.max(q_errors):.6f} rad)")
-        print(f"\n速度:")
-        print(f"  - 平均RMSE: {np.mean(qdot_errors):.6f} rad/s")
+
 
 if __name__ == "__main__":
     main()

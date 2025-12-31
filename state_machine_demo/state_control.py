@@ -431,7 +431,6 @@ class StateMachineController:
                 logger.error("wait_reach 失败: %s", exc)
                 return False
 
-    # -------------------- 关节 pvt 位置 / 速度 / 力矩 数据反馈 -------------------- #
     def get_joint_states(self) -> Optional["JointStates"]:
         """获取当前关节位置 / 速度 / 力矩 数据反馈。
 

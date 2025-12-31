@@ -717,7 +717,7 @@ def main():
         data_ranges = [0, 2500]
     
     drv_gains = np.ones(6)
-    urdf_path = 'models/mjcf/manipulator/airbot_play_force/_play_force.urdf'
+    urdf_path = 'state_machine_demo/resources/urdf/play.urdf'
     
     # 检查数据文件
     if USE_MULTIPLE_TRAJECTORIES:

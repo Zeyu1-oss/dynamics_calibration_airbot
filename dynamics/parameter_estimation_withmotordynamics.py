@@ -673,7 +673,7 @@ def main():
     # 配置
     METHOD = 'PC-OLS-REG'
     LAMBDA_REG = 0.0001
-    USE_MULTIPLE_TRAJECTORIES = True
+    USE_MULTIPLE_TRAJECTORIES = False
     
     if USE_MULTIPLE_TRAJECTORIES:
         data_paths = [
@@ -689,7 +689,7 @@ def main():
         data_ranges = [0, 4800]
     
     drv_gains = np.ones(6)
-    urdf_path = 'models/mjcf/manipulator/airbot_play_force/_play_force.urdf'
+    urdf_path = 'state_machine_demo/resources/urdf/play.urdf'
     
     # 检查数据
     if USE_MULTIPLE_TRAJECTORIES:

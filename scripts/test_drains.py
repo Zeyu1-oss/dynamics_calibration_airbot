@@ -8,13 +8,12 @@ import os
 import matplotlib.pyplot as plt
 from scipy import interpolate
 
-# ================= 配置區 =================
-COMPARE_CSV_PATH = "results/data/vali_ptrnSrch_N7T25QR-6_converted.csv"
+COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-5.csv"
 MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force.xml" 
-MAT_FILE_PATH = "models/ptrnSrch_N7T25QR-6.mat"
+MAT_FILE_PATH = "models/ptrnSrch_N7T25QR-5.mat"
 SIM_TIME = 25
 CONTROL_HZ = 1000  
-CONTROL_DT = 1.0 / CONTROL_HZ
+CONTROL_DT = 1.0 / CONTROL_HZ           
 
 # 比例系數 K (你可以手動調整這個值，或者看腳本最後生成的建議值)
 # 最終力矩 = MuJoCo力矩 * K
