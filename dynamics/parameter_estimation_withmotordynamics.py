@@ -291,7 +291,7 @@ def physically_consistent_estimation(Tau, Wb, baseQR, pi_urdf=None, lambda_reg=0
         
         param_regularization = lambda_reg * cp.norm(pii[:60] - pi_urdf)
         objective = tau_error + param_regularization
-        print(f"    目标 = tau误差 + {lambda_reg:.1e} * 参数正则化")
+        print(f"    目标 min ||Wb * pi_b - tau||² + λ * ||pi_s - pi_urdf||²")
     else:
         objective = tau_error
         print("    目标 = tau误差 (无正则化)")

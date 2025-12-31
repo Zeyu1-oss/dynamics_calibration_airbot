@@ -20,7 +20,7 @@ COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-6(1).csv"
 # COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N8T25QR.csv"
 # COMPARE_CSV_PATH = "state_machine_demo/real_data/vali_ptrnSrch_N7T25QR-5(1).csv"
 # COMPARE_CSV_PATH = "results/unified_corrected_j2j3/unified_corrected_vali_ga_N12T25(1).csv"
-MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force.xml" 
+MODEL_XML_PATH = "models/mjcf/manipulator/airbot_play_force/_play_force_calibrated.xml" 
 
 def get_matched_mat_path(csv_path, models_dir="models"):
     filename = os.path.basename(csv_path)
@@ -109,7 +109,7 @@ def plot_torque_comparison(recorded_data, n_joints, external_csv_path):
 
         plt.tight_layout(rect=[0, 0.03, 1, 0.94])
         os.makedirs('diagram', exist_ok=True)
-        plt.savefig('diagram/torque_comparison_aligned.png', dpi=300)
+        plt.savefig('diagram/results.png', dpi=300)
         print(f"✓ 對齊圖表已保存至: diagram/torque_comparison_aligned.png")
         plt.show()
 
