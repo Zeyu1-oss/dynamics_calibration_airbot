@@ -191,7 +191,7 @@ python scripts/vali_sim.py
 
 **PC-OLS-REG (PC-OLS with Regularization)**
 - 优点：物理一致性 + 参考先验
-- 缺点：需要调整正则化系数
+
 - 适用：**推荐方法**，有URDF参考模型时
 
 
