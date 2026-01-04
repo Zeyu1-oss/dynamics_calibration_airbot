@@ -86,14 +86,7 @@ pip install mujoco
 
 ```
 
-### 真实机器人控制
 
-
-```bash
-# 安装 airbot_state_machine 包
-pip install airbot_state_machine-0.1.4.dev11+g996d249-py3-none-any.whl
-
-```
 
 ### 安装Octave（如果未安装）
 
