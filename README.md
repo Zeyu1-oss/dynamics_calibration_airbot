@@ -167,7 +167,9 @@ python scripts/create_calibrated_model_withmotor.py
 ### validation
 可以对比真机数据和仿真模型，自动匹配轨迹运行方针，生成对比图。
 ```bash
+#校准后mjcf运行期望轨迹的和真实数据力矩对比
 python scripts/vali_sim.py
+#校准后mjcf运行实际测量轨迹和真实数据力矩对比
 python scripts/vali_realstate.py
 
 ```
