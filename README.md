@@ -171,8 +171,12 @@ python scripts/vali_sim.py
 ```
 校准之前原始urdf2mjcf的模型
 ![result](diagram/results_before_cali.png)
+![result](diagram/torque_validation_real_state.png)
+
 校准后
 ![result](diagram/results1.png)
+![result](diagram/torque_validation_real_state1.png)
+
 #### 选择估计方法
 
 **OLS (Ordinary Least Squares)**
