@@ -169,6 +169,9 @@ python scripts/create_calibrated_model_withmotor.py
 ```bash
 python scripts/vali_sim.py
 ```
+校准之前原始urdf2mjcf的模型
+![result](diagram/results_before_cali.png)
+校准后
 ![result](diagram/results1.png)
 #### 选择估计方法
 
