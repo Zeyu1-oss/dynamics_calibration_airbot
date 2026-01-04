@@ -168,14 +168,18 @@ python scripts/create_calibrated_model_withmotor.py
 可以对比真机数据和仿真模型，自动匹配轨迹运行方针，生成对比图。
 ```bash
 python scripts/vali_sim.py
+python scripts/vali_realstate.py
+
 ```
 校准之前原始urdf2mjcf的模型
 ![result](diagram/results_before_cali.png)
 ![result](diagram/torque_validation_real_state.png)
+![result](diagram/torque_validation_real_state3.png)
 
 校准后
 ![result](diagram/results1.png)
 ![result](diagram/torque_validation_real_state1.png)
+![result](diagram/torque_validation_real_state4.png)
 
 #### 选择估计方法
 
