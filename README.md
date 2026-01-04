@@ -169,7 +169,7 @@ python scripts/create_calibrated_model_withmotor.py
 ```bash
 python scripts/vali_sim.py
 ```
-![result](diagram/results.png)
+![result](diagram/results1.png)
 #### 选择估计方法
 
 **OLS (Ordinary Least Squares)**
